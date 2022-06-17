@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20211110</pubdate>
+                <title>Voting Districts of King County</title>
+                <edition>One</edition>
+                <geoform>vector digital data</geoform>
+                <othercit>None</othercit>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=9f03d5f2bb24491ab9e9ffea1a9b83a4</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=05d243e41a134f9689a78331b86a66e1</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=votdst</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data layer describes the boundaries, name, and number of voters of voting precincts of King County (KCC 1.12.010). Current precincts reflect the precinct boundary and name changes due to 2022 redistricting.</abstract>
+            <purpose>Voting precinct boundaries for purposes of elections in King County.</purpose>
+            <supplinf>None</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20160329</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.542574</westbc>
+                <eastbc>-121.061526</eastbc>
+                <northbc>47.788424</northbc>
+                <southbc>47.073882</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Not applicable</themekt>
+                <themekey>districts_OpenData</themekey>
+                <themekey>levy</themekey>
+                <themekey>taxation</themekey>
+                <themekey>voting</themekey>
+                <themekey>precincts</themekey>
+                <themekey>districts</themekey>
+                <themekey>votdst_area</themekey>
+                <themekey>kingcounty_opendata</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <place>
+                <placekt>Not applicable</placekt>
+                <placekey>Pacific NW</placekey>
+                <placekey>Washington state</placekey>
+                <placekey>King County</placekey>
+                <placekey>WA</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Elections</cntorg>
+                    <cntper>Dave Wilson</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>919 SW Grady Way</address>
+                    <city>Renton</city>
+                    <state>WA</state>
+                    <postal>98057</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-477-4115</cntvoice>
+                <cntemail>dave.wilson@kingcounty.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www5.kingcounty.gov/sdc/DataImages/votdst.jpg</browsen>
+            <browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+            <browset>JPG</browset>
+        </browse>
+        <native>Esri ArcGIS 10.1.1.3143</native>
+        <crossref>
+            <citeinfo>
+                <title>Voting Districts of King County</title>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Voting Districts of King County</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Voting Districts of King County</srccitea>
+            </srcinfo>
+            <procstep>
+                <procdesc>New Boundaries resulting from 2012 Redistricting</procdesc>
+                <procdate>20120510</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Convert and update metadata</procdesc>
+                <procdate>20120901</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Update and Post VOTDST to reflect boundary change in Carnation</procdesc>
+                <procdate>20150720</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Post entire District set for year 2016</procdesc>
+                <procdate>20150908</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>PLIBRARY.DISTRICT.xxxx1348255</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>votdst</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SUM_VOTERS</attrlabl>
+                <attrdef>Voters</attrdef>
+                <attrdefs>King County</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature Geometry</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape.area</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.len</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>KCGIS Center</cntorg>
+                    <cntper>Cheryl Wilder</cntper>
+                </cntorgp>
+                <cntpos>Data Sales Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-5220</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc>/plibrary2/district/shapes/polygon/votdst.shp</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI Shapefile</formname>
+                </digtinfo>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - &lt;http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx&gt;</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20160331</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Elections</cntorg>
+                    <cntper>Dave Wilson</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>919 SW Grady Way</address>
+                    <city>Renton</city>
+                    <state>WA</state>
+                    <postal>98057</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-477-4115</cntvoice>
+                <cntemail>dave.wilson@kingcounty.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
