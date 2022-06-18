@@ -1,6 +1,8 @@
 # This script was used to filter the blocks from the block20 redistricting data (too big for github)
 # for washington to seattle. Seattle was defined by existing districts plus a polygon to bridge the
 # ship canal.
+#
+# Original block20 data is from: https://ofm.wa.gov/washington-data-research/population-demographics/gis-data/census-geographic-files
 
 import geopandas
 import pathlib
