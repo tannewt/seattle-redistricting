@@ -10,24 +10,62 @@ import sys
 
 blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
 
-blocks = blocks[["GEOID20", "geometry", "P00010001"]]
+blocks = blocks[["GEOID20", "geometry"]]
 
-print(sum(blocks["P00010001"]))
+adjusted_pop = pandas.read_csv("WA_AdjustedPL_RCW4405140_Blocks_2020.csv")
 
-precincts = geopandas.read_file("votdst_area__historic_shp/votdst_area_2020.shp")
+blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
+
+blocks = blocks.merge(adjusted_pop, on="GEOID20")
+
+blocks = blocks[["GEOID20", "TAPERSONS", "geometry"]]
+
+print(sum(blocks["TAPERSONS"]))
+
+blocks = blocks[blocks["TAPERSONS"] > 0]
+
+year = sys.argv[1]
+print(year)
+
+precincts = geopandas.read_file(f"votdst_area__historic_shp/votdst_area_{year}.shp")
 precincts = precincts.to_crs(blocks.crs)
-print(precincts)
+precincts = precincts.clip(blocks)
+unbuffered = precincts["geometry"]
+
 
 joined = precincts.sjoin(blocks, predicate="contains", how="right")
+no_precinct = blocks[joined["index_left"].isna()]
 joined = joined.dropna(subset=['index_left'])
 
-print(sum(joined["P00010001"]))
+# grow buffer boundaries until all blocks are contained within a precinct's bounds.
+# If the growth causes two precincts to claim a block, then the first is kept.
+buffer = 1
+while not no_precinct.empty:
+    print(buffer, len(no_precinct))
+    precincts["geometry"] = unbuffered.buffer(buffer * 10)
 
-print(joined)
+    result = precincts.sjoin(no_precinct, predicate="contains", how="right")
+    result = result.drop_duplicates(subset="GEOID20")
+    unmatched = result["index_left"].isna()
+    no_precinct = no_precinct[unmatched]
+    joined = joined.append(result.dropna(subset=['index_left']))    
+    buffer += 1
 
-precincts.plot(figsize=(9,16), edgecolor="black")
-ax = joined.plot(figsize=(9,16))
+precinct_totals = joined[["votdst", "TAPERSONS"]].groupby(by="votdst").sum()
+precinct_totals["total_TAPERSONS"] = precinct_totals["TAPERSONS"]
+del precinct_totals["TAPERSONS"]
+print(precinct_totals)
+
+joined = joined.join(precinct_totals, on="votdst")
+
+joined["fraction"] = joined["TAPERSONS"] / joined["total_TAPERSONS"]
+print(sum(joined["TAPERSONS"]))
+joined[["votdst", "GEOID20", "TAPERSONS", "total_TAPERSONS", "fraction"]].sort_values(by=["votdst", "GEOID20"]).to_csv(f"precincts/{year}.csv", index=False)
+
+ax = joined.plot(column="votdst", cmap="hsv", figsize=(9*10,16*10))
+unbuffered.boundary.plot(ax=ax, edgecolor="black")
 ax.set_axis_off()
 ax.set_frame_on(False)
 ax.margins(0)
 ax.get_figure().savefig("precincts.png", bbox_inches='tight')
+
