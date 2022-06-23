@@ -51,16 +51,16 @@ while not no_precinct.empty:
     joined = joined.append(result.dropna(subset=['index_left']))    
     buffer += 1
 
-precinct_totals = joined[["votdst", "TAPERSONS"]].groupby(by="votdst").sum()
+precinct_totals = joined[["NAME", "TAPERSONS"]].groupby(by="NAME").sum()
 precinct_totals["total_TAPERSONS"] = precinct_totals["TAPERSONS"]
 del precinct_totals["TAPERSONS"]
 print(precinct_totals)
 
-joined = joined.join(precinct_totals, on="votdst")
+joined = joined.join(precinct_totals, on="NAME")
 
 joined["fraction"] = joined["TAPERSONS"] / joined["total_TAPERSONS"]
 print(sum(joined["TAPERSONS"]))
-joined[["votdst", "GEOID20", "TAPERSONS", "total_TAPERSONS", "fraction"]].sort_values(by=["votdst", "GEOID20"]).to_csv(f"precincts/{year}.csv", index=False)
+joined[["NAME", "GEOID20", "TAPERSONS", "total_TAPERSONS", "fraction"]].sort_values(by=["NAME", "GEOID20"]).to_csv(f"precincts/{year}.csv", index=False)
 
 ax = joined.plot(column="votdst", cmap="hsv", figsize=(9*10,16*10))
 unbuffered.boundary.plot(ax=ax, edgecolor="black")
