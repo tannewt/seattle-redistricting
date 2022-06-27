@@ -30,8 +30,12 @@ print(year)
 precincts = geopandas.read_file(f"votdst_area__historic_shp/votdst_area_{year}.shp")
 precincts = precincts.to_crs(blocks.crs)
 precincts = precincts.clip(blocks)
+# Filter down to seattle precincts. (They all start with SEA.)
+s = precincts["NAME"].str.split(" ", n=1, expand=True)
+precincts = precincts[s[0] == "SEA"]
+original_precints = precincts
+print(precincts)
 unbuffered = precincts["geometry"]
-
 
 joined = precincts.sjoin(blocks, predicate="contains", how="right")
 no_precinct = blocks[joined["index_left"].isna()]
@@ -56,14 +60,20 @@ precinct_totals["total_TAPERSONS"] = precinct_totals["TAPERSONS"]
 del precinct_totals["TAPERSONS"]
 print(precinct_totals)
 
+print("missing")
+m = original_precints.join(precinct_totals, on="NAME")
+empty = m[m["total_TAPERSONS"].isna()]
+print(empty)
+
 joined = joined.join(precinct_totals, on="NAME")
 
 joined["fraction"] = joined["TAPERSONS"] / joined["total_TAPERSONS"]
 print(sum(joined["TAPERSONS"]))
 joined[["NAME", "GEOID20", "TAPERSONS", "total_TAPERSONS", "fraction"]].sort_values(by=["NAME", "GEOID20"]).to_csv(f"precincts/{year}.csv", index=False)
 
-ax = joined.plot(column="votdst", cmap="hsv", figsize=(9*10,16*10))
+ax = joined.plot(column="votdst", figsize=(9*10,16*10))
 unbuffered.boundary.plot(ax=ax, edgecolor="black")
+empty.boundary.plot(ax=ax, edgecolor="red")
 ax.set_axis_off()
 ax.set_frame_on(False)
 ax.margins(0)
