@@ -10,5 +10,5 @@ class TopoJSONReport:
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
         district_bounds = blocks.merge(plan, on="GEOID20")
         district_bounds = district_bounds.dissolve(by="District")
-        json = district_bounds.to_json()
+        json = district_bounds.to_json(show_bbox=True)
         return ("Districts", "```geojson\n" + json + "\n```")
