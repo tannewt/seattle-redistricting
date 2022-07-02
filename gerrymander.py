@@ -1,13 +1,15 @@
+import warnings
+warnings.filterwarnings(action="ignore")
+
 import pandas
 import pathlib
 import geopandas
+from markdown_table_generator import generate_markdown, table_from_string_list
 
 from matplotlib import colors
 
-class GerrymanderReport:
-    def sections(self):
-        pass
 
+class GerrymanderReport:
     def output_election(self, options):
         total_votes = None
         option_totals = {}
@@ -24,18 +26,19 @@ class GerrymanderReport:
             else:
                 total_votes += o
         district_result = dict(((k, 0) for k in options))
-        k = list(options.keys())
-        if len(k) == 1:
-            print("Single option")
-            return
-        print(k[1], k[0])
-        print(options[k[0]] - options[k[1]])
+        # print(a, b)
+        a, b = option_totals.keys()
+        options["diff"] = options[a] - options[b]
+        # print(options["diff"] * 100 / total_votes)
         for d in district_winners:
             district_result[d[0]] += 100 / 7
-        print(sum(total_votes))
-        for k in option_totals:
-            print(k, option_totals[k], option_totals[k] * 100 / sum(total_votes), district_result[k])
-        print()
+        a_percent = option_totals[a] * 100 / sum(total_votes)
+        b_percent = option_totals[b] * 100 / sum(total_votes)
+
+        return [f"{a_percent:.1f}%",
+                f"{b_percent:.1f}%",
+                f"{district_result[a]:.1f}%",
+                f"{district_result[b]:.1f}%"] + ["🅰" if x[0] == a else "🄱" for x in district_winners]
 
     def content(self, plan):
         elections = pathlib.Path("elections")
@@ -48,7 +51,6 @@ class GerrymanderReport:
             year = election.name[:4]
             precincts = pandas.read_csv(f"precincts/{year}.csv")
             election = pandas.read_csv(election, header=[0, 1], index_col=0)
-            print(election)
             results = precincts.merge(election, left_on="NAME", right_index=True)
             for c in results:
                 if c != "Precinct":
@@ -61,35 +63,35 @@ class GerrymanderReport:
             s = districts.sum()
             current_election = None
             options = {}
+            rows = [["Race", "🅰", "🄱", "D🅰", "D🄱", "1", "2", "3", "4", "5", "6", "7"]]
+            i = 1
             for c in districts.columns:
                 if not isinstance(c, tuple):
                     continue
                 election, option = c
                 if current_election != election:
                     if current_election:
-                        print(current_election)
                         fn = election.replace(" ", "_") + ".png"
                         a, b = options.keys()
                         race = results[["GEOID20", "District"]]
                         race["diff"] = results[(current_election, a)] - results[(current_election, b)]
                         race = blocks.merge(race, on="GEOID20")
 
-                        ax = race.plot(column="diff", figsize=(9*10,16*10), norm=colors.CenteredNorm(), cmap="coolwarm")
-                        ax.set_axis_off()
-                        ax.set_frame_on(False)
-                        ax.margins(0)
-                        district_bounds.boundary.plot(ax=ax, edgecolor="black")
-                        print(fn)
-                        ax.get_figure().savefig(fn, bbox_inches='tight')
-                        self.output_election(options)
+                        # ax = race.plot(column="diff", figsize=(9*10,16*10), norm=colors.CenteredNorm(), cmap="coolwarm")
+                        # ax.set_axis_off()
+                        # ax.set_frame_on(False)
+                        # ax.margins(0)
+                        # district_bounds.boundary.plot(ax=ax, edgecolor="black")
+                        # print(fn)
+                        # ax.get_figure().savefig(fn, bbox_inches='tight')
+                        rows.append([f"2021.11.{i}"] + self.output_election(options))
                         options = {}
+                        i += 1
                     current_election = election
                 options[option] = districts[c]
 
-            print(current_election)
-            self.output_election(options)
+            rows.append([f"2021.11.{i}"] + self.output_election(options))
 
-
-g = GerrymanderReport()
-print(g.sections())
-print(g.content(pandas.read_csv("maps/consultant4.csv")))
+            table = table_from_string_list(rows)
+            markdown = generate_markdown(table)
+            return ("Gerrymander", markdown)

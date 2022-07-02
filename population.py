@@ -7,18 +7,39 @@ import pathlib
 import matplotlib.pyplot as plt
 import pandas
 import sys
+from markdown_table_generator import generate_markdown, table_from_string_list
 
-blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
+class PopulationReport:
 
-adjusted_pop = pandas.read_csv("WA_AdjustedPL_RCW4405140_Blocks_2020.csv")
-print(adjusted_pop)
+    def __init__(self):
+        self.adjusted_pop = pandas.read_csv("WA_AdjustedPL_RCW4405140_Blocks_2020.csv")
 
-assignments = pandas.read_csv(sys.argv[1])
+    def content(self, districts):
+        lines = []
+        blocks = districts.merge(self.adjusted_pop, on="GEOID20")
 
-blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
+        totals = blocks.groupby(["District"]).sum()
 
-blocks = blocks.merge(assignments, on="GEOID20").merge(adjusted_pop, on="GEOID20")
+        max_pop = max(totals["TAPERSONS"])
+        min_pop = min(totals["TAPERSONS"])
+        spread = max_pop / min_pop
+        lines.append(f"The maximum population ({max_pop}) is {spread * 100 - 100}% greater than the minimum ({min_pop}).")
+        lines.append("")
+        status = "✅"
+        if spread > 1.01:
+            status = "❌"
 
-print(blocks)
-
-print(blocks.groupby(["District"]).sum()[["P00010001", "TAPERSONS"]])
+        title = f"{status} Population"
+        totals = totals[totals.columns[1:]]
+        lines.append("### Census Groups")
+        rows = [["Stat", "1", "2", "3", "4", "5", "6", "7"]]
+        for c in totals.columns:
+            if c not in ("TAPERSONS", "TAHOUSING", "TAHOCCUPID", "TAHVACANT", "TAGRPQRTR"):
+                percent = totals[c] * 100 / totals["TAPERSONS"]
+                rows.append([c] + [f"{x:0.1f}%" for x in percent.tolist()])
+            else:
+                rows.append([c] + [str(x) for x in totals[c].tolist()])
+        table = table_from_string_list(rows)
+        markdown = generate_markdown(table)
+        lines.append(markdown)
+        return (title, "\n".join(lines))
