@@ -1,0 +1,86 @@
+# This script was used to filter the blocks from the block20 redistricting data (too big for github)
+# for washington to seattle. Seattle was defined by existing districts plus a polygon to bridge the
+# ship canal.
+
+import warnings
+warnings.filterwarnings(action="ignore")
+
+import geopandas
+import pathlib
+import matplotlib.pyplot as plt
+import pandas
+import sys
+
+blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
+blocks = blocks[["GEOID20", "geometry"]]
+adjusted_pop = pandas.read_csv("WA_AdjustedPL_RCW4405140_Blocks_2020.csv")
+blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
+blocks = blocks.merge(adjusted_pop, on="GEOID20")
+blocks = blocks[["GEOID20", "TAPERSONS", "geometry"]]
+
+print(sum(blocks["TAPERSONS"]))
+
+blocks = blocks[blocks["TAPERSONS"] > 0]
+
+def _map_areas(precincts, name_key, output_file):
+    original_precints = precincts
+    print(precincts)
+    unbuffered = precincts["geometry"]
+
+    joined = precincts.sjoin(blocks, predicate="contains", how="right")
+    no_precinct = blocks[joined["index_left"].isna()]
+    joined = joined.dropna(subset=['index_left'])
+
+    # grow buffer boundaries until all blocks are contained within a precinct's bounds.
+    # If the growth causes two precincts to claim a block, then the first is kept.
+    buffer = 1
+    while not no_precinct.empty:
+        print(buffer, len(no_precinct))
+        precincts["geometry"] = unbuffered.buffer(buffer * 10)
+
+        result = precincts.sjoin(no_precinct, predicate="contains", how="right")
+        result = result.drop_duplicates(subset="GEOID20")
+        unmatched = result["index_left"].isna()
+        no_precinct = no_precinct[unmatched]
+        joined = joined.append(result.dropna(subset=['index_left']))    
+        buffer += 1
+
+    precinct_totals = joined[[name_key, "TAPERSONS"]].groupby(by=name_key).sum()
+    precinct_totals["total_TAPERSONS"] = precinct_totals["TAPERSONS"]
+    del precinct_totals["TAPERSONS"]
+    print(precinct_totals)
+
+    print("missing")
+    m = original_precints.join(precinct_totals, on=name_key)
+    empty = m[m["total_TAPERSONS"].isna()]
+    print(empty)
+
+    joined = joined.join(precinct_totals, on=name_key)
+
+    print(sum(joined["TAPERSONS"]))
+    joined[[name_key, "GEOID20", "TAPERSONS", "total_TAPERSONS"]].sort_values(by=[name_key, "GEOID20"]).to_csv(output_file, index=False)
+
+    ax = joined.plot(column=name_key, figsize=(9*10,16*10))
+    unbuffered.boundary.plot(ax=ax, edgecolor="black")
+    empty.boundary.plot(ax=ax, edgecolor="red")
+    ax.set_axis_off()
+    ax.set_frame_on(False)
+    ax.margins(0)
+    ax.get_figure().savefig(output_file + ".png", bbox_inches='tight')
+
+
+neighborhoods = geopandas.read_file("sources/Neighborhood_Map_Atlas_Districts/Neighborhood_Map_Atlas_Districts.shp")
+neighborhoods = neighborhoods.to_crs(blocks.crs)
+print(neighborhoods[["L_HOOD", "S_HOOD_ALT"]])
+_map_areas(neighborhoods,
+           "L_HOOD", "communities/neighborhoods.csv")
+
+for year in range(2016, 2021):
+    print(year)
+    precincts = geopandas.read_file(f"votdst_area__historic_shp/votdst_area_{year}.shp")
+    precincts = precincts.to_crs(blocks.crs)
+    precincts = precincts.clip(blocks)
+    # Filter down to seattle precincts. (They all start with SEA.)
+    s = precincts["NAME"].str.split(" ", n=1, expand=True)
+    precincts = precincts[s[0] == "SEA"]
+    _map_areas(precincts, "NAME", f"precincts/{year}.csv", seattle_filter)
