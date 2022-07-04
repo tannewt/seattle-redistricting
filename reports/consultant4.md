@@ -29,6 +29,144 @@ The maximum population (106313) is 1.79% greater than the minimum (104444).
 | TAHVACANT  | 2668   | 2022   | 5375   | 3074   | 2454   | 2504   | 4584   |
 | TAGRPQRTR  | 2463   | 1492   | 6360   | 12803  | 1407   | 1145   | 4248   |
 
+## Atlas Neighborhoods
+This districting splits 9 out of 20 areas. A person was split from an area 92437 times.
+
+| Area          | District | Population | Percent |
+|---------------|----------|------------|---------|
+| Downtown      | 3        | 32826      | 53.79%  |
+|               | 7        | 25560      | 41.88%  |
+|               | 1        | 2639       | 4.32%   |
+| Northwest     | 5        | 31926      | 66.61%  |
+|               | 6        | 16003      | 33.39%  |
+| Central Area  | 3        | 25916      | 68.30%  |
+|               | 2        | 12030      | 31.70%  |
+| Capitol Hill  | 3        | 40910      | 79.85%  |
+|               | 4        | 10326      | 20.15%  |
+| North Central | 6        | 44014      | 81.42%  |
+|               | 4        | 10042      | 18.58%  |
+| Cascade       | 7        | 12152      | 55.12%  |
+|               | 3        | 6661       | 30.21%  |
+|               | 4        | 3233       | 14.66%  |
+| Northeast     | 4        | 47254      | 89.09%  |
+|               | 5        | 5784       | 10.91%  |
+| Ballard       | 6        | 44427      | 99.70%  |
+|               | 7        | 133        | 0.30%   |
+| Beacon Hill   | 2        | 36873      | 99.93%  |
+|               | 1        | 26         | 0.07%   |
+
+## Community Reporting Areas
+This districting splits 19 out of 53 areas. A person was split from an area 56141 times.
+
+| Area                                  | District | Population | Percent |
+|---------------------------------------|----------|------------|---------|
+| Cascade/Eastlake                      | 7        | 19349      | 66.25%  |
+|                                       | 3        | 9858       | 33.75%  |
+| Wedgwood/View Ridge                   | 5        | 9396       | 56.49%  |
+|                                       | 4        | 7237       | 43.51%  |
+| Wallingford                           | 4        | 11898      | 62.61%  |
+|                                       | 6        | 7105       | 37.39%  |
+| Green Lake                            | 6        | 13446      | 75.29%  |
+|                                       | 4        | 4412       | 24.71%  |
+| North Beach/Blue Ridge                | 5        | 8145       | 65.20%  |
+|                                       | 6        | 4348       | 34.80%  |
+| Fremont                               | 6        | 15053      | 78.30%  |
+|                                       | 4        | 4172       | 21.70%  |
+| Greenwood/Phinney Ridge               | 6        | 22912      | 84.82%  |
+|                                       | 5        | 4099       | 15.18%  |
+| Madrona/Leschi                        | 2        | 6942       | 63.50%  |
+|                                       | 3        | 3990       | 36.50%  |
+| Madison Park                          | 4        | 3723       | 67.32%  |
+|                                       | 3        | 1807       | 32.68%  |
+| Pioneer Square/International District | 3        | 4708       | 74.11%  |
+|                                       | 1        | 1645       | 25.89%  |
+| Judkins Park                          | 3        | 2661       | 61.98%  |
+|                                       | 2        | 1632       | 38.02%  |
+| Duwamish/SODO                         | 1        | 2017       | 55.34%  |
+|                                       | 2        | 1628       | 44.66%  |
+| Downtown Commercial Core              | 3        | 4213       | 73.03%  |
+|                                       | 7        | 1556       | 26.97%  |
+| Central Area/Squire Park              | 3        | 19061      | 95.27%  |
+|                                       | 2        | 946        | 4.73%   |
+| North Capitol Hill                    | 3        | 3869       | 82.78%  |
+|                                       | 4        | 805        | 17.22%  |
+| Montlake/Portage Bay                  | 4        | 9031       | 92.64%  |
+|                                       | 3        | 717        | 7.36%   |
+| Northgate/Maple Leaf                  | 5        | 16204      | 99.04%  |
+|                                       | 4        | 157        | 0.96%   |
+| South Beacon Hill/NewHolly            | 2        | 15066      | 99.85%  |
+|                                       | 1        | 22         | 0.15%   |
+| Beacon Hill                           | 2        | 9631       | 99.95%  |
+|                                       | 1        | 5          | 0.05%   |
+
+## Elementary Schools 2021-22
+This districting splits 17 out of 58 areas. A person was split from an area 84435 times.
+
+| Area              | District | Population | Percent |
+|-------------------|----------|------------|---------|
+| Lowell            | 3        | 56858      | 62.21%  |
+|                   | 7        | 32573      | 35.64%  |
+|                   | 1        | 1965       | 2.15%   |
+| Green Lake        | 4        | 30249      | 68.29%  |
+|                   | 6        | 14047      | 31.71%  |
+| B.F. Day          | 6        | 16214      | 69.61%  |
+|                   | 4        | 7080       | 30.39%  |
+| Bagley            | 6        | 6490       | 57.60%  |
+|                   | 5        | 4778       | 42.40%  |
+| Wedgwood          | 5        | 4966       | 52.09%  |
+|                   | 4        | 4567       | 47.91%  |
+| McGilvra          | 3        | 7064       | 65.49%  |
+|                   | 4        | 3723       | 34.51%  |
+| View Ridge        | 4        | 8891       | 71.55%  |
+|                   | 5        | 3535       | 28.45%  |
+| North Beach       | 5        | 4889       | 59.10%  |
+|                   | 6        | 3384       | 40.90%  |
+| Montlake          | 4        | 9736       | 82.78%  |
+|                   | 3        | 2025       | 17.22%  |
+| Rising Star       | 2        | 6085       | 78.90%  |
+|                   | 1        | 1627       | 21.10%  |
+| Beacon Hill Int'l | 2        | 6812       | 81.32%  |
+|                   | 1        | 1565       | 18.68%  |
+| Leschi            | 2        | 8373       | 89.07%  |
+|                   | 3        | 1027       | 10.93%  |
+| Olympic View      | 5        | 15338      | 94.62%  |
+|                   | 4        | 872        | 5.38%   |
+| Thurgood Marshall | 2        | 5851       | 89.02%  |
+|                   | 3        | 722        | 10.98%  |
+| Sacajawea         | 5        | 8366       | 93.93%  |
+|                   | 4        | 541        | 6.07%   |
+| Loyal Heights     | 6        | 11611      | 97.45%  |
+|                   | 5        | 304        | 2.55%   |
+| Stevens           | 3        | 11575      | 99.14%  |
+|                   | 4        | 100        | 0.86%   |
+
+## Middle Schools 2021-22
+This districting splits 9 out of 14 areas. A person was split from an area 125478 times.
+
+| Area                    | District | Population | Percent |
+|-------------------------|----------|------------|---------|
+| Meany                   | 3        | 91818      | 61.92%  |
+|                         | 7        | 32573      | 21.97%  |
+|                         | 4        | 13559      | 9.14%   |
+|                         | 2        | 8373       | 5.65%   |
+|                         | 1        | 1965       | 1.33%   |
+| Eagle Staff             | 5        | 28438      | 64.73%  |
+|                         | 6        | 15495      | 35.27%  |
+| Washington              | 2        | 23255      | 61.60%  |
+|                         | 3        | 14495      | 38.40%  |
+| Eckstein/Hamilton Int'l | 4        | 30528      | 68.49%  |
+|                         | 6        | 14047      | 31.51%  |
+| Eckstein                | 4        | 52971      | 86.34%  |
+|                         | 5        | 8381       | 13.66%  |
+| Hamilton Int'l          | 6        | 29967      | 81.52%  |
+|                         | 4        | 6792       | 18.48%  |
+| Whitman                 | 6        | 44935      | 89.64%  |
+|                         | 5        | 5193       | 10.36%  |
+| Mercer Int'l            | 2        | 25272      | 88.79%  |
+|                         | 1        | 3192       | 11.21%  |
+| Jane Addams             | 5        | 49462      | 97.22%  |
+|                         | 4        | 1413       | 2.78%   |
+
 ## Gerrymander
 | Race      | 🅰     | 🄱     | D🅰     | D🄱     | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |-----------|-------|-------|--------|--------|---|---|---|---|---|---|---|

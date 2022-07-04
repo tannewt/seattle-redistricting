@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Please Note:  Community Reporting Areas (CRA) have been updated to follow the 2020 census tract lines which resulted in minor changes to some boundary conditions.  They have also been extended into water areas to allow the assignment of CRAs to overwater housing and businesses.  To exclude the water polygons from a map choose the filter, water=0.Community reporting areas (CRAs) are designed to address a gap that existed in city geography. The task of reporting citywide information at a &amp;quot;community-like level&amp;quot; across all departments was either not undertaken or it was handled in inconsistent ways across departments. The CRA geography provides a &amp;quot;common language&amp;quot; for geographic description of the city for reporting purposes. Therefore, this geography may be used by departments for geographic reporting and tracking purposes, as appropriate.  The U.S. Census Bureau census tract geography was chosen as the basis of the CRA geography due to their stability through time and link to widely-used demographic data.The following criteria for a CRA geography were defined for this effort:no overlapping areascomplete coverage of the citysuitable scale to represent neighborhood areas/conditionsreasonably stable over timeconsistent with census geographyrelatively easy to use in a data contextfamiliar system of common place namesrespects neighborhood district geography to the extent possibleThe following existing geographies were reviewed during this effort:neighborhood planning areas (DON)neighborhood districts (DON/CNC/Neighborhood District Councils)city sectors/neighborhood plan implementation areas (DON)urban centers/urban villages (DPD)population sub-areas (DPD)Neighborhood Map Atlas (City Clerk)Census tract geographytopographyvarious other geographic information sources related to neighborhood areas and common place namesThis is not an attempt to identify neighborhood boundaries as defined by neighborhoods themselves.</abstract>
+            <purpose>Adopted as a standard, consistent, citywide community-oriented geography for reporting purposes across all departments, as appropriate.</purpose>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.438162</westbc>
+                <eastbc>-122.235640</eastbc>
+                <northbc>47.735878</northbc>
+                <southbc>47.493342</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>community</themekey>
+                <themekey>reporting</themekey>
+            </theme>
+        </keywords>
+        <accconst>Contact SPU IT/GIS</accconst>
+        <useconst>Use as deemed appropriate for citywide information reporting at a community-like level.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Seattle DON</cntorg>
+                    <cntper>TJ Moore</cntper>
+                </cntorgp>
+                <cntvoice>206-615-0469</cntvoice>
+                <cntemail>tj.moore@seattle.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Created and maintained by OPCD with input provided by DON, DOIT, OSE, SDOT, and SPU.</datacred>
+        <native>Esri ArcGIS 10.3.1.4959</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>53</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>CRA</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CRA_NO</attrlabl>
+                <attrdef>CRA Number</attrdef>
+                <attrdefs>DON</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CRA_GRP</attrlabl>
+                <attrdef>CRA Group</attrdef>
+                <attrdefs>DON</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GEN_ALIAS</attrlabl>
+                <attrdef>General Alias</attrdef>
+                <attrdefs>DON</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DETL_NAMES</attrlabl>
+                <attrdef>Detailed Place Names</attrdef>
+                <attrdefs>DON</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>NEIGHDIST</attrlabl>
+                <attrdef>Neighborhood District</attrdef>
+                <attrdefs>DON</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AREA_ACRES</attrlabl>
+                <attrdef>Area in Acres</attrdef>
+                <attrdefs>DON</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AREA_SQMI</attrlabl>
+                <attrdef>Area in Square Miles</attrdef>
+                <attrdefs>DON</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>DISPLAY_NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20180713</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

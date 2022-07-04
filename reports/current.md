@@ -29,6 +29,135 @@ The maximum population (123396) is 24.38% greater than the minimum (99207).
 | TAHVACANT  | 2315  | 2185  | 4324   | 3052   | 2352  | 2386   | 6067   |
 | TAGRPQRTR  | 1063  | 2056  | 4900   | 12825  | 1364  | 1124   | 6586   |
 
+## Atlas Neighborhoods
+This districting splits 11 out of 20 areas. A person was split from an area 79416 times.
+
+| Area             | District | Population | Percent |
+|------------------|----------|------------|---------|
+| Northwest        | 5        | 25276      | 52.74%  |
+|                  | 6        | 22653      | 47.26%  |
+| Downtown         | 7        | 39949      | 65.46%  |
+|                  | 3        | 15374      | 25.19%  |
+|                  | 2        | 5702       | 9.34%   |
+| North Central    | 6        | 35731      | 66.10%  |
+|                  | 4        | 18325      | 33.90%  |
+| Cascade          | 7        | 15889      | 72.07%  |
+|                  | 4        | 6007       | 27.25%  |
+|                  | 3        | 150        | 0.68%   |
+| Northeast        | 4        | 47415      | 89.40%  |
+|                  | 5        | 5623       | 10.60%  |
+| Greater Duwamish | 1        | 3774       | 60.23%  |
+|                  | 2        | 2492       | 39.77%  |
+| Rainier Valley   | 2        | 47753      | 95.34%  |
+|                  | 3        | 2333       | 4.66%   |
+| Beacon Hill      | 2        | 36497      | 98.91%  |
+|                  | 3        | 402        | 1.09%   |
+| Capitol Hill     | 3        | 51015      | 99.57%  |
+|                  | 7        | 221        | 0.43%   |
+| Ballard          | 6        | 44427      | 99.70%  |
+|                  | 7        | 133        | 0.30%   |
+| Central Area     | 3        | 37945      | 100.00% |
+|                  | 2        | 1          | 0.00%   |
+
+## Community Reporting Areas
+This districting splits 12 out of 53 areas. A person was split from an area 46847 times.
+
+| Area                                  | District | Population | Percent |
+|---------------------------------------|----------|------------|---------|
+| Wedgwood/View Ridge                   | 5        | 9078       | 54.58%  |
+|                                       | 4        | 7555       | 45.42%  |
+| Fremont                               | 6        | 12109      | 62.99%  |
+|                                       | 4        | 7116       | 37.01%  |
+| First Hill                            | 3        | 13852      | 67.42%  |
+|                                       | 7        | 6695       | 32.58%  |
+| Green Lake                            | 6        | 13446      | 75.29%  |
+|                                       | 4        | 4412       | 24.71%  |
+| Cascade/Eastlake                      | 7        | 25143      | 86.09%  |
+|                                       | 4        | 2875       | 9.84%   |
+|                                       | 3        | 1189       | 4.07%   |
+| Mt. Baker/North Rainier               | 3        | 3568       | 52.78%  |
+|                                       | 2        | 3192       | 47.22%  |
+| Montlake/Portage Bay                  | 3        | 6616       | 67.87%  |
+|                                       | 4        | 3132       | 32.13%  |
+| North Beach/Blue Ridge                | 6        | 9406       | 75.29%  |
+|                                       | 5        | 3087       | 24.71%  |
+| Greenwood/Phinney Ridge               | 6        | 24504      | 90.72%  |
+|                                       | 5        | 2507       | 9.28%   |
+| Wallingford                           | 4        | 17237      | 90.71%  |
+|                                       | 6        | 1766       | 9.29%   |
+| North Beacon Hill/Jefferson Park      | 2        | 14265      | 89.49%  |
+|                                       | 3        | 1676       | 10.51%  |
+| Pioneer Square/International District | 2        | 4708       | 74.11%  |
+|                                       | 7        | 1645       | 25.89%  |
+
+## Elementary Schools 2021-22
+This districting splits 16 out of 58 areas. A person was split from an area 87967 times.
+
+| Area              | District | Population | Percent |
+|-------------------|----------|------------|---------|
+| Lowell            | 7        | 50920      | 55.71%  |
+|                   | 3        | 35209      | 38.52%  |
+|                   | 2        | 4244       | 4.64%   |
+|                   | 4        | 1023       | 1.12%   |
+| Green Lake        | 4        | 32972      | 74.44%  |
+|                   | 6        | 11324      | 25.56%  |
+| B.F. Day          | 4        | 12640      | 54.26%  |
+|                   | 6        | 10654      | 45.74%  |
+| Montlake          | 3        | 6777       | 57.62%  |
+|                   | 4        | 4984       | 42.38%  |
+| Bagley            | 6        | 6490       | 57.60%  |
+|                   | 5        | 4778       | 42.40%  |
+| Wedgwood          | 5        | 4966       | 52.09%  |
+|                   | 4        | 4567       | 47.91%  |
+| View Ridge        | 4        | 9209       | 74.11%  |
+|                   | 5        | 3217       | 25.89%  |
+| Viewlands         | 5        | 11934      | 80.60%  |
+|                   | 6        | 2872       | 19.40%  |
+| Olympic View      | 5        | 15338      | 94.62%  |
+|                   | 4        | 872        | 5.38%   |
+| Greenwood         | 6        | 8157       | 90.58%  |
+|                   | 5        | 848        | 9.42%   |
+| Gatzert           | 3        | 12989      | 94.31%  |
+|                   | 2        | 784        | 5.69%   |
+| John Muir         | 2        | 7996       | 92.08%  |
+|                   | 3        | 688        | 7.92%   |
+| North Beach       | 6        | 7706       | 93.15%  |
+|                   | 5        | 567        | 6.85%   |
+| Thurgood Marshall | 3        | 6023       | 91.63%  |
+|                   | 2        | 550        | 8.37%   |
+| Beacon Hill Int'l | 2        | 7975       | 95.20%  |
+|                   | 3        | 402        | 4.80%   |
+| Sacajawea         | 5        | 8523       | 95.69%  |
+|                   | 4        | 384        | 4.31%   |
+
+## Middle Schools 2021-22
+This districting splits 10 out of 14 areas. A person was split from an area 130704 times.
+
+| Area                    | District | Population | Percent |
+|-------------------------|----------|------------|---------|
+| Meany                   | 3        | 87117      | 58.75%  |
+|                         | 7        | 50920      | 34.34%  |
+|                         | 4        | 6007       | 4.05%   |
+|                         | 2        | 4244       | 2.86%   |
+| Washington              | 3        | 19700      | 52.19%  |
+|                         | 2        | 18050      | 47.81%  |
+| Eagle Staff             | 5        | 29286      | 66.66%  |
+|                         | 6        | 14647      | 33.34%  |
+| Hamilton Int'l          | 6        | 24407      | 66.40%  |
+|                         | 4        | 12352      | 33.60%  |
+| Eckstein/Hamilton Int'l | 4        | 33251      | 74.60%  |
+|                         | 6        | 11324      | 25.40%  |
+| Eckstein                | 4        | 53289      | 86.86%  |
+|                         | 5        | 8063       | 13.14%  |
+| Whitman/Eagle Staff     | 5        | 11672      | 80.25%  |
+|                         | 6        | 2872       | 19.75%  |
+| Jane Addams             | 5        | 49619      | 97.53%  |
+|                         | 4        | 1256       | 2.47%   |
+| Whitman                 | 6        | 49561      | 98.87%  |
+|                         | 5        | 567        | 1.13%   |
+| Mercer Int'l            | 2        | 28062      | 98.59%  |
+|                         | 3        | 402        | 1.41%   |
+
 ## Gerrymander
 | Race      | 🅰     | 🄱     | D🅰    | D🄱     | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |-----------|-------|-------|-------|--------|---|---|---|---|---|---|---|
