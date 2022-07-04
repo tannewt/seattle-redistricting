@@ -68,27 +68,27 @@ def _map_areas(precincts, name_key, output_file):
     ax.margins(0)
     ax.get_figure().savefig(output_file + ".png", bbox_inches='tight')
 
-schools = geopandas.read_file("sources/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22.shp")
-schools = schools.to_crs(blocks.crs)
-middle_schools = schools.dissolve(by="MS_ZONE", as_index=False)
-middle_schools["Name"] = middle_schools["MS_ZONE"]
-_map_areas(middle_schools,
-           "Name", "communities/middle_schools.csv")
-schools["Name"] = schools["ES_ZONE"]
-_map_areas(schools,
-           "Name", "communities/elementary_schools.csv")
+# schools = geopandas.read_file("sources/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22.shp")
+# schools = schools.to_crs(blocks.crs)
+# middle_schools = schools.dissolve(by="MS_ZONE", as_index=False)
+# middle_schools["Name"] = middle_schools["MS_ZONE"]
+# _map_areas(middle_schools,
+#            "Name", "communities/middle_schools.csv")
+# schools["Name"] = schools["ES_ZONE"]
+# _map_areas(schools,
+#            "Name", "communities/elementary_schools.csv")
 
-cra = geopandas.read_file("sources/Community_Reporting_Areas/CITYPLAN_CRA.shp")
-cra = cra.to_crs(blocks.crs)
-cra["Name"] = cra["GEN_ALIAS"]
-_map_areas(cra,
-           "Name", "communities/reporting_areas.csv")
+# cra = geopandas.read_file("sources/Community_Reporting_Areas/CITYPLAN_CRA.shp")
+# cra = cra.to_crs(blocks.crs)
+# cra["Name"] = cra["GEN_ALIAS"]
+# _map_areas(cra,
+#            "Name", "communities/reporting_areas.csv")
 
-neighborhoods = geopandas.read_file("sources/Neighborhood_Map_Atlas_Districts/Neighborhood_Map_Atlas_Districts.shp")
-neighborhoods = neighborhoods.to_crs(blocks.crs)
-neighborhoods["Name"] = neighborhoods["L_HOOD"]
-_map_areas(neighborhoods,
-           "Name", "communities/neighborhoods.csv")
+# neighborhoods = geopandas.read_file("sources/Neighborhood_Map_Atlas_Districts/Neighborhood_Map_Atlas_Districts.shp")
+# neighborhoods = neighborhoods.to_crs(blocks.crs)
+# neighborhoods["Name"] = neighborhoods["L_HOOD"]
+# _map_areas(neighborhoods,
+#            "Name", "communities/neighborhoods.csv")
 
 
 for year in range(2016, 2021):
@@ -99,4 +99,4 @@ for year in range(2016, 2021):
     # Filter down to seattle precincts. (They all start with SEA.)
     s = precincts["NAME"].str.split(" ", n=1, expand=True)
     precincts = precincts[s[0] == "SEA"]
-    _map_areas(precincts, "NAME", f"precincts/{year}.csv", seattle_filter)
+    _map_areas(precincts, "NAME", f"precincts/{year}.csv")

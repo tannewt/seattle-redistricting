@@ -1,7 +1,7 @@
 import pandas
 import string
 
-results_raw = pandas.read_csv("final-precinct-results.csv")
+results_raw = pandas.read_csv("sources/elections/202011-final-precinct-results.csv")
 for ignore in ("Times Counted", "Times Over Voted", "Times Under Voted", "Write-in", "Registered Voters"):
     results_raw = results_raw[results_raw["CounterType"] != ignore]
 
@@ -39,6 +39,9 @@ for c in g:
     # Only one option
     if (g[c] < 2).all():
         continue
+    # Skip elections with more than two options (President)
+    if len(results[c].columns) > 2:
+        continue
     a, b = results[c].columns
     same = results[c][a] > results[c][b]
     loser_precincts = same.value_counts().min()
@@ -49,4 +52,4 @@ for c in g:
 results = results[new_cols]
 print(results.sum())
 print(results.columns.get_level_values(1))
-results.to_csv("elections/202111.csv", index=False)
+results.to_csv("elections/202011.csv", index=False)

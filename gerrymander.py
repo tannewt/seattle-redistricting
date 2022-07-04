@@ -47,6 +47,7 @@ class GerrymanderReport:
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
         district_bounds = blocks.merge(plan, on="GEOID20")
         district_bounds = district_bounds.dissolve(by="District")
+        rows = [["Race", "🅰", "🄱", "D🅰", "D🄱", "1", "2", "3", "4", "5", "6", "7"]]
         for election in elections.iterdir():
             year = election.name[:4]
             precincts = pandas.read_csv(f"precincts/{year}.csv")
@@ -63,7 +64,6 @@ class GerrymanderReport:
             s = districts.sum()
             current_election = None
             options = {}
-            rows = [["Race", "🅰", "🄱", "D🅰", "D🄱", "1", "2", "3", "4", "5", "6", "7"]]
             i = 1
             for c in districts.columns:
                 if not isinstance(c, tuple):
@@ -84,14 +84,14 @@ class GerrymanderReport:
                         # district_bounds.boundary.plot(ax=ax, edgecolor="black")
                         # print(fn)
                         # ax.get_figure().savefig(fn, bbox_inches='tight')
-                        rows.append([f"2021.11.{i}"] + self.output_election(options))
+                        rows.append([f"{year}.11.{i}"] + self.output_election(options))
                         options = {}
                         i += 1
                     current_election = election
                 options[option] = districts[c]
 
-            rows.append([f"2021.11.{i}"] + self.output_election(options))
+            rows.append([f"{year}.11.{i}"] + self.output_election(options))
 
-            table = table_from_string_list(rows)
-            markdown = generate_markdown(table)
-            return ("Gerrymander", markdown)
+        table = table_from_string_list(rows)
+        markdown = generate_markdown(table)
+        return ("Gerrymander", markdown)
