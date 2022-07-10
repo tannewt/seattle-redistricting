@@ -7,25 +7,23 @@ import pandas
 import sys
 import osmnx
 import networkx
+import sqlite3
 import matplotlib.pyplot as plt
+import time
 
 class DrivingDiameterReport:
 
     def __init__(self):
         blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
+        self.con = sqlite3.connect("shortest_path_cache.db")
         self.roads = osmnx.load_graphml("sources/roads.graphml")
         self.roads = osmnx.project_graph(self.roads, blocks.crs)
         self.roads = self.roads.subgraph(max(networkx.strongly_connected_components(self.roads), key=len))
-        lengths = {}
-        print(len(self.roads.nodes))
-        for i, node in enumerate(self.roads.nodes):
-            lengths[node] = networkx.single_source_dijkstra_path_length(self.roads, node, weight="travel_time")
-            if i % 100 == 0:
-                print(i)
-        e = networkx.eccentricity(self.roads, sp=lengths)
-        d = nx.diameter(self.roads, e=e)
-        print(e)
-        print(d)
+        cur = self.con.cursor()
+        cur.execute("CREATE INDEX IF NOT EXISTS travel_time_desc ON paths (travel_time DESC)")
+        cur.execute("CREATE INDEX IF NOT EXISTS src ON paths (source)")
+        cur.execute("CREATE INDEX IF NOT EXISTS dst ON paths (destination)")
+        self.con.commit()
         self.nodes = osmnx.graph_to_gdfs(self.roads, edges=False)
         blocks = blocks[["GEOID20", "geometry"]]
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
@@ -36,21 +34,33 @@ class DrivingDiameterReport:
         blocks = self.blocks.merge(districts, on="GEOID20")
         del blocks["GEOID20"]
 
+        self.con.execute("ATTACH DATABASE ':memory:' AS dist;")
+
+        cur = self.con.cursor();
+
         joined = blocks.dissolve(by="District")
-        for bounds in joined["geometry"]:
+        print(time.monotonic(), joined)
+        for d, bounds in enumerate(joined["geometry"]):
+            print(time.monotonic())
+            cur.execute("CREATE TABLE dist.dm (node INTEGER PRIMARY KEY, district INTEGER)")
+
             intersecting_nodes = self.nodes[self.nodes.intersects(bounds.buffer(10))].index
-            district_roads = self.roads.subgraph(intersecting_nodes)
-            count = networkx.number_weakly_connected_components(district_roads)
-            print(count)
-            colors = osmnx.plot.get_colors(count)
-            for i, sg in enumerate(networkx.weakly_connected_components(district_roads)):
-                print(len(sg))
-                for node in sg:
-                    district_roads.nodes[node]["partition_size"] = i
-            nc = osmnx.plot.get_node_colors_by_attr(district_roads, attr="partition_size")
+            print(time.monotonic(), d+1)
+            cur.executemany("INSERT INTO dist.dm (node, district) VALUES (?, ?)", ((n, d+1) for n in intersecting_nodes))
+            print(time.monotonic(), "inserted")
+            cur.execute("SELECT source, destination, travel_time FROM paths, dist.dm as dm1, dist.dm as dm2 WHERE source = dm1.node AND destination = dm2.node ORDER BY travel_time DESC LIMIT 1")
+            source, dest, travel_time = cur.fetchone()
+            print(time.monotonic(), travel_time, "seconds", travel_time / 60, "minutes")
+            route = osmnx.shortest_path(self.roads, source, dest, weight="travel_time")
+            print(time.monotonic(), route)
+            district_roads = self.roads.subgraph(intersecting_nodes.tolist() + route)
             ax = joined[joined["geometry"]==bounds].boundary.plot(edgecolor="black")
-            fig, new_ax = osmnx.plot_graph(district_roads, ax=ax, node_color=nc)
+            ec = osmnx.plot.get_edge_colors_by_attr(district_roads, attr="speed_kph")
+            osmnx.plot_graph(district_roads, ax=ax, edge_color=ec, show=False, node_size=0)
+            print(time.monotonic(), "plot")
+            osmnx.plot_graph_route(district_roads, route, ax=ax)
 
+            cur.execute("DROP TABLE dist.dm")
+            self.con.commit()
             print()
-
-DrivingDiameterReport()
+        self.con.execute("DETACH DATABASE dist;")

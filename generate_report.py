@@ -1,4 +1,5 @@
 import gerrymander
+import driving_diameter_report
 import topojson_districts
 import population
 import pandas
@@ -12,7 +13,8 @@ for m in pathlib.Path("maps").iterdir():
     print(m)
     districts = pandas.read_csv(m)
     lines = []
-    for r in [road_report.RoadReport(),
+    for r in [driving_diameter_report.DrivingDiameterReport(),
+              # road_report.RoadReport(),
               # population.PopulationReport(),
               # split_report.SplitReport("Atlas Neighborhoods", "communities/neighborhoods.csv"),
               # split_report.SplitReport("Community Reporting Areas", "communities/reporting_areas.csv"),
