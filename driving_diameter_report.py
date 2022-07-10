@@ -15,10 +15,21 @@ class DrivingDiameterReport:
 
     def __init__(self):
         blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
-        self.con = sqlite3.connect("shortest_path_cache.db")
         self.roads = osmnx.load_graphml("sources/roads.graphml")
         self.roads = osmnx.project_graph(self.roads, blocks.crs)
         self.roads = self.roads.subgraph(max(networkx.strongly_connected_components(self.roads), key=len))
+        
+        edges = osmnx.graph_to_gdfs(self.roads, nodes=False)
+        edge_types = edges['speed_kph'].value_counts()
+        edge_types = edge_types.index.tolist()
+        color_list = osmnx.plot.get_colors(n=len(edge_types))
+        color_mapper = dict(zip(edge_types, color_list))
+
+        # get the color for each edge based on its highway type
+        ec = [color_mapper[d['speed_kph']] for u, v, k, d in self.roads.edges(keys=True, data=True)]
+
+        osmnx.plot_graph(self.roads, edge_color=ec, node_size=0)
+        self.con = sqlite3.connect("shortest_path_cache.db")
         cur = self.con.cursor()
         cur.execute("CREATE INDEX IF NOT EXISTS travel_time_desc ON paths (travel_time DESC)")
         cur.execute("CREATE INDEX IF NOT EXISTS src ON paths (source)")
@@ -64,3 +75,6 @@ class DrivingDiameterReport:
             self.con.commit()
             print()
         self.con.execute("DETACH DATABASE dist;")
+
+DrivingDiameterReport()
+
