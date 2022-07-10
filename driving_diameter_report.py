@@ -48,7 +48,7 @@ class DrivingDiameterReport:
             print(time.monotonic(), d+1)
             cur.executemany("INSERT INTO dist.dm (node, district) VALUES (?, ?)", ((n, d+1) for n in intersecting_nodes))
             print(time.monotonic(), "inserted")
-            cur.execute("SELECT source, destination, travel_time FROM paths, dist.dm as dm1, dist.dm as dm2 WHERE source = dm1.node AND destination = dm2.node ORDER BY travel_time DESC LIMIT 1")
+            cur.execute("SELECT source, destination, travel_time FROM paths WHERE source IN (SELECT node FROM dist.dm) AND destination IN (SELECT node FROM dist.dm) ORDER BY travel_time DESC LIMIT 1")
             source, dest, travel_time = cur.fetchone()
             print(time.monotonic(), travel_time, "seconds", travel_time / 60, "minutes")
             route = osmnx.shortest_path(self.roads, source, dest, weight="travel_time")
