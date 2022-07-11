@@ -21,14 +21,16 @@ class DrivingDiameterReport:
         
         edges = osmnx.graph_to_gdfs(self.roads, nodes=False)
         edge_types = edges['speed_kph'].value_counts()
+        cutoff = 100
+        too_small_types = edge_types[edge_types < cutoff]
+        edge_types = edge_types[edge_types >= cutoff]
         edge_types = edge_types.index.tolist()
-        color_list = osmnx.plot.get_colors(n=len(edge_types))
-        color_mapper = dict(zip(edge_types, color_list))
-
-        # get the color for each edge based on its highway type
-        ec = [color_mapper[d['speed_kph']] for u, v, k, d in self.roads.edges(keys=True, data=True)]
-
-        osmnx.plot_graph(self.roads, edge_color=ec, node_size=0)
+        color_list = osmnx.plot.get_colors(n=len(edge_types) + 1, cmap="rainbow")
+        self.color_mapper = dict(zip(edge_types, color_list[1:]))
+        for v in too_small_types.index:
+            self.color_mapper[v] = color_list[0]
+        self.edge_colors = [self.color_mapper[d['speed_kph']] for u, v, k, d in self.roads.edges(keys=True, data=True)]
+        
         self.con = sqlite3.connect("shortest_path_cache.db")
         cur = self.con.cursor()
         cur.execute("CREATE INDEX IF NOT EXISTS travel_time_desc ON paths (travel_time DESC)")
@@ -36,6 +38,7 @@ class DrivingDiameterReport:
         cur.execute("CREATE INDEX IF NOT EXISTS dst ON paths (destination)")
         self.con.commit()
         self.nodes = osmnx.graph_to_gdfs(self.roads, edges=False)
+        self.nodes = self.nodes[self.nodes["highway"] != "motorway_junction"]
         blocks = blocks[["GEOID20", "geometry"]]
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
         self.blocks = blocks[["GEOID20", "geometry"]]
@@ -51,6 +54,12 @@ class DrivingDiameterReport:
 
         joined = blocks.dissolve(by="District")
         print(time.monotonic(), joined)
+
+        ax = joined.boundary.plot(edgecolor="black")
+        # get the color for each edge based on its highway type
+        osmnx.plot_graph(self.roads, edge_color=self.edge_colors, node_size=0, ax=ax, show=False)
+
+        routes = []
         for d, bounds in enumerate(joined["geometry"]):
             print(time.monotonic())
             cur.execute("CREATE TABLE dist.dm (node INTEGER PRIMARY KEY, district INTEGER)")
@@ -63,18 +72,11 @@ class DrivingDiameterReport:
             source, dest, travel_time = cur.fetchone()
             print(time.monotonic(), travel_time, "seconds", travel_time / 60, "minutes")
             route = osmnx.shortest_path(self.roads, source, dest, weight="travel_time")
-            print(time.monotonic(), route)
-            district_roads = self.roads.subgraph(intersecting_nodes.tolist() + route)
-            ax = joined[joined["geometry"]==bounds].boundary.plot(edgecolor="black")
-            ec = osmnx.plot.get_edge_colors_by_attr(district_roads, attr="speed_kph")
-            osmnx.plot_graph(district_roads, ax=ax, edge_color=ec, show=False, node_size=0)
-            print(time.monotonic(), "plot")
-            osmnx.plot_graph_route(district_roads, route, ax=ax)
+            print(time.monotonic(), "routed")
+            routes.append(route)
 
             cur.execute("DROP TABLE dist.dm")
             self.con.commit()
             print()
+        fig, ax = osmnx.plot_graph_routes(self.roads, routes, ax=ax, filepath='routes.svg', save=True, show=False, close=True)
         self.con.execute("DETACH DATABASE dist;")
-
-DrivingDiameterReport()
-
