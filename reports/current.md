@@ -35,7 +35,8 @@ The maximum population (123396) is 24.38% greater than the minimum (99207).
 | TAGRPQRTR  | 1063  | 2056  | 4900   | 12825  | 1364  | 1124   | 6586   |
 
 ## Driving Diameter
-<img src="reports/current/driving_diameter.png" alt="Driving Diameter Map showing 7 routes" width="600px">
+<img src="c" alt="Driving Diameter Map showing 7 routes" width="600px">
+
 | District | Max Travel Time (minutes) |
 |----------|---------------------------|
 | 1        | 22.67                     |

@@ -95,4 +95,5 @@ class DrivingDiameterReport:
         fig, ax = osmnx.plot_graph_routes(self.roads, routes, ax=ax, filepath=img_url, save=True, show=False, close=True)
         self.con.execute("DETACH DATABASE dist;")
 
-        return ("Driving Diameter", f"<img src=\"{img_url}\" alt=\"Driving Diameter Map showing 7 routes\" width=\"600px\">\n" + markdown)
+        img_url = str(img_url)[len("reports/")]
+        return ("Driving Diameter", f"<img src=\"{img_url}\" alt=\"Driving Diameter Map showing 7 routes\" width=\"600px\">\n\n" + markdown)
