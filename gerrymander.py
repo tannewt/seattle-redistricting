@@ -40,7 +40,7 @@ class GerrymanderReport:
                 f"{district_result[a]:.1f}%",
                 f"{district_result[b]:.1f}%"] + ["🅰" if x[0] == a else "🄱" for x in district_winners]
 
-    def content(self, plan):
+    def content(self, plan, asset_directory=None):
         elections = pathlib.Path("elections")
         blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
         blocks = blocks[["GEOID20", "geometry"]]

@@ -10,6 +10,7 @@ import networkx
 import sqlite3
 import matplotlib.pyplot as plt
 import time
+from markdown_table_generator import generate_markdown, table_from_string_list
 
 class DrivingDiameterReport:
 
@@ -43,7 +44,7 @@ class DrivingDiameterReport:
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
         self.blocks = blocks[["GEOID20", "geometry"]]
 
-    def content(self, districts):
+    def content(self, districts, asset_directory=None):
         lines = []
         blocks = self.blocks.merge(districts, on="GEOID20")
         del blocks["GEOID20"]
@@ -55,11 +56,12 @@ class DrivingDiameterReport:
         joined = blocks.dissolve(by="District")
         print(time.monotonic(), joined)
 
-        ax = joined.boundary.plot(edgecolor="black")
+        ax = joined.boundary.plot(edgecolor="black", figsize=(9,16))
         # get the color for each edge based on its highway type
         osmnx.plot_graph(self.roads, edge_color=self.edge_colors, node_size=0, ax=ax, show=False)
 
         routes = []
+        rows = [["District", "Max Travel Time (minutes)"]]
         for d, bounds in enumerate(joined["geometry"]):
             print(time.monotonic())
             cur.execute("CREATE TABLE dist.dm (node INTEGER PRIMARY KEY, district INTEGER)")
@@ -71,6 +73,7 @@ class DrivingDiameterReport:
             cur.execute("SELECT source, destination, travel_time FROM paths WHERE source IN (SELECT node FROM dist.dm) AND destination IN (SELECT node FROM dist.dm) ORDER BY travel_time DESC LIMIT 1")
             source, dest, travel_time = cur.fetchone()
             print(time.monotonic(), travel_time, "seconds", travel_time / 60, "minutes")
+            rows.append([str(d+1), f"{travel_time / 60:0.2f}"])
             route = osmnx.shortest_path(self.roads, source, dest, weight="travel_time")
             print(time.monotonic(), "routed")
             routes.append(route)
@@ -78,5 +81,18 @@ class DrivingDiameterReport:
             cur.execute("DROP TABLE dist.dm")
             self.con.commit()
             print()
-        fig, ax = osmnx.plot_graph_routes(self.roads, routes, ax=ax, filepath='routes.svg', save=True, show=False, close=True)
+
+        joined['coords'] = joined['geometry'].apply(lambda x: x.representative_point().coords[:])
+        joined['coords'] = [coords[0] for coords in joined['coords']]
+        for idx, row in joined.iterrows():
+            plt.annotate(idx, xy=row['coords'],
+                         horizontalalignment='center', fontsize="xx-large",
+                         fontweight="bold")
+
+        table = table_from_string_list(rows)
+        markdown = generate_markdown(table)
+        img_url = asset_directory / 'driving_diameter.png'
+        fig, ax = osmnx.plot_graph_routes(self.roads, routes, ax=ax, filepath=img_url, save=True, show=False, close=True)
         self.con.execute("DETACH DATABASE dist;")
+
+        return ("Driving Diameter", f"<img src=\"{img_url}\" alt=\"Driving Diameter Map showing 7 routes\" width=\"600px\">\n" + markdown)

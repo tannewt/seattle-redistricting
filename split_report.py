@@ -16,7 +16,7 @@ class SplitReport:
         self.areas = pandas.read_csv(areas)
         del self.areas["total_TAPERSONS"]
 
-    def content(self, districts):
+    def content(self, districts, asset_directory=None):
         lines = []
         blocks = districts.merge(self.areas, on="GEOID20")
         del blocks["GEOID20"]
