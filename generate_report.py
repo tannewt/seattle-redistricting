@@ -19,6 +19,7 @@ for m in pathlib.Path("maps").iterdir():
               population.PopulationReport(),
               driving_diameter_report.DrivingDiameterReport(),
               # road_report.RoadReport(),
+              split_report.SplitReport("City Clerk Neighborhoods", "communities/city_clerk_neighborhoods.csv"),
               split_report.SplitReport("Atlas Neighborhoods", "communities/neighborhoods.csv"),
               split_report.SplitReport("Community Reporting Areas", "communities/reporting_areas.csv"),
               split_report.SplitReport("Elementary Schools 2021-22", "communities/elementary_schools.csv"),

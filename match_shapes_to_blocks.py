@@ -84,6 +84,14 @@ def _map_areas(precincts, name_key, output_file):
 # _map_areas(cra,
 #            "Name", "communities/reporting_areas.csv")
 
+cc_neighborhoods = geopandas.read_file("sources/City_Clerk_Neighborhoods/City_Clerk_Neighborhoods.shp")
+print(cc_neighborhoods.dtypes)
+print(cc_neighborhoods)
+cc_neighborhoods = cc_neighborhoods.to_crs(blocks.crs)
+cc_neighborhoods["Name"] = cc_neighborhoods["S_HOOD"]
+_map_areas(cc_neighborhoods,
+           "Name", "communities/city_clerk_neighborhoods.csv")
+
 # neighborhoods = geopandas.read_file("sources/Neighborhood_Map_Atlas_Districts/Neighborhood_Map_Atlas_Districts.shp")
 # neighborhoods = neighborhoods.to_crs(blocks.crs)
 # neighborhoods["Name"] = neighborhoods["L_HOOD"]
