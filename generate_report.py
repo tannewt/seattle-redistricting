@@ -33,7 +33,7 @@ for m in pathlib.Path("maps").iterdir():
     i = info[m.stem]
     context = i["context_url"]
     daves = i["daves_url"]
-    index_lines.append(f"* [{m.stem}](./{m.stem}.md) [Source]({context}) [Dave's]({daves})")
+    index_lines.append(f"* {m.stem} [Report](./{m.stem}.md) | [Source]({context}) | [Dave's]({daves})")
     districts = pandas.read_csv(m)
     lines = []
     asset_dir = out / m.stem
