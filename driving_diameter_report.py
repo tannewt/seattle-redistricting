@@ -96,4 +96,4 @@ class DrivingDiameterReport:
         self.con.execute("DETACH DATABASE dist;")
 
         img_url = str(img_url)[len("reports/"):]
-        return ("Driving Diameter", f"<img src=\"{img_url}\" alt=\"Driving Diameter Map showing 7 routes\" width=\"600px\">\n\n" + markdown)
+        return ("Driving Diameter", f"<img src=\"{img_url}\" alt=\"Driving Diameter Map showing 7 routes\" width=\"600px\">\n\n" + markdown, None)

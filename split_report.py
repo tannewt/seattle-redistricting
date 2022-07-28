@@ -28,7 +28,8 @@ class SplitReport:
         total_people = by_area.sum()
         split_count = (by_area.count() > 1).value_counts()
         split_off = by_area.tail(-1).groupby(by="Name").sum().sort_values("TAPERSONS", ascending=False)
-        lines.append(f"This districting splits {split_count[True]} out of {split_count.sum()} areas. A person was split from an area {split_off.sum().sum()} times.")
+        split_people = split_off.sum().sum()
+        lines.append(f"This districting splits {split_count[True]} out of {split_count.sum()} areas. A person was split from an area {split_people} times.")
         lines.append("")
         table = [["Area", "District", "Population", "Percent"]]
         for area in split_off.index:
@@ -58,4 +59,11 @@ class SplitReport:
         lines.append("</details>")
 
         # print(lines)
-        return (self.name, "\n".join(lines))
+        return (self.name, "\n".join(lines), split_people)
+
+    def summarize(self, summaries):
+        lines = []
+        order = sorted(summaries.items(), key=lambda x: x[1])
+        for i, (stem, count) in enumerate(order):
+            lines.append(f"{i+1}. [{stem}](./{stem}.md) {count}")
+        return "\n".join(lines)

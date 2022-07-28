@@ -26,9 +26,15 @@ reports = [topojson_districts.TopoJSONReport(),
            gerrymander.GerrymanderReport()
           ]
 
+summaries = {}
+titles = {}
+
 for m in pathlib.Path("maps").iterdir():
     if m.name == "info.toml":
       continue
+    report = out / (m.stem + ".md")
+    # if report.exists():
+    #   continue
     print(m, m.stem)
     i = info[m.stem]
     context = i["context_url"]
@@ -39,14 +45,23 @@ for m in pathlib.Path("maps").iterdir():
     asset_dir = out / m.stem
     asset_dir.mkdir(exist_ok=True)
     for r in reports:
-        title, sections = r.content(districts, asset_directory=asset_dir)
+        title, sections, summary = r.content(districts, asset_directory=asset_dir)
+        if r not in summaries:
+            titles[r] = title
+            summaries[r] = {}
+        summaries[r][m.stem] = summary
         lines.append("## " + title)
         lines.append(sections)
         lines.append("")
-    report = out / (m.stem + ".md")
     report.write_text("\n".join(lines))
 
 index_lines.append("")
+
+for r in reports:
+    if hasattr(r, "summarize"):
+      index_lines.append("# " + titles[r])
+      index_lines.append(r.summarize(summaries[r]))
+      index_lines.append("")
 
 index = out / "README.md"
 index.write_text("\n".join(index_lines))

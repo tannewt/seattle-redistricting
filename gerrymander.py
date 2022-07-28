@@ -94,4 +94,4 @@ class GerrymanderReport:
 
         table = table_from_string_list(rows)
         markdown = generate_markdown(table)
-        return ("Gerrymander", markdown)
+        return ("Gerrymander", markdown, None)

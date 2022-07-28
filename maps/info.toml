@@ -2,6 +2,26 @@
 daves_url = "https://davesredistricting.org/maps#viewmap::3a0dfe27-c577-49d1-866f-898f9ef8f637"
 context_url = "https://www.seattle.gov/redistricting/how-to-participate"
 
+[commr_juarez]
+daves_url = "https://davesredistricting.org/maps#viewmap::7f41aba6-b8e7-49d4-9518-b97bf99a0750"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+
+[commr_malaba]
+daves_url = "https://davesredistricting.org/maps#viewmap::cf1510f6-bc97-4471-b8a2-052e5334c146"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+
+[commr_nickels]
+daves_url = "https://davesredistricting.org/maps#viewmap::bb604b20-c0c9-4ddb-a168-921a1d290493"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+
+[commr_o_sullivan]
+daves_url = "https://davesredistricting.org/maps#viewmap::7d4152a8-5a1d-4c65-8312-d9a292f34888"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+
+[commr_shah]
+daves_url = "https://davesredistricting.org/maps#viewmap::9fdc09f8-3c88-4d47-8fa4-d4b408a58df6"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+
 [consultant1]
 daves_url = "https://davesredistricting.org/join/043b88e8-c52b-456b-b56f-07620fbd56d3"
 context_url = "https://www.seattle.gov/redistricting/how-to-participate"
@@ -30,6 +50,10 @@ context_url = "https://www.seattle.gov/documents/Departments/Redistricting/Publi
 daves_url = "https://davesredistricting.org/maps#viewmap::bf59697f-02f9-4fd8-b862-4cc7abfe558c"
 context_url = "https://www.seattle.gov/documents/Departments/Redistricting/Public%20Comments/Map%20Image%20PDF%27s/JoannaCullen_PublicComment.pdf"
 
+[joanna_cullen_0725]
+daves_url = "https://davesredistricting.org/maps#viewmap::4b4c72be-4a4f-4cca-b5d2-7cffb723cf40"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate/public-comments#publiccommentonseattleredistricting"
+
 [kathryn_keller_1]
 daves_url = "https://davesredistricting.org/join/4f136ab9-bd33-4479-bec5-683f99fdf40b"
 context_url = "https://www.seattle.gov/documents/Departments/Redistricting/Public%20Comments/Map%20Image%20PDF%27s/KathrynKeller_PublicComment.pdf"
@@ -57,3 +81,15 @@ context_url = "https://www.seattle.gov/documents/Departments/Redistricting/Publi
 [paul_chapman_bottom]
 daves_url = "https://davesredistricting.org/join/05a3d768-4c46-4bf1-a979-7e58e34828c1"
 context_url = "https://www.seattle.gov/documents/Departments/Redistricting/Public%20Comments/Map%20Image%20PDF%27s/PaulChapman_PublicComment.pdf"
+
+[duncan_adelaide]
+daves_url = "https://davesredistricting.org/maps#viewmap::01ab9b9c-ad73-43bf-afdb-451581193e6a"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate/public-comments#publiccommentonseattleredistricting"
+
+[steve_horvath]
+daves_url = "https://davesredistricting.org/maps#viewmap::24ebe226-4b0b-46ef-bebe-9973ff51d485"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate/public-comments#publiccommentonseattleredistricting"
+
+[max_rappaport]
+daves_url = "https://davesredistricting.org/maps#viewmap::b23bdecd-ab30-4bdd-a072-fb4c66d743be"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate/public-comments#publiccommentonseattleredistricting"

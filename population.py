@@ -42,4 +42,10 @@ class PopulationReport:
         table = table_from_string_list(rows)
         markdown = generate_markdown(table)
         lines.append(markdown)
-        return (title, "\n".join(lines))
+        return (title, "\n".join(lines), f"{status} +{spread * 100 - 100:0.2f}%")
+
+    def summarize(self, summaries):
+        lines = []
+        for stem, status in summaries.items():
+            lines.append(f"* [{stem}](./{stem}.md) {status}")
+        return "\n".join(lines)
