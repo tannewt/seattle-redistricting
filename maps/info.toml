@@ -93,3 +93,7 @@ context_url = "https://www.seattle.gov/redistricting/how-to-participate/public-c
 [max_rappaport]
 daves_url = "https://davesredistricting.org/maps#viewmap::b23bdecd-ab30-4bdd-a072-fb4c66d743be"
 context_url = "https://www.seattle.gov/redistricting/how-to-participate/public-comments#publiccommentonseattleredistricting"
+
+[commission_draft_0802]
+daves_url = "https://davesredistricting.org/join/f962eaa1-3626-4efe-8973-a6daad5a7d56"
+context_url = ""
