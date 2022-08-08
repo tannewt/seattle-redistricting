@@ -33,8 +33,8 @@ for m in pathlib.Path("maps").iterdir():
     if m.name == "info.toml":
       continue
     report = out / (m.stem + ".md")
-    if report.exists():
-      continue
+    # if report.exists():
+    #   continue
     print(m, m.stem)
     i = info[m.stem]
     context = i["context_url"]
