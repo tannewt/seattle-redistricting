@@ -48,7 +48,9 @@ The maximum population (105658) is 0.47% greater than the minimum (105162).
 | 7        | 20.56                     |
 
 ## City Clerk Neighborhoods
-This districting splits 24 out of 91 areas. A person was split from an area 42412 times.
+This districting splits 29 out of 91 areas. A person was split from an area 42412 times.
+
+<img src="consultant2/split-City Clerk Neighborhoods.png" alt="Map showing areas of population that have been split off." width="600px">
 
 | Area                      | District | Population | Percent |
 |---------------------------|----------|------------|---------|
@@ -84,6 +86,7 @@ This districting splits 24 out of 91 areas. A person was split from an area 4241
 |                           | 6        | 793        | 4.35%   |
 | International District    | 3        | 3924       | 86.15%  |
 |                           | 2        | 631        | 13.85%  |
+|                           | 1        | 0          | 0.00%   |
 | South Beacon Hill         | 2        | 4857       | 88.91%  |
 |                           | 1        | 606        | 11.09%  |
 | Minor                     | 3        | 11045      | 96.84%  |
@@ -104,9 +107,21 @@ This districting splits 24 out of 91 areas. A person was split from an area 4241
 |                           | 4        | 20         | 0.48%   |
 | Whittier Heights          | 6        | 5642       | 99.77%  |
 |                           | 5        | 13         | 0.23%   |
+| Georgetown                | 1        | 1419       | 100.00% |
+|                           | 2        | 0          | 0.00%   |
+| Fremont                   | 6        | 14796      | 100.00% |
+|                           | 7        | 0          | 0.00%   |
+|                           | 3        | 0          | 0.00%   |
+| East Queen Anne           | 7        | 9852       | 100.00% |
+|                           | 3        | 0          | 0.00%   |
+| Wallingford               | 6        | 18576      | 100.00% |
+|                           | 3        | 0          | 0.00%   |
+| Westlake                  | 7        | 4062       | 100.00% |
+|                           | 3        | 0          | 0.00%   |
 
 <details>
-<summary>67 kept whole</summary>
+<summary>62 kept whole</summary>
+
 | Area                   | District | Population | Percent |
 |------------------------|----------|------------|---------|
 | Alki                   | 1        | 7450       | 100.00% |
@@ -115,7 +130,6 @@ This districting splits 24 out of 91 areas. A person was split from an area 4241
 | Fauntleroy             | 1        | 5452       | 100.00% |
 | Gatewood               | 1        | 6902       | 100.00% |
 | Genesee                | 1        | 9118       | 100.00% |
-| Georgetown             | 1        | 1419       | 100.00% |
 | Harbor Island          | 1        | 4          | 100.00% |
 | High Point             | 1        | 8331       | 100.00% |
 | Highland Park          | 1        | 6689       | 100.00% |
@@ -162,25 +176,23 @@ This districting splits 24 out of 91 areas. A person was split from an area 4241
 | North College Park     | 5        | 7463       | 100.00% |
 | Olympic Hills          | 5        | 9556       | 100.00% |
 | Pinehurst              | 5        | 8394       | 100.00% |
-| Fremont                | 6        | 14796      | 100.00% |
 | Portage Bay            | 6        | 1510       | 100.00% |
-| Wallingford            | 6        | 18576      | 100.00% |
 | West Woodland          | 6        | 8119       | 100.00% |
 | Belltown               | 7        | 24288      | 100.00% |
 | Briarcliff             | 7        | 5812       | 100.00% |
-| East Queen Anne        | 7        | 9852       | 100.00% |
 | Interbay               | 7        | 2192       | 100.00% |
 | Lawton Park            | 7        | 9956       | 100.00% |
 | North Queen Anne       | 7        | 12209      | 100.00% |
 | Pike-Market            | 7        | 3329       | 100.00% |
 | Southeast Magnolia     | 7        | 5536       | 100.00% |
 | West Queen Anne        | 7        | 7498       | 100.00% |
-| Westlake               | 7        | 4062       | 100.00% |
 
 </details>
 
 ## Atlas Neighborhoods
-This districting splits 13 out of 20 areas. A person was split from an area 107209 times.
+This districting splits 14 out of 20 areas. A person was split from an area 107209 times.
+
+<img src="consultant2/split-Atlas Neighborhoods.png" alt="Map showing areas of population that have been split off." width="600px">
 
 | Area                | District | Population | Percent |
 |---------------------|----------|------------|---------|
@@ -206,6 +218,8 @@ This districting splits 13 out of 20 areas. A person was split from an area 1072
 |                     | 6        | 101        | 0.46%   |
 | North Central       | 6        | 49479      | 91.53%  |
 |                     | 5        | 4577       | 8.47%   |
+|                     | 7        | 0          | 0.00%   |
+|                     | 3        | 0          | 0.00%   |
 | Northeast           | 4        | 48683      | 91.79%  |
 |                     | 6        | 3483       | 6.57%   |
 |                     | 5        | 872        | 1.64%   |
@@ -217,23 +231,27 @@ This districting splits 13 out of 20 areas. A person was split from an area 1072
 |                     | 1        | 606        | 1.64%   |
 | Queen Anne          | 7        | 43417      | 99.33%  |
 |                     | 3        | 291        | 0.67%   |
+| Greater Duwamish    | 1        | 6266       | 100.00% |
+|                     | 2        | 0          | 0.00%   |
 
 <details>
-<summary>7 kept whole</summary>
-| Area             | District | Population | Percent |
-|------------------|----------|------------|---------|
-| Delridge         | 1        | 35082      | 100.00% |
-| Greater Duwamish | 1        | 6266       | 100.00% |
-| West Seattle     | 1        | 60968      | 100.00% |
-| Rainier Valley   | 2        | 50086      | 100.00% |
-| Seward Park      | 2        | 7038       | 100.00% |
-| Interbay         | 7        | 2192       | 100.00% |
-| Magnolia         | 7        | 21304      | 100.00% |
+<summary>6 kept whole</summary>
+
+| Area           | District | Population | Percent |
+|----------------|----------|------------|---------|
+| Delridge       | 1        | 35082      | 100.00% |
+| West Seattle   | 1        | 60968      | 100.00% |
+| Rainier Valley | 2        | 50086      | 100.00% |
+| Seward Park    | 2        | 7038       | 100.00% |
+| Interbay       | 7        | 2192       | 100.00% |
+| Magnolia       | 7        | 21304      | 100.00% |
 
 </details>
 
 ## Community Reporting Areas
-This districting splits 21 out of 53 areas. A person was split from an area 84894 times.
+This districting splits 23 out of 53 areas. A person was split from an area 84894 times.
+
+<img src="consultant2/split-Community Reporting Areas.png" alt="Map showing areas of population that have been split off." width="600px">
 
 | Area                                  | District | Population | Percent |
 |---------------------------------------|----------|------------|---------|
@@ -284,9 +302,15 @@ This districting splits 21 out of 53 areas. A person was split from an area 8489
 |                                       | 1        | 607        | 4.02%   |
 | Downtown Commercial Core              | 7        | 5311       | 92.06%  |
 |                                       | 3        | 458        | 7.94%   |
+|                                       | 1        | 0          | 0.00%   |
+| Wallingford                           | 6        | 19003      | 100.00% |
+|                                       | 3        | 0          | 0.00%   |
+| Fremont                               | 6        | 19225      | 100.00% |
+|                                       | 3        | 0          | 0.00%   |
 
 <details>
-<summary>32 kept whole</summary>
+<summary>30 kept whole</summary>
+
 | Area                               | District | Population | Percent |
 |------------------------------------|----------|------------|---------|
 | Alki/Admiral                       | 1        | 11806      | 100.00% |
@@ -316,8 +340,6 @@ This districting splits 21 out of 53 areas. A person was split from an area 8489
 | Licton Springs                     | 5        | 10208      | 100.00% |
 | North Beach/Blue Ridge             | 5        | 12493      | 100.00% |
 | Ballard                            | 6        | 11207      | 100.00% |
-| Fremont                            | 6        | 19225      | 100.00% |
-| Wallingford                        | 6        | 19003      | 100.00% |
 | Belltown                           | 7        | 11959      | 100.00% |
 | Interbay                           | 7        | 12463      | 100.00% |
 | Magnolia                           | 7        | 13717      | 100.00% |
@@ -325,7 +347,9 @@ This districting splits 21 out of 53 areas. A person was split from an area 8489
 </details>
 
 ## Elementary Schools 2021-22
-This districting splits 16 out of 58 areas. A person was split from an area 76695 times.
+This districting splits 18 out of 58 areas. A person was split from an area 76695 times.
+
+<img src="consultant2/split-Elementary Schools 2021-22.png" alt="Map showing areas of population that have been split off." width="600px">
 
 | Area              | District | Population | Percent |
 |-------------------|----------|------------|---------|
@@ -334,6 +358,7 @@ This districting splits 16 out of 58 areas. A person was split from an area 7669
 |                   | 1        | 1965       | 2.15%   |
 | Green Lake        | 6        | 35754      | 80.72%  |
 |                   | 4        | 8542       | 19.28%  |
+|                   | 3        | 0          | 0.00%   |
 | Montlake          | 3        | 5414       | 46.03%  |
 |                   | 4        | 4691       | 39.89%  |
 |                   | 6        | 1656       | 14.08%  |
@@ -364,9 +389,15 @@ This districting splits 16 out of 58 areas. A person was split from an area 7669
 |                   | 6        | 317        | 2.81%   |
 | Laurelhurst       | 4        | 19173      | 99.37%  |
 |                   | 6        | 122        | 0.63%   |
+| B.F. Day          | 6        | 23294      | 100.00% |
+|                   | 7        | 0          | 0.00%   |
+|                   | 3        | 0          | 0.00%   |
+| Maple             | 2        | 6407       | 100.00% |
+|                   | 1        | 0          | 0.00%   |
 
 <details>
-<summary>42 kept whole</summary>
+<summary>40 kept whole</summary>
+
 | Area                  | District | Population | Percent |
 |-----------------------|----------|------------|---------|
 | Alki                  | 1        | 9457       | 100.00% |
@@ -388,7 +419,6 @@ This districting splits 16 out of 58 areas. A person was split from an area 7669
 | John Muir             | 2        | 8684       | 100.00% |
 | Kimball               | 2        | 8720       | 100.00% |
 | MLK Jr.               | 2        | 5291       | 100.00% |
-| Maple                 | 2        | 6407       | 100.00% |
 | Rainier View          | 2        | 5583       | 100.00% |
 | Wing Luke             | 2        | 4685       | 100.00% |
 | Stevens               | 3        | 11675      | 100.00% |
@@ -404,7 +434,6 @@ This districting splits 16 out of 58 areas. A person was split from an area 7669
 | Northgate             | 5        | 8459       | 100.00% |
 | Olympic View          | 5        | 16210      | 100.00% |
 | Viewlands             | 5        | 14806      | 100.00% |
-| B.F. Day              | 6        | 23294      | 100.00% |
 | West Woodland         | 6        | 13753      | 100.00% |
 | Whittier              | 6        | 7654       | 100.00% |
 | Catharine Blaine K-8  | 7        | 5238       | 100.00% |
@@ -415,7 +444,9 @@ This districting splits 16 out of 58 areas. A person was split from an area 7669
 </details>
 
 ## Middle Schools 2021-22
-This districting splits 9 out of 14 areas. A person was split from an area 136961 times.
+This districting splits 10 out of 14 areas. A person was split from an area 136961 times.
+
+<img src="consultant2/split-Middle Schools 2021-22.png" alt="Map showing areas of population that have been split off." width="600px">
 
 | Area                    | District | Population | Percent |
 |-------------------------|----------|------------|---------|
@@ -433,6 +464,7 @@ This districting splits 9 out of 14 areas. A person was split from an area 13696
 |                         | 3        | 16003      | 42.39%  |
 | Eckstein/Hamilton Int'l | 6        | 36042      | 80.86%  |
 |                         | 4        | 8533       | 19.14%  |
+|                         | 3        | 0          | 0.00%   |
 | Mercer Int'l            | 2        | 24692      | 86.75%  |
 |                         | 1        | 3772       | 13.25%  |
 | Eagle Staff             | 5        | 41610      | 94.71%  |
@@ -441,24 +473,26 @@ This districting splits 9 out of 14 areas. A person was split from an area 13696
 |                         | 3        | 1355       | 1.87%   |
 | Eckstein                | 4        | 61230      | 99.80%  |
 |                         | 6        | 122        | 0.20%   |
+| Hamilton Int'l          | 6        | 36759      | 100.00% |
+|                         | 3        | 0          | 0.00%   |
 
 <details>
-<summary>5 kept whole</summary>
+<summary>4 kept whole</summary>
+
 | Area                | District | Population | Percent |
 |---------------------|----------|------------|---------|
 | Denny Int'l         | 1        | 42225      | 100.00% |
 | Madison             | 1        | 57599      | 100.00% |
 | Aki Kurose          | 2        | 49127      | 100.00% |
 | Whitman/Eagle Staff | 5        | 14544      | 100.00% |
-| Hamilton Int'l      | 6        | 36759      | 100.00% |
 
 </details>
 
 ## Gerrymander
 | Race      | 🅰     | 🄱     | D🅰    | D🄱     | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |-----------|-------|-------|-------|--------|---|---|---|---|---|---|---|
-| 2020.11.1 | 52.6% | 47.4% | 71.4% | 28.6%  | 🅰 | 🅰 | 🅰 | 🄱 | 🅰 | 🅰 | 🄱 |
-| 2020.11.2 | 45.3% | 54.7% | 0.0%  | 100.0% | 🄱 | 🄱 | 🄱 | 🄱 | 🄱 | 🄱 | 🄱 |
+| 2020.11.1 | 52.8% | 47.2% | 71.4% | 28.6%  | 🅰 | 🅰 | 🅰 | 🄱 | 🅰 | 🅰 | 🄱 |
+| 2020.11.2 | 45.7% | 54.3% | 0.0%  | 100.0% | 🄱 | 🄱 | 🄱 | 🄱 | 🄱 | 🄱 | 🄱 |
 | 2021.11.1 | 48.0% | 52.0% | 42.9% | 57.1%  | 🄱 | 🅰 | 🅰 | 🄱 | 🄱 | 🅰 | 🄱 |
 | 2021.11.2 | 59.7% | 40.3% | 85.7% | 14.3%  | 🅰 | 🅰 | 🅰 | 🅰 | 🅰 | 🅰 | 🄱 |
 | 2021.11.3 | 46.2% | 53.8% | 28.6% | 71.4%  | 🄱 | 🅰 | 🅰 | 🄱 | 🄱 | 🄱 | 🄱 |

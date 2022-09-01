@@ -18,10 +18,6 @@ blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').conver
 blocks = blocks.merge(adjusted_pop, on="GEOID20")
 blocks = blocks[["GEOID20", "TAPERSONS", "geometry"]]
 
-print(sum(blocks["TAPERSONS"]))
-
-blocks = blocks[blocks["TAPERSONS"] > 0]
-
 def _map_areas(precincts, name_key, output_file):
     original_precints = precincts
     print(precincts)
@@ -60,7 +56,7 @@ def _map_areas(precincts, name_key, output_file):
     print(sum(joined["TAPERSONS"]))
     joined[[name_key, "GEOID20", "TAPERSONS", "total_TAPERSONS"]].sort_values(by=[name_key, "GEOID20"]).to_csv(output_file, index=False)
 
-    ax = joined.plot(column=name_key, figsize=(9*10,16*10))
+    ax = joined.plot(column=name_key, figsize=(9*2,16*2))
     unbuffered.boundary.plot(ax=ax, edgecolor="black")
     empty.boundary.plot(ax=ax, edgecolor="red")
     ax.set_axis_off()
@@ -68,21 +64,21 @@ def _map_areas(precincts, name_key, output_file):
     ax.margins(0)
     ax.get_figure().savefig(output_file + ".png", bbox_inches='tight')
 
-# schools = geopandas.read_file("sources/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22.shp")
-# schools = schools.to_crs(blocks.crs)
-# middle_schools = schools.dissolve(by="MS_ZONE", as_index=False)
-# middle_schools["Name"] = middle_schools["MS_ZONE"]
-# _map_areas(middle_schools,
-#            "Name", "communities/middle_schools.csv")
-# schools["Name"] = schools["ES_ZONE"]
-# _map_areas(schools,
-#            "Name", "communities/elementary_schools.csv")
+schools = geopandas.read_file("sources/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22/Seattle_Public_Schools_Elementary_School_Attendance_Areas_2021-22.shp")
+schools = schools.to_crs(blocks.crs)
+middle_schools = schools.dissolve(by="MS_ZONE", as_index=False)
+middle_schools["Name"] = middle_schools["MS_ZONE"]
+_map_areas(middle_schools,
+           "Name", "communities/middle_schools.csv")
+schools["Name"] = schools["ES_ZONE"]
+_map_areas(schools,
+           "Name", "communities/elementary_schools.csv")
 
-# cra = geopandas.read_file("sources/Community_Reporting_Areas/CITYPLAN_CRA.shp")
-# cra = cra.to_crs(blocks.crs)
-# cra["Name"] = cra["GEN_ALIAS"]
-# _map_areas(cra,
-#            "Name", "communities/reporting_areas.csv")
+cra = geopandas.read_file("sources/Community_Reporting_Areas/CITYPLAN_CRA.shp")
+cra = cra.to_crs(blocks.crs)
+cra["Name"] = cra["GEN_ALIAS"]
+_map_areas(cra,
+           "Name", "communities/reporting_areas.csv")
 
 cc_neighborhoods = geopandas.read_file("sources/City_Clerk_Neighborhoods/City_Clerk_Neighborhoods.shp")
 print(cc_neighborhoods.dtypes)
@@ -92,11 +88,11 @@ cc_neighborhoods["Name"] = cc_neighborhoods["S_HOOD"]
 _map_areas(cc_neighborhoods,
            "Name", "communities/city_clerk_neighborhoods.csv")
 
-# neighborhoods = geopandas.read_file("sources/Neighborhood_Map_Atlas_Districts/Neighborhood_Map_Atlas_Districts.shp")
-# neighborhoods = neighborhoods.to_crs(blocks.crs)
-# neighborhoods["Name"] = neighborhoods["L_HOOD"]
-# _map_areas(neighborhoods,
-#            "Name", "communities/neighborhoods.csv")
+neighborhoods = geopandas.read_file("sources/Neighborhood_Map_Atlas_Districts/Neighborhood_Map_Atlas_Districts.shp")
+neighborhoods = neighborhoods.to_crs(blocks.crs)
+neighborhoods["Name"] = neighborhoods["L_HOOD"]
+_map_areas(neighborhoods,
+           "Name", "communities/neighborhoods.csv")
 
 
 for year in range(2016, 2021):

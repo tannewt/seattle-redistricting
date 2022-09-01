@@ -51,15 +51,15 @@
 * [max_rappaport](./max_rappaport.md) ❌ +6.41%
 * [steve_horvath](./steve_horvath.md) ✅ +0.65%
 * [duncan_adelaide](./duncan_adelaide.md) ❌ +7.46%
-* [commission_draft_0802](./commission_draft_0802.md) ✅ +0.80%
+* [commission_draft_0802](./commission_draft_0802.md) ✅ +0.81%
 
 # City Clerk Neighborhoods
 1. [joanna_cullen_0725](./joanna_cullen_0725.md) 19020
 2. [rjs](./rjs.md) 25329
 3. [commr_juarez](./commr_juarez.md) 25406
-4. [commr_malaba](./commr_malaba.md) 26858
-5. [commr_shah](./commr_shah.md) 26959
-6. [commission_draft_0802](./commission_draft_0802.md) 27193
+4. [commission_draft_0802](./commission_draft_0802.md) 26551
+5. [commr_malaba](./commr_malaba.md) 26858
+6. [commr_shah](./commr_shah.md) 26959
 7. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 27818
 8. [max_rappaport](./max_rappaport.md) 29037
 9. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 29768
@@ -83,8 +83,8 @@
 # Atlas Neighborhoods
 1. [commr_malaba](./commr_malaba.md) 66953
 2. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 67393
-3. [commr_shah](./commr_shah.md) 68748
-4. [commission_draft_0802](./commission_draft_0802.md) 68982
+3. [commission_draft_0802](./commission_draft_0802.md) 68340
+4. [commr_shah](./commr_shah.md) 68748
 5. [duncan_adelaide](./duncan_adelaide.md) 76996
 6. [current](./current.md) 79416
 7. [max_rappaport](./max_rappaport.md) 83363
@@ -116,9 +116,9 @@
 6. [paul_chapman_2](./paul_chapman_2.md) 54354
 7. [paul_chapman_bottom](./paul_chapman_bottom.md) 54354
 8. [commr_o_sullivan](./commr_o_sullivan.md) 54673
-9. [kathryn_keller_1](./kathryn_keller_1.md) 55644
-10. [commr_shah](./commr_shah.md) 55817
-11. [commission_draft_0802](./commission_draft_0802.md) 56051
+9. [commission_draft_0802](./commission_draft_0802.md) 55409
+10. [kathryn_keller_1](./kathryn_keller_1.md) 55644
+11. [commr_shah](./commr_shah.md) 55817
 12. [consultant4](./consultant4.md) 56141
 13. [commr_juarez](./commr_juarez.md) 57823
 14. [commr_malaba](./commr_malaba.md) 57884
@@ -156,8 +156,8 @@
 19. [steve_horvath](./steve_horvath.md) 100053
 20. [consultant3](./consultant3.md) 100193
 21. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 100536
-22. [commr_shah](./commr_shah.md) 102981
-23. [commission_draft_0802](./commission_draft_0802.md) 103215
+22. [commission_draft_0802](./commission_draft_0802.md) 102573
+23. [commr_shah](./commr_shah.md) 102981
 24. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 107952
 25. [duncan_adelaide](./duncan_adelaide.md) 115530
 
@@ -173,7 +173,7 @@
 9. [consultant4](./consultant4.md) 125478
 10. [current](./current.md) 130704
 11. [commr_shah](./commr_shah.md) 131524
-12. [commission_draft_0802](./commission_draft_0802.md) 131884
+12. [commission_draft_0802](./commission_draft_0802.md) 131932
 13. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 132519
 14. [consultant1](./consultant1.md) 132769
 15. [rjs](./rjs.md) 135568
