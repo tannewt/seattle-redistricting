@@ -7,6 +7,7 @@ import pathlib
 import split_report
 import road_report
 import toml
+import sys
 
 out = pathlib.Path("reports")
 
@@ -33,8 +34,8 @@ for m in pathlib.Path("maps").iterdir():
     if m.name == "info.toml":
       continue
     report = out / (m.stem + ".md")
-    # if report.exists():
-    #   continue
+    if len(sys.argv) > 1 and str(m) not in sys.argv[1:]:
+      continue
     print(m, m.stem)
     i = info[m.stem]
     context = i["context_url"]
@@ -64,4 +65,7 @@ for r in reports:
       index_lines.append("")
 
 index = out / "README.md"
-index.write_text("\n".join(index_lines))
+if len(sys.argv) > 1:
+  print("\n".join(index_lines))
+else:
+  index.write_text("\n".join(index_lines))

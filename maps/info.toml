@@ -95,5 +95,21 @@ daves_url = "https://davesredistricting.org/maps#viewmap::b23bdecd-ab30-4bdd-a07
 context_url = "https://www.seattle.gov/redistricting/how-to-participate/public-comments#publiccommentonseattleredistricting"
 
 [commission_draft_0802]
-daves_url = "https://davesredistricting.org/join/f962eaa1-3626-4efe-8973-a6daad5a7d56"
+daves_url = "https://davesredistricting.org/maps#viewmap::eee63497-35fd-4adb-bc0b-a49a8422f94d"
+context_url = ""
+
+[shawcroft_greenwood_blueridge]
+daves_url = "https://davesredistricting.org/join/fc3d34bb-10d5-4586-bf89-b68214abf378"
+context_url = ""
+
+[shawcroft_fremont_wallingford]
+daves_url = "https://davesredistricting.org/join/e2cfc712-dd1a-4897-bfbe-b136a018e1b8"
+context_url = ""
+
+[shawcroft_fremont_magnolia_eastlake]
+daves_url = "https://davesredistricting.org/join/76455a09-f53a-4943-92cc-50a10fd3a71d"
+context_url = ""
+
+[shawcroft_wfgb]
+daves_url = "https://davesredistricting.org/join/e65ab1db-d3c1-426c-9e25-7b35c38b0a1c"
 context_url = ""
