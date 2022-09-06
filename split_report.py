@@ -28,22 +28,17 @@ class SplitReport:
         joined = blocks.groupby(["Name", "District"])
 
         by_area = joined.sum().sort_values(by="TAPERSONS", ascending=False).groupby(level=0)
-        total_people = by_area.sum()
-        split_count = (by_area.count() > 1).value_counts()
-        split_off = by_area.tail(-1).groupby(by="Name").sum().sort_values("TAPERSONS", ascending=False)
-        print(by_area.tail(-1))
-        split_people = split_off.sum().sum()
-
+        # print(by_area.tail(-1))
 
         img_url = asset_directory / f'split-{self.name}.png'
         block_shapes = self.blocks.merge(districts, on="GEOID20")
         district_shapes = block_shapes.dissolve(by="District")
-        print(block_shapes)
+        # print(block_shapes)
         block_shapes = block_shapes.merge(self.areas, on="GEOID20")
         area_shapes = block_shapes.dissolve(by="Name")
         area_count = block_shapes.merge(by_area.tail(-1), on=["Name", "District"])
-        print(area_count)
-        print(area_count.dtypes)
+        # print(area_count)
+        # print(area_count.dtypes)
         ax = area_count.plot(column="TAPERSONS_x", cmap="Reds", figsize=(9*2,16*2))
         ax.set_axis_off()
         ax.set_frame_on(False)
@@ -59,6 +54,13 @@ class SplitReport:
         ax.get_figure().savefig(img_url, bbox_inches='tight')
         img_url = str(img_url)[len("reports/"):]
 
+        by_area = joined.sum().sort_values(by="TAPERSONS", ascending=False)
+        by_area = by_area[by_area["TAPERSONS"] > 0]
+        by_area = by_area.groupby(level=0)
+        split_off = by_area.tail(-1).groupby(by="Name").sum().sort_values("TAPERSONS", ascending=False)
+        split_people = split_off.sum().sum()
+        total_people = by_area.sum()
+        split_count = (by_area.count() > 1).value_counts()
         lines.append(f"This districting splits {split_count[True]} out of {split_count.sum()} areas. A person was split from an area {split_people} times.")
         lines.append("")
         lines.append(f"<img src=\"{img_url}\" alt=\"Map showing areas of population that have been split off.\" width=\"600px\">")
