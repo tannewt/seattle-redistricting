@@ -1,3 +1,4 @@
+import inspect
 import gerrymander
 import driving_diameter_report
 import topojson_districts
@@ -8,6 +9,9 @@ import split_report
 import road_report
 import toml
 import sys
+import json
+
+import sqlite3
 
 out = pathlib.Path("reports")
 
@@ -15,16 +19,54 @@ info = toml.load("maps/info.toml")
 
 index_lines = ["# Map Proposals", ""]
 
-reports = [topojson_districts.TopoJSONReport(),
-           population.PopulationReport(),
-           driving_diameter_report.DrivingDiameterReport(),
+db = sqlite3.connect("report-cache.db")
+
+cur = db.cursor()
+try:
+    cur.execute("CREATE TABLE report_content (map text, report text, last_update timestamp, content_json blob, UNIQUE(map, report))")
+except sqlite3.OperationalError:
+    pass
+
+class ReportCache:
+  def __init__(self, delegate):
+    source_code_file = pathlib.Path(inspect.getfile(delegate.__class__))
+    self.delegate = delegate
+
+    self.source_change = source_code_file.stat().st_mtime
+
+  def content(self, district_path, districts, asset_directory=None):
+    cur = db.cursor()
+    cur.execute("SELECT last_update, content_json FROM report_content WHERE map = ? AND report = ?", (str(district_path), repr(self.delegate)))
+    past_run = cur.fetchone()
+    newest_change = max(self.source_change, district_path.stat().st_mtime)
+    if past_run is None or past_run[0] < newest_change:
+        result = self.delegate.content(districts, asset_directory)
+        new_row = (str(district_path), repr(self.delegate), newest_change, json.dumps(result))
+        db.execute("INSERT INTO report_content (map, report, last_update, content_json) VALUES (?, ?, ?, ?) ON CONFLICT (map, report) DO UPDATE SET last_update = excluded.last_update, content_json = excluded.content_json", new_row)
+        db.commit()
+        return result
+    else:
+      print(str(district_path), repr(self.delegate), "cached")
+    return json.loads(past_run[1])
+
+  def summarize(self, summaries):
+    if not hasattr(self.delegate, "summarize"):
+      return ""
+    # Don't cache this because the summaries may be partially cached.
+    return self.delegate.summarize(summaries)
+
+reports = [ReportCache(topojson_districts.TopoJSONReport()),
+           ReportCache(population.PopulationReport()),
+           ReportCache(driving_diameter_report.DrivingDiameterReport()),
            # road_report.RoadReport(),
-           split_report.SplitReport("City Clerk Neighborhoods", "communities/city_clerk_neighborhoods.csv"),
-           split_report.SplitReport("Atlas Neighborhoods", "communities/neighborhoods.csv"),
-           split_report.SplitReport("Community Reporting Areas", "communities/reporting_areas.csv"),
-           split_report.SplitReport("Elementary Schools 2021-22", "communities/elementary_schools.csv"),
-           split_report.SplitReport("Middle Schools 2021-22", "communities/middle_schools.csv"),
-           gerrymander.GerrymanderReport()
+           ReportCache(split_report.SplitReport("City Clerk Neighborhoods", "communities/city_clerk_neighborhoods.csv")),
+           ReportCache(split_report.SplitReport("Atlas Neighborhoods", "communities/neighborhoods.csv")),
+           ReportCache(split_report.SplitReport("Community Reporting Areas", "communities/reporting_areas.csv")),
+           ReportCache(split_report.SplitReport("Elementary Schools 2021-22", "communities/elementary_schools.csv")),
+           ReportCache(split_report.SplitReport("Middle Schools 2021-22", "communities/middle_schools.csv")),
+           ReportCache(split_report.SplitReport("Police Beats 2018 - Present", "communities/police_beats.csv")),
+           ReportCache(split_report.SplitReport("2022 Voting Precincts", "precincts/2022.csv")),
+           ReportCache(gerrymander.GerrymanderReport())
           ]
 
 summaries = {}
@@ -46,7 +88,7 @@ for m in pathlib.Path("maps").iterdir():
     asset_dir = out / m.stem
     asset_dir.mkdir(exist_ok=True)
     for r in reports:
-        title, sections, summary = r.content(districts, asset_directory=asset_dir)
+        title, sections, summary = r.content(m, districts, asset_directory=asset_dir)
         if r not in summaries:
             titles[r] = title
             summaries[r] = {}
@@ -59,9 +101,10 @@ for m in pathlib.Path("maps").iterdir():
 index_lines.append("")
 
 for r in reports:
-    if hasattr(r, "summarize"):
+    summary = r.summarize(summaries[r])
+    if summary:
       index_lines.append("# " + titles[r])
-      index_lines.append(r.summarize(summaries[r]))
+      index_lines.append(summary)
       index_lines.append("")
 
 index = out / "README.md"

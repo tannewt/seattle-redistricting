@@ -14,6 +14,9 @@ class PopulationReport:
     def __init__(self):
         self.adjusted_pop = pandas.read_csv("WA_AdjustedPL_RCW4405140_Blocks_2020.csv")
 
+    def __repr__(self):
+        return "PopulationReport()"
+
     def content(self, districts, asset_directory=None):
         lines = []
         blocks = districts.merge(self.adjusted_pop, on="GEOID20")

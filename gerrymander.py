@@ -10,6 +10,10 @@ from matplotlib import colors
 
 
 class GerrymanderReport:
+
+    def __repr__(self):
+        return "GerrymanderReport()"
+
     def output_election(self, options):
         total_votes = None
         option_totals = {}

@@ -94,13 +94,24 @@ neighborhoods["Name"] = neighborhoods["L_HOOD"]
 _map_areas(neighborhoods,
            "Name", "communities/neighborhoods.csv")
 
+beats = geopandas.read_file("sources/Seattle_Police_Beats_2018-Present/Seattle_Police_Beats_2018-Present.shp")
+beats = beats.to_crs(blocks.crs)
+print(beats)
+beats["Name"] = beats["beat"]
+_map_areas(beats,
+           "Name", "communities/police_beats.csv")
 
-for year in range(2016, 2021):
-    print(year)
-    precincts = geopandas.read_file(f"votdst_area__historic_shp/votdst_area_{year}.shp")
-    precincts = precincts.to_crs(blocks.crs)
-    precincts = precincts.clip(blocks)
-    # Filter down to seattle precincts. (They all start with SEA.)
-    s = precincts["NAME"].str.split(" ", n=1, expand=True)
+
     precincts = precincts[s[0] == "SEA"]
     _map_areas(precincts, "NAME", f"precincts/{year}.csv")
+
+year = 2022
+print(year)
+precincts = geopandas.read_file(f"Voting_Districts_of_King_County___votdst_area/Voting_Districts_of_King_County___votdst_area.shp")
+precincts = precincts.to_crs(blocks.crs)
+precincts = precincts.clip(blocks)
+# Filter down to seattle precincts. (They all start with SEA.)
+s = precincts["NAME"].str.split(" ", n=1, expand=True)
+precincts = precincts[s[0] == "SEA"]
+precincts["Name"] = precincts["NAME"]
+_map_areas(precincts, "Name", f"precincts/{year}.csv")

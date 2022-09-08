@@ -13,12 +13,16 @@ class SplitReport:
 
     def __init__(self, name, areas):
         self.name = name
+        self.areas_fn = areas
         self.areas = pandas.read_csv(areas)
         blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
         blocks = blocks[["GEOID20", "geometry"]]
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
         self.blocks = blocks[["GEOID20", "geometry"]]
         del self.areas["total_TAPERSONS"]
+
+    def __repr__(self):
+        return f"SplitReport({repr(self.name)}, {repr(self.areas_fn)})"
 
     def content(self, districts, asset_directory=None):
         lines = []
@@ -61,7 +65,10 @@ class SplitReport:
         split_people = split_off.sum().sum()
         total_people = by_area.sum()
         split_count = (by_area.count() > 1).value_counts()
-        lines.append(f"This districting splits {split_count[True]} out of {split_count.sum()} areas. A person was split from an area {split_people} times.")
+        total_split = 0
+        if True in split_count:
+            total_split = split_count[True]
+        lines.append(f"This districting splits {total_split} out of {split_count.sum()} areas. A person was split from an area {split_people} times.")
         lines.append("")
         lines.append(f"<img src=\"{img_url}\" alt=\"Map showing areas of population that have been split off.\" width=\"600px\">")
         lines.append("")
@@ -82,6 +89,7 @@ class SplitReport:
         lines.append(f"<summary>{split_count[False]} kept whole</summary>")
         lines.append("")
         whole = joined.sum()[by_area.count() == 1].dropna().sort_values(by=["District", "Name"])
+        whole = whole[whole["TAPERSONS"] > 0]
 
         table = [["Area", "District", "Population", "Percent"]]
         for area, district in whole.index:
@@ -94,7 +102,7 @@ class SplitReport:
         lines.append("</details>")
 
         # print(lines)
-        return (self.name, "\n".join(lines), split_people)
+        return (self.name, "\n".join(lines), int(split_people))
 
     def summarize(self, summaries):
         lines = []

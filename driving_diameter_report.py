@@ -44,6 +44,9 @@ class DrivingDiameterReport:
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
         self.blocks = blocks[["GEOID20", "geometry"]]
 
+    def __repr__(self):
+        return "DrivingDiameterReport()"
+
     def content(self, districts, asset_directory=None):
         lines = []
         blocks = self.blocks.merge(districts, on="GEOID20")

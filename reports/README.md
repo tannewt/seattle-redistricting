@@ -29,6 +29,7 @@
 * shawcroft_fremont_wallingford [Report](./shawcroft_fremont_wallingford.md) | [Source]() | [Dave's](https://davesredistricting.org/join/e2cfc712-dd1a-4897-bfbe-b136a018e1b8)
 * shawcroft_fremont_magnolia_eastlake [Report](./shawcroft_fremont_magnolia_eastlake.md) | [Source]() | [Dave's](https://davesredistricting.org/join/76455a09-f53a-4943-92cc-50a10fd3a71d)
 * shawcroft_wfgb [Report](./shawcroft_wfgb.md) | [Source]() | [Dave's](https://davesredistricting.org/join/e65ab1db-d3c1-426c-9e25-7b35c38b0a1c)
+* eastlakecc_0806 [Report](./eastlakecc_0806.md) | [Source](https://www.eastlakeseattle.org/announcements-events/redistricting-commission-draft-response) | [Dave's](https://davesredistricting.org/maps#viewmap::4cf63e0a-9d01-4961-8393-9a53bc422c75)
 
 # ✅ Population
 * [consultant1](./consultant1.md) ✅ +0.40%
@@ -60,6 +61,7 @@
 * [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) ✅ +0.92%
 * [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) ✅ +0.66%
 * [shawcroft_wfgb](./shawcroft_wfgb.md) ✅ +0.80%
+* [eastlakecc_0806](./eastlakecc_0806.md) ❌ +1.26%
 
 # City Clerk Neighborhoods
 1. [shawcroft_wfgb](./shawcroft_wfgb.md) 12969
@@ -69,28 +71,29 @@
 5. [rjs](./rjs.md) 25329
 6. [commr_juarez](./commr_juarez.md) 25406
 7. [commission_draft_0802](./commission_draft_0802.md) 26551
-8. [commr_malaba](./commr_malaba.md) 26858
-9. [commr_shah](./commr_shah.md) 26959
-10. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 27818
-11. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 28575
-12. [max_rappaport](./max_rappaport.md) 29037
-13. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 29768
-14. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 30198
-15. [current](./current.md) 31044
-16. [kathryn_keller_1](./kathryn_keller_1.md) 31256
-17. [commr_o_sullivan](./commr_o_sullivan.md) 31373
-18. [commr_nickels](./commr_nickels.md) 32577
-19. [consultant3](./consultant3.md) 33716
-20. [duncan_adelaide](./duncan_adelaide.md) 34004
-21. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 34150
-22. [paul_chapman_3](./paul_chapman_3.md) 35158
-23. [paul_chapman_1](./paul_chapman_1.md) 39030
-24. [consultant1](./consultant1.md) 39721
-25. [consultant4](./consultant4.md) 40003
-26. [consultant2](./consultant2.md) 42412
-27. [paul_chapman_2](./paul_chapman_2.md) 42555
-28. [paul_chapman_bottom](./paul_chapman_bottom.md) 42555
-29. [steve_horvath](./steve_horvath.md) 50682
+8. [eastlakecc_0806](./eastlakecc_0806.md) 26556
+9. [commr_malaba](./commr_malaba.md) 26858
+10. [commr_shah](./commr_shah.md) 26959
+11. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 27818
+12. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 28575
+13. [max_rappaport](./max_rappaport.md) 29037
+14. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 29768
+15. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 30198
+16. [current](./current.md) 31044
+17. [kathryn_keller_1](./kathryn_keller_1.md) 31256
+18. [commr_o_sullivan](./commr_o_sullivan.md) 31373
+19. [commr_nickels](./commr_nickels.md) 32577
+20. [consultant3](./consultant3.md) 33716
+21. [duncan_adelaide](./duncan_adelaide.md) 34004
+22. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 34150
+23. [paul_chapman_3](./paul_chapman_3.md) 35158
+24. [paul_chapman_1](./paul_chapman_1.md) 39030
+25. [consultant1](./consultant1.md) 39721
+26. [consultant4](./consultant4.md) 40003
+27. [consultant2](./consultant2.md) 42412
+28. [paul_chapman_2](./paul_chapman_2.md) 42555
+29. [paul_chapman_bottom](./paul_chapman_bottom.md) 42555
+30. [steve_horvath](./steve_horvath.md) 50682
 
 # Atlas Neighborhoods
 1. [commr_malaba](./commr_malaba.md) 66953
@@ -100,28 +103,29 @@
 5. [shawcroft_wfgb](./shawcroft_wfgb.md) 68230
 6. [commission_draft_0802](./commission_draft_0802.md) 68340
 7. [commr_shah](./commr_shah.md) 68748
-8. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 70947
-9. [duncan_adelaide](./duncan_adelaide.md) 76996
-10. [current](./current.md) 79416
-11. [max_rappaport](./max_rappaport.md) 83363
-12. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 85651
-13. [joanna_cullen_0725](./joanna_cullen_0725.md) 90817
-14. [commr_o_sullivan](./commr_o_sullivan.md) 91042
-15. [consultant4](./consultant4.md) 92437
-16. [consultant3](./consultant3.md) 95826
-17. [paul_chapman_3](./paul_chapman_3.md) 96675
-18. [paul_chapman_1](./paul_chapman_1.md) 96820
-19. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 97001
-20. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 97215
-21. [steve_horvath](./steve_horvath.md) 97458
-22. [kathryn_keller_1](./kathryn_keller_1.md) 98001
-23. [rjs](./rjs.md) 98547
-24. [commr_juarez](./commr_juarez.md) 102110
-25. [commr_nickels](./commr_nickels.md) 106299
-26. [consultant2](./consultant2.md) 107209
-27. [consultant1](./consultant1.md) 112716
-28. [paul_chapman_2](./paul_chapman_2.md) 114116
-29. [paul_chapman_bottom](./paul_chapman_bottom.md) 114116
+8. [eastlakecc_0806](./eastlakecc_0806.md) 70416
+9. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 70947
+10. [duncan_adelaide](./duncan_adelaide.md) 76996
+11. [current](./current.md) 79416
+12. [max_rappaport](./max_rappaport.md) 83363
+13. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 85651
+14. [joanna_cullen_0725](./joanna_cullen_0725.md) 90817
+15. [commr_o_sullivan](./commr_o_sullivan.md) 91042
+16. [consultant4](./consultant4.md) 92437
+17. [consultant3](./consultant3.md) 95826
+18. [paul_chapman_3](./paul_chapman_3.md) 96675
+19. [paul_chapman_1](./paul_chapman_1.md) 96820
+20. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 97001
+21. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 97215
+22. [steve_horvath](./steve_horvath.md) 97458
+23. [kathryn_keller_1](./kathryn_keller_1.md) 98001
+24. [rjs](./rjs.md) 98547
+25. [commr_juarez](./commr_juarez.md) 102110
+26. [commr_nickels](./commr_nickels.md) 106299
+27. [consultant2](./consultant2.md) 107209
+28. [consultant1](./consultant1.md) 112716
+29. [paul_chapman_2](./paul_chapman_2.md) 114116
+30. [paul_chapman_bottom](./paul_chapman_bottom.md) 114116
 
 # Community Reporting Areas
 1. [current](./current.md) 46847
@@ -148,11 +152,12 @@
 22. [duncan_adelaide](./duncan_adelaide.md) 60338
 23. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 61334
 24. [paul_chapman_1](./paul_chapman_1.md) 61500
-25. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 63583
-26. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 65160
-27. [commr_nickels](./commr_nickels.md) 67819
-28. [consultant2](./consultant2.md) 84894
-29. [steve_horvath](./steve_horvath.md) 89736
+25. [eastlakecc_0806](./eastlakecc_0806.md) 63443
+26. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 63583
+27. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 65160
+28. [commr_nickels](./commr_nickels.md) 67819
+29. [consultant2](./consultant2.md) 84894
+30. [steve_horvath](./steve_horvath.md) 89736
 
 # Elementary Schools 2021-22
 1. [consultant2](./consultant2.md) 76695
@@ -182,36 +187,102 @@
 25. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 100536
 26. [commission_draft_0802](./commission_draft_0802.md) 102573
 27. [commr_shah](./commr_shah.md) 102981
-28. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 107952
-29. [duncan_adelaide](./duncan_adelaide.md) 115530
+28. [eastlakecc_0806](./eastlakecc_0806.md) 107565
+29. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 107952
+30. [duncan_adelaide](./duncan_adelaide.md) 115530
 
 # Middle Schools 2021-22
 1. [commr_nickels](./commr_nickels.md) 106565
 2. [shawcroft_wfgb](./shawcroft_wfgb.md) 112948
 3. [commr_o_sullivan](./commr_o_sullivan.md) 115813
 4. [consultant3](./consultant3.md) 117143
-5. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 119319
-6. [kathryn_keller_1](./kathryn_keller_1.md) 120493
-7. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 120708
-8. [commr_juarez](./commr_juarez.md) 121058
-9. [commr_malaba](./commr_malaba.md) 122279
-10. [shawcroft_greenwood_blueridge](./shawcroft_greenwood_blueridge.md) 123815
-11. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 124586
-12. [consultant4](./consultant4.md) 125478
-13. [current](./current.md) 130704
-14. [commr_shah](./commr_shah.md) 131524
-15. [commission_draft_0802](./commission_draft_0802.md) 131932
-16. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 132519
-17. [consultant1](./consultant1.md) 132769
-18. [rjs](./rjs.md) 135568
-19. [consultant2](./consultant2.md) 136961
-20. [paul_chapman_2](./paul_chapman_2.md) 140228
-21. [paul_chapman_bottom](./paul_chapman_bottom.md) 140228
-22. [joanna_cullen_0725](./joanna_cullen_0725.md) 142821
-23. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 148225
-24. [max_rappaport](./max_rappaport.md) 148295
-25. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 151532
-26. [paul_chapman_3](./paul_chapman_3.md) 165051
-27. [duncan_adelaide](./duncan_adelaide.md) 174673
-28. [steve_horvath](./steve_horvath.md) 191106
-29. [paul_chapman_1](./paul_chapman_1.md) 203330
+5. [eastlakecc_0806](./eastlakecc_0806.md) 119051
+6. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 119319
+7. [kathryn_keller_1](./kathryn_keller_1.md) 120493
+8. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 120708
+9. [commr_juarez](./commr_juarez.md) 121058
+10. [commr_malaba](./commr_malaba.md) 122279
+11. [shawcroft_greenwood_blueridge](./shawcroft_greenwood_blueridge.md) 123815
+12. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 124586
+13. [consultant4](./consultant4.md) 125478
+14. [current](./current.md) 130704
+15. [commr_shah](./commr_shah.md) 131524
+16. [commission_draft_0802](./commission_draft_0802.md) 131932
+17. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 132519
+18. [consultant1](./consultant1.md) 132769
+19. [rjs](./rjs.md) 135568
+20. [consultant2](./consultant2.md) 136961
+21. [paul_chapman_2](./paul_chapman_2.md) 140228
+22. [paul_chapman_bottom](./paul_chapman_bottom.md) 140228
+23. [joanna_cullen_0725](./joanna_cullen_0725.md) 142821
+24. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 148225
+25. [max_rappaport](./max_rappaport.md) 148295
+26. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 151532
+27. [paul_chapman_3](./paul_chapman_3.md) 165051
+28. [duncan_adelaide](./duncan_adelaide.md) 174673
+29. [steve_horvath](./steve_horvath.md) 191106
+30. [paul_chapman_1](./paul_chapman_1.md) 203330
+
+# Police Beats 2018 - Present
+1. [commission_draft_0802](./commission_draft_0802.md) 30394
+2. [commr_shah](./commr_shah.md) 30802
+3. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 32266
+4. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 35117
+5. [commr_malaba](./commr_malaba.md) 36328
+6. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 36775
+7. [current](./current.md) 37501
+8. [duncan_adelaide](./duncan_adelaide.md) 37564
+9. [shawcroft_greenwood_blueridge](./shawcroft_greenwood_blueridge.md) 38381
+10. [max_rappaport](./max_rappaport.md) 39653
+11. [shawcroft_wfgb](./shawcroft_wfgb.md) 40064
+12. [eastlakecc_0806](./eastlakecc_0806.md) 40744
+13. [rjs](./rjs.md) 40961
+14. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 42389
+15. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 45599
+16. [commr_juarez](./commr_juarez.md) 47888
+17. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 48558
+18. [commr_nickels](./commr_nickels.md) 49472
+19. [joanna_cullen_0725](./joanna_cullen_0725.md) 52772
+20. [consultant4](./consultant4.md) 53379
+21. [commr_o_sullivan](./commr_o_sullivan.md) 55167
+22. [kathryn_keller_1](./kathryn_keller_1.md) 55675
+23. [consultant3](./consultant3.md) 56763
+24. [consultant1](./consultant1.md) 57941
+25. [paul_chapman_2](./paul_chapman_2.md) 60914
+26. [paul_chapman_bottom](./paul_chapman_bottom.md) 60914
+27. [paul_chapman_3](./paul_chapman_3.md) 68252
+28. [steve_horvath](./steve_horvath.md) 72893
+29. [paul_chapman_1](./paul_chapman_1.md) 80302
+30. [consultant2](./consultant2.md) 85133
+
+# 2022 Voting Precincts
+1. [current](./current.md) 0
+2. [paul_chapman_1](./paul_chapman_1.md) 14
+3. [max_rappaport](./max_rappaport.md) 75
+4. [duncan_adelaide](./duncan_adelaide.md) 266
+5. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 2003
+6. [commr_malaba](./commr_malaba.md) 2825
+7. [paul_chapman_3](./paul_chapman_3.md) 2860
+8. [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) 2928
+9. [rjs](./rjs.md) 3358
+10. [consultant4](./consultant4.md) 3838
+11. [kathryn_keller_1_2](./kathryn_keller_1_2.md) 3915
+12. [kathryn_keller_1](./kathryn_keller_1.md) 4020
+13. [shawcroft_greenwood_blueridge](./shawcroft_greenwood_blueridge.md) 4262
+14. [steve_horvath](./steve_horvath.md) 4449
+15. [kathryn_keller_1_1](./kathryn_keller_1_1.md) 4602
+16. [commission_draft_0802](./commission_draft_0802.md) 4688
+17. [commr_shah](./commr_shah.md) 4729
+18. [consultant3](./consultant3.md) 4818
+19. [commr_o_sullivan](./commr_o_sullivan.md) 4836
+20. [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) 5328
+21. [joanna_cullen_0725](./joanna_cullen_0725.md) 5359
+22. [paul_chapman_2](./paul_chapman_2.md) 5455
+23. [paul_chapman_bottom](./paul_chapman_bottom.md) 5455
+24. [shawcroft_wfgb](./shawcroft_wfgb.md) 5701
+25. [commr_juarez](./commr_juarez.md) 5750
+26. [eastlakecc_0806](./eastlakecc_0806.md) 5832
+27. [commr_nickels](./commr_nickels.md) 5989
+28. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 6244
+29. [consultant2](./consultant2.md) 12613
+30. [consultant1](./consultant1.md) 15425

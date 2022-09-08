@@ -13,3 +13,6 @@ class TopoJSONReport:
         district_bounds = district_bounds.to_crs("urn:ogc:def:crs:OGC:1.3:CRS84")
         json = district_bounds.to_json(show_bbox=True)
         return ("Districts", "```geojson\n" + json + "\n```", None)
+
+    def __repr__(self):
+        return "TopoJSONReport()"

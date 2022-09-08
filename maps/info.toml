@@ -113,3 +113,7 @@ context_url = ""
 [shawcroft_wfgb]
 daves_url = "https://davesredistricting.org/join/e65ab1db-d3c1-426c-9e25-7b35c38b0a1c"
 context_url = ""
+
+[eastlakecc_0806]
+daves_url = "https://davesredistricting.org/maps#viewmap::4cf63e0a-9d01-4961-8393-9a53bc422c75"
+context_url = "https://www.eastlakeseattle.org/announcements-events/redistricting-commission-draft-response"
