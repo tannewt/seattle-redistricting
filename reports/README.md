@@ -31,7 +31,8 @@
 * shawcroft_wfgb [Report](./shawcroft_wfgb.md) | [Source]() | [Dave's](https://davesredistricting.org/join/e65ab1db-d3c1-426c-9e25-7b35c38b0a1c)
 * eastlakecc_0806 [Report](./eastlakecc_0806.md) | [Source](https://www.eastlakeseattle.org/announcements-events/redistricting-commission-draft-response) | [Dave's](https://davesredistricting.org/maps#viewmap::4cf63e0a-9d01-4961-8393-9a53bc422c75)
 
-# ✅ Population
+# Summary Stats
+## Population
 * [consultant1](./consultant1.md) ✅ +0.40%
 * [consultant2](./consultant2.md) ✅ +0.47%
 * [consultant3](./consultant3.md) ✅ +0.87%
@@ -63,7 +64,7 @@
 * [shawcroft_wfgb](./shawcroft_wfgb.md) ✅ +0.80%
 * [eastlakecc_0806](./eastlakecc_0806.md) ❌ +1.26%
 
-# City Clerk Neighborhoods
+## City Clerk Neighborhoods
 1. [shawcroft_wfgb](./shawcroft_wfgb.md) 12969
 2. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 18877
 3. [joanna_cullen_0725](./joanna_cullen_0725.md) 19020
@@ -95,7 +96,7 @@
 29. [paul_chapman_bottom](./paul_chapman_bottom.md) 42555
 30. [steve_horvath](./steve_horvath.md) 50682
 
-# Atlas Neighborhoods
+## Atlas Neighborhoods
 1. [commr_malaba](./commr_malaba.md) 66953
 2. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 67393
 3. [shawcroft_greenwood_blueridge](./shawcroft_greenwood_blueridge.md) 67985
@@ -127,7 +128,7 @@
 29. [paul_chapman_2](./paul_chapman_2.md) 114116
 30. [paul_chapman_bottom](./paul_chapman_bottom.md) 114116
 
-# Community Reporting Areas
+## Community Reporting Areas
 1. [current](./current.md) 46847
 2. [max_rappaport](./max_rappaport.md) 47101
 3. [rjs](./rjs.md) 47689
@@ -159,7 +160,7 @@
 29. [consultant2](./consultant2.md) 84894
 30. [steve_horvath](./steve_horvath.md) 89736
 
-# Elementary Schools 2021-22
+## Elementary Schools 2021-22
 1. [consultant2](./consultant2.md) 76695
 2. [paul_chapman_3](./paul_chapman_3.md) 79638
 3. [paul_chapman_1](./paul_chapman_1.md) 81980
@@ -191,7 +192,7 @@
 29. [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) 107952
 30. [duncan_adelaide](./duncan_adelaide.md) 115530
 
-# Middle Schools 2021-22
+## Middle Schools 2021-22
 1. [commr_nickels](./commr_nickels.md) 106565
 2. [shawcroft_wfgb](./shawcroft_wfgb.md) 112948
 3. [commr_o_sullivan](./commr_o_sullivan.md) 115813
@@ -223,7 +224,7 @@
 29. [steve_horvath](./steve_horvath.md) 191106
 30. [paul_chapman_1](./paul_chapman_1.md) 203330
 
-# Police Beats 2018 - Present
+## Police Beats 2018 - Present
 1. [commission_draft_0802](./commission_draft_0802.md) 30394
 2. [commr_shah](./commr_shah.md) 30802
 3. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 32266
@@ -255,7 +256,7 @@
 29. [paul_chapman_1](./paul_chapman_1.md) 80302
 30. [consultant2](./consultant2.md) 85133
 
-# 2022 Voting Precincts
+## 2022 Voting Precincts
 1. [current](./current.md) 0
 2. [paul_chapman_1](./paul_chapman_1.md) 14
 3. [max_rappaport](./max_rappaport.md) 75

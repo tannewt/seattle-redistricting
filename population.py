@@ -26,13 +26,13 @@ class PopulationReport:
         max_pop = max(totals["TAPERSONS"])
         min_pop = min(totals["TAPERSONS"])
         spread = max_pop / min_pop
-        lines.append(f"The maximum population ({max_pop}) is {spread * 100 - 100:0.2f}% greater than the minimum ({min_pop}).")
-        lines.append("")
         status = "✅"
         if spread > 1.01:
             status = "❌"
 
-        title = f"{status} Population"
+        lines.append(f"{status} - The maximum population ({max_pop}) is {spread * 100 - 100:0.2f}% greater than the minimum ({min_pop}).")
+        lines.append("")
+        title = f"Population"
         totals = totals[totals.columns[1:]]
         lines.append("### Census Groups")
         rows = [["Stat", "1", "2", "3", "4", "5", "6", "7"]]

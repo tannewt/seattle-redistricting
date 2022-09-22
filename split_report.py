@@ -85,21 +85,22 @@ class SplitReport:
         lines.append(generate_markdown(table))
         lines.append("")
 
-        lines.append("<details>")
-        lines.append(f"<summary>{split_count[False]} kept whole</summary>")
-        lines.append("")
-        whole = joined.sum()[by_area.count() == 1].dropna().sort_values(by=["District", "Name"])
-        whole = whole[whole["TAPERSONS"] > 0]
+        if split_count[False] < 30:
+            lines.append("<details>")
+            lines.append(f"<summary>{split_count[False]} kept whole</summary>")
+            lines.append("")
+            whole = joined.sum()[by_area.count() == 1].dropna().sort_values(by=["District", "Name"])
+            whole = whole[whole["TAPERSONS"] > 0]
 
-        table = [["Area", "District", "Population", "Percent"]]
-        for area, district in whole.index:
-            value = whole.loc[(area, district)]
-            percent = value[0] * 100 / total_people.loc[area]
-            table.append([area, str(district), f"{int(value[0]):d}", f"{percent[0]:0.2f}%"])
-        table = table_from_string_list(table)
-        lines.append(generate_markdown(table))
-        lines.append("")
-        lines.append("</details>")
+            table = [["Area", "District", "Population", "Percent"]]
+            for area, district in whole.index:
+                value = whole.loc[(area, district)]
+                percent = value[0] * 100 / total_people.loc[area]
+                table.append([area, str(district), f"{int(value[0]):d}", f"{percent[0]:0.2f}%"])
+            table = table_from_string_list(table)
+            lines.append(generate_markdown(table))
+            lines.append("")
+            lines.append("</details>")
 
         # print(lines)
         return (self.name, "\n".join(lines), int(split_people))
