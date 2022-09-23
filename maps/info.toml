@@ -147,3 +147,8 @@ relevant = true
 daves_url = "https://davesredistricting.org/maps#viewmap::4cf63e0a-9d01-4961-8393-9a53bc422c75"
 context_url = "https://www.eastlakeseattle.org/announcements-events/redistricting-commission-draft-response"
 relevant = true
+
+[commission_draft_0923]
+daves_url = "https://davesredistricting.org/join/58901043-a080-45ac-8fdd-957fdbedb098"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+relevant = true
