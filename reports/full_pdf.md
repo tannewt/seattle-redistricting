@@ -11,6 +11,18 @@
 * [eastlakecc_0806](./eastlakecc_0806.md) FAIL +1.26%
 * [commission_draft_0923](./commission_draft_0923.md) PASS +0.80%
 
+## Driving Connectivity
+* [current](./current.md) FAIL Districts 4, 5 disconnected
+* [commr_nickels](./commr_nickels.md) FAIL District 4 disconnected
+* [rjs](./rjs.md) PASS
+* [commission_draft_0802](./commission_draft_0802.md) PASS
+* [shawcroft_greenwood_blueridge](./shawcroft_greenwood_blueridge.md) PASS
+* [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) PASS
+* [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) PASS
+* [shawcroft_wfgb](./shawcroft_wfgb.md) PASS
+* [eastlakecc_0806](./eastlakecc_0806.md) FAIL District 6 disconnected
+* [commission_draft_0923](./commission_draft_0923.md) PASS
+
 ## City Clerk Neighborhoods
 1. [shawcroft_wfgb](./shawcroft_wfgb.md) 12969
 2. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 18877
@@ -138,6 +150,14 @@ Denser areas are darker than lighter ones. There are three gradations of density
 
 ![Map showing district lines over zoning map.](current/zoning.png)\
 
+
+
+## Driving Connectivity
+This map *fails* because some districts (4, 5) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 5
+![Driving connectivity map showing 2 partitions for district 5](reports/current/district4_roads.png)\
+
+District 6
+![Driving connectivity map showing 2 partitions for district 6](reports/current/district5_roads.png)\
 
 
 ## City Clerk Neighborhoods
@@ -454,6 +474,11 @@ Denser areas are darker than lighter ones. There are three gradations of density
 
 ![Map showing district lines over zoning map.](commr_nickels/zoning.png)\
 
+
+
+## Driving Connectivity
+This map *fails* because some districts (4) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 5
+![Driving connectivity map showing 2 partitions for district 5](reports/commr_nickels/district4_roads.png)\
 
 
 ## City Clerk Neighborhoods
@@ -844,6 +869,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 
 
 
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
+
 ## City Clerk Neighborhoods
 This districting splits 19 out of 91 areas. A person was split from an area 25329 times.
 
@@ -1207,6 +1235,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 ![Map showing district lines over zoning map.](commission_draft_0802/zoning.png)\
 
 
+
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
 
 ## City Clerk Neighborhoods
 This districting splits 18 out of 91 areas. A person was split from an area 26551 times.
@@ -1575,6 +1606,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 ![Map showing district lines over zoning map.](shawcroft_greenwood_blueridge/zoning.png)\
 
 
+
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
 
 ## City Clerk Neighborhoods
 This districting splits 19 out of 91 areas. A person was split from an area 20822 times.
@@ -1953,6 +1987,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 ![Map showing district lines over zoning map.](shawcroft_fremont_wallingford/zoning.png)\
 
 
+
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
 
 ## City Clerk Neighborhoods
 This districting splits 19 out of 91 areas. A person was split from an area 18877 times.
@@ -2344,6 +2381,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 
 
 
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
+
 ## City Clerk Neighborhoods
 This districting splits 16 out of 91 areas. A person was split from an area 28575 times.
 
@@ -2719,6 +2759,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 ![Map showing district lines over zoning map.](shawcroft_wfgb/zoning.png)\
 
 
+
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
 
 ## City Clerk Neighborhoods
 This districting splits 20 out of 91 areas. A person was split from an area 12969 times.
@@ -3122,6 +3165,11 @@ Denser areas are darker than lighter ones. There are three gradations of density
 
 
 
+## Driving Connectivity
+This map *fails* because some districts (6) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 7
+![Driving connectivity map showing 2 partitions for district 7](reports/eastlakecc_0806/district6_roads.png)\
+
+
 ## City Clerk Neighborhoods
 This districting splits 18 out of 91 areas. A person was split from an area 26556 times.
 
@@ -3502,6 +3550,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 
 
 
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
+
 ## City Clerk Neighborhoods
 This districting splits 15 out of 91 areas. A person was split from an area 26950 times.
 
@@ -3825,4 +3876,4 @@ This districting splits 21 out of 1027 areas. A person was split from an area 52
 
 
 # Version
-Generated 2022-09-23 09:46:08.637715 from code version 1687605-dirty.
+Generated 2022-09-26 17:33:44.847994 from code version acd4dbe-dirty.

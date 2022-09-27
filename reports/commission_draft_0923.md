@@ -59,6 +59,9 @@ Denser areas are darker than lighter ones. There are three gradations of density
 <img src="commission_draft_0923/zoning.png" alt="Map showing district lines over zoning map." width="600px">
 
 
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
+
 ## City Clerk Neighborhoods
 This districting splits 15 out of 91 areas. A person was split from an area 26950 times.
 

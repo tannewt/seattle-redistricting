@@ -59,6 +59,10 @@ Denser areas are darker than lighter ones. There are three gradations of density
 <img src="joanna_cullen_YTD3/zoning.png" alt="Map showing district lines over zoning map." width="600px">
 
 
+## Driving Connectivity
+This map *fails* because some districts (6) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 7
+<img src="reports/joanna_cullen_YTD3/district6_roads.png" alt="Driving connectivity map showing 2 partitions for district 7" width="600px">
+
 ## City Clerk Neighborhoods
 This districting splits 17 out of 91 areas. A person was split from an area 27818 times.
 

@@ -66,6 +66,39 @@
 * [eastlakecc_0806](./eastlakecc_0806.md) ❌ +1.26%
 * [commission_draft_0923](./commission_draft_0923.md) ✅ +0.80%
 
+## Driving Connectivity
+* [consultant1](./consultant1.md) ❌ Districts 1, 6 disconnected
+* [consultant2](./consultant2.md) ❌ District 1 disconnected
+* [consultant3](./consultant3.md) ❌ District 4 disconnected
+* [consultant4](./consultant4.md) ❌ District 4 disconnected
+* [current](./current.md) ❌ Districts 4, 5 disconnected
+* [joanna_cullen_YTD3](./joanna_cullen_YTD3.md) ❌ District 6 disconnected
+* [joanna_cullen_YTD2](./joanna_cullen_YTD2.md) ❌ District 1 disconnected
+* [kathryn_keller_1](./kathryn_keller_1.md) ❌ District 4 disconnected
+* [kathryn_keller_1_1](./kathryn_keller_1_1.md) ❌ District 4 disconnected
+* [kathryn_keller_1_2](./kathryn_keller_1_2.md) ❌ District 4 disconnected
+* [paul_chapman_1](./paul_chapman_1.md) ❌ Districts 1, 4 disconnected
+* [paul_chapman_2](./paul_chapman_2.md) ✅
+* [paul_chapman_3](./paul_chapman_3.md) ❌ District 1 disconnected
+* [paul_chapman_bottom](./paul_chapman_bottom.md) ✅
+* [commr_juarez](./commr_juarez.md) ✅
+* [commr_malaba](./commr_malaba.md) ❌ District 1 disconnected
+* [commr_nickels](./commr_nickels.md) ❌ District 4 disconnected
+* [commr_o_sullivan](./commr_o_sullivan.md) ❌ District 4 disconnected
+* [commr_shah](./commr_shah.md) ✅
+* [joanna_cullen_0725](./joanna_cullen_0725.md) ❌ District 5 disconnected
+* [rjs](./rjs.md) ✅
+* [max_rappaport](./max_rappaport.md) ✅
+* [steve_horvath](./steve_horvath.md) ❌ Districts 1, 4, 6 disconnected
+* [duncan_adelaide](./duncan_adelaide.md) ✅
+* [commission_draft_0802](./commission_draft_0802.md) ✅
+* [shawcroft_greenwood_blueridge](./shawcroft_greenwood_blueridge.md) ✅
+* [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) ✅
+* [shawcroft_fremont_magnolia_eastlake](./shawcroft_fremont_magnolia_eastlake.md) ✅
+* [shawcroft_wfgb](./shawcroft_wfgb.md) ✅
+* [eastlakecc_0806](./eastlakecc_0806.md) ❌ District 6 disconnected
+* [commission_draft_0923](./commission_draft_0923.md) ✅
+
 ## City Clerk Neighborhoods
 1. [shawcroft_wfgb](./shawcroft_wfgb.md) 12969
 2. [shawcroft_fremont_wallingford](./shawcroft_fremont_wallingford.md) 18877
