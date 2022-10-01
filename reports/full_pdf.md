@@ -2363,4 +2363,4 @@ This districting splits 23 out of 1027 areas. A person was split from an area 54
 
 
 # Version
-Generated 2022-09-30 20:06:40.421458 from code version 09b2c18-dirty.
+Generated 2022-10-01 09:00:24.380477 from code version 03cada0-dirty.

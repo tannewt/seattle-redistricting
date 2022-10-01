@@ -15,10 +15,10 @@ class RentalReport:
         rental_info["Location1"].replace('', numpy.nan, inplace=True)
         rental_info = rental_info.dropna(subset=["Location1"])
         rental_info["geometry"] = geopandas.points_from_xy(rental_info["Longitude"], rental_info["Latitude"], crs="EPSG:4326")
+        
         blocks = geopandas.read_file("seattle_census_blocks/seattle_blocks.shp")
         blocks = blocks[["GEOID20", "geometry"]]
         blocks["GEOID20"] = pandas.to_numeric(blocks["GEOID20"], errors='coerce').convert_dtypes()
-        blocks = blocks[["GEOID20", "geometry"]]
         self.all_blocks = blocks
         rental_info = rental_info.to_crs(blocks.crs)
         rental_info["RentalHousingUnits"] = pandas.to_numeric(rental_info["RentalHousingUnits"])
@@ -30,11 +30,6 @@ class RentalReport:
         joined = joined[["RentalHousingUnits", "GEOID20"]]
         summed = joined.groupby(by="GEOID20").sum()
         self.blocks = blocks.merge(summed, on="GEOID20")
-
-        self.ax = self.blocks.plot(column="RentalHousingUnits", cmap="Reds", figsize=(9*2,16*2), legend=True)
-        self.ax.set_axis_off()
-        self.ax.set_frame_on(False)
-        self.ax.margins(0)
 
     def __repr__(self):
         return f"RentalReport()"
@@ -54,7 +49,12 @@ class RentalReport:
             table.append([str(district), f"{rhu:d}"])
         table = table_from_string_list(table)
 
-        ax = district_shapes.boundary.plot(edgecolor="black", ax=self.ax)
+        ax = self.blocks.plot(column="RentalHousingUnits", cmap="Reds", figsize=(9*2,16*2), legend=True)
+        ax.set_axis_off()
+        ax.set_frame_on(False)
+        ax.margins(0)
+
+        ax = district_shapes.boundary.plot(edgecolor="black", ax=ax)
         ax.get_figure().savefig(img_url, bbox_inches='tight')
         img_url = str(img_url)[len("reports/"):]
         lines.append(f"<img src=\"{img_url}\" alt=\"Map showing district lines over map of rental unit quantity.\" width=\"600px\">")
