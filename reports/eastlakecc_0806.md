@@ -59,6 +59,21 @@ Denser areas are darker than lighter ones. There are three gradations of density
 <img src="eastlakecc_0806/zoning.png" alt="Map showing district lines over zoning map." width="600px">
 
 
+## Rental Units
+Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
+
+<img src="eastlakecc_0806/rentals.png" alt="Map showing district lines over map of rental unit quantity." width="600px">
+
+| District | Rental Housing Units |
+|----------|----------------------|
+| 1        | 14262                |
+| 2        | 14558                |
+| 3        | 31073                |
+| 4        | 20737                |
+| 5        | 18411                |
+| 6        | 19654                |
+| 7        | 37702                |
+
 ## Driving Connectivity
 This map *fails* because some districts (6) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 7
 <img src="reports/eastlakecc_0806/district6_roads.png" alt="Driving connectivity map showing 2 partitions for district 7" width="600px">

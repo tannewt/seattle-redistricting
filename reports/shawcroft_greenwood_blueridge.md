@@ -59,6 +59,21 @@ Denser areas are darker than lighter ones. There are three gradations of density
 <img src="shawcroft_greenwood_blueridge/zoning.png" alt="Map showing district lines over zoning map." width="600px">
 
 
+## Rental Units
+Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
+
+<img src="shawcroft_greenwood_blueridge/rentals.png" alt="Map showing district lines over map of rental unit quantity." width="600px">
+
+| District | Rental Housing Units |
+|----------|----------------------|
+| 1        | 14262                |
+| 2        | 14558                |
+| 3        | 29885                |
+| 4        | 20705                |
+| 5        | 19421                |
+| 6        | 17591                |
+| 7        | 39975                |
+
 ## Driving Connectivity
 This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
 

@@ -9,6 +9,7 @@ import parse
 import pathlib
 import split_report
 import subprocess
+import rentals
 import road_report
 import toml
 import sys
@@ -66,6 +67,7 @@ reports = [ReportCache(topojson_districts.TopoJSONReport()),
            ReportCache(population.PopulationReport()),
            ReportCache(driving_diameter_report.DrivingDiameterReport()),
            ReportCache(zoning.ZoningReport()),
+           ReportCache(rentals.RentalReport()),
            ReportCache(road_report.RoadReport()),
            ReportCache(split_report.SplitReport("City Clerk Neighborhoods", "communities/city_clerk_neighborhoods.csv")),
            ReportCache(split_report.SplitReport("Atlas Neighborhoods", "communities/neighborhoods.csv")),

@@ -59,6 +59,21 @@ Denser areas are darker than lighter ones. There are three gradations of density
 <img src="steve_horvath/zoning.png" alt="Map showing district lines over zoning map." width="600px">
 
 
+## Rental Units
+Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
+
+<img src="steve_horvath/rentals.png" alt="Map showing district lines over map of rental unit quantity." width="600px">
+
+| District | Rental Housing Units |
+|----------|----------------------|
+| 1        | 12713                |
+| 2        | 11752                |
+| 3        | 28378                |
+| 4        | 21823                |
+| 5        | 18686                |
+| 6        | 17273                |
+| 7        | 45718                |
+
 ## Driving Connectivity
 This map *fails* because some districts (1, 4, 6) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 2
 <img src="reports/steve_horvath/district1_roads.png" alt="Driving connectivity map showing 4 partitions for district 2" width="600px">

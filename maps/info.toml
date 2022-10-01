@@ -126,29 +126,39 @@ relevant = true
 [shawcroft_greenwood_blueridge]
 daves_url = "https://davesredistricting.org/join/fc3d34bb-10d5-4586-bf89-b68214abf378"
 context_url = ""
-relevant = true
+relevant = false
 
 [shawcroft_fremont_wallingford]
 daves_url = "https://davesredistricting.org/join/e2cfc712-dd1a-4897-bfbe-b136a018e1b8"
 context_url = ""
-relevant = true
+relevant = false
 
 [shawcroft_fremont_magnolia_eastlake]
 daves_url = "https://davesredistricting.org/join/76455a09-f53a-4943-92cc-50a10fd3a71d"
 context_url = ""
-relevant = true
+relevant = false
 
 [shawcroft_wfgb]
 daves_url = "https://davesredistricting.org/join/e65ab1db-d3c1-426c-9e25-7b35c38b0a1c"
 context_url = ""
-relevant = true
+relevant = false
 
 [eastlakecc_0806]
 daves_url = "https://davesredistricting.org/maps#viewmap::4cf63e0a-9d01-4961-8393-9a53bc422c75"
 context_url = "https://www.eastlakeseattle.org/announcements-events/redistricting-commission-draft-response"
-relevant = true
+relevant = false
 
 [commission_draft_0923]
 daves_url = "https://davesredistricting.org/join/58901043-a080-45ac-8fdd-957fdbedb098"
 context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+relevant = false
+
+[commission_draft_0927]
+daves_url = "https://davesredistricting.org/maps#viewmap::3c1e0311-8f28-4303-8320-4488d18d5195"
+context_url = "https://www.seattle.gov/redistricting/how-to-participate"
+relevant = true
+
+[shawcroft_0927_tweaks]
+daves_url = "https://davesredistricting.org/join/68d23e77-8d29-46df-925c-ec571029cb42"
+context_url = ""
 relevant = true
