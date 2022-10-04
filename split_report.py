@@ -85,7 +85,7 @@ class SplitReport:
         lines.append(generate_markdown(table))
         lines.append("")
 
-        if split_count[False] < 30:
+        if split_count[False] < 90:
             lines.append("<details>")
             lines.append(f"<summary>{split_count[False]} kept whole</summary>")
             lines.append("")
