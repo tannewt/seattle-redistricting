@@ -53,10 +53,10 @@ class RoadReport:
             ax = joined[joined["geometry"]==bounds].boundary.plot(edgecolor="black")
             img_url = asset_directory / f'district{d}_roads.png'
             fig, new_ax = osmnx.plot_graph(district_roads, ax=ax, node_color=nc, filepath=img_url, save=True, show=False, close=True)
-
-            d += 1
+            maps.append("")
             maps.append(f"District {d}")
             maps.append(f"<img src=\"{img_url}\" alt=\"Driving connectivity map showing {partition_count} partitions for district {d}\" width=\"600px\">")
+            d += 1
 
         if disconnected:
             disc_str = ", ".join([str(x) for x in disconnected])

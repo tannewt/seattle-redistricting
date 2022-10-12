@@ -35,11 +35,11 @@
 * shawcroft_0927_tweaks [Report](./shawcroft_0927_tweaks.md) | [Source]() | [Dave's](https://davesredistricting.org/join/68d23e77-8d29-46df-925c-ec571029cb42)
 * commr_malaba_1004 [Report](./commr_malaba_1004.md) | [Source]() | [Dave's](https://davesredistricting.org/maps#viewmap::4293c200-b298-4cd3-bcb4-8f15c443a477)
 * commr_shah_1004 [Report](./commr_shah_1004.md) | [Source]() | [Dave's](https://davesredistricting.org/maps#viewmap::25614583-cb01-4b72-b0f5-3d1d4c32289c)
-* shawcroft_malaba_1011 [Report](./shawcroft_malaba_1011.md) | [Source]() | [Dave's](https://davesredistricting.org/join/f21a3d1c-2a0d-44df-a2d8-5d7fff4be691)
 * rjs_amended [Report](./rjs_amended.md) | [Source]() | [Dave's](https://davesredistricting.org/maps#viewmap::7c4c8606-4d04-48cc-a2a1-7f6cb0482518)
 * rjs_green_lake [Report](./rjs_green_lake.md) | [Source]() | [Dave's](https://davesredistricting.org/maps#viewmap::de20ac8e-bbdd-4216-a248-9ec9dbe4a043)
 * rjs_malaba [Report](./rjs_malaba.md) | [Source]() | [Dave's](https://davesredistricting.org/maps#viewmap::e0df3983-3b67-4aec-b3fc-1795adb45132)
 * dave [Report](./dave.md) | [Source]() | [Dave's](https://davesredistricting.org/maps#viewmap::37fa4a25-89b2-49e4-a8f1-46fe9bdf3b7f)
+* shawcroft_malaba_1011 [Report](./shawcroft_malaba_1011.md) | [Source]() | [Dave's](https://davesredistricting.org/join/f21a3d1c-2a0d-44df-a2d8-5d7fff4be691)
 
 # Summary Stats
 ## Population
@@ -78,11 +78,11 @@
 * [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) ✅ +0.98%
 * [commr_malaba_1004](./commr_malaba_1004.md) ✅ +0.73%
 * [commr_shah_1004](./commr_shah_1004.md) ✅ +0.66%
-* [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) ✅ +0.73%
 * [rjs_amended](./rjs_amended.md) ✅ +0.72%
 * [rjs_green_lake](./rjs_green_lake.md) ✅ +0.80%
 * [rjs_malaba](./rjs_malaba.md) ✅ +0.82%
 * [dave](./dave.md) ✅ +0.66%
+* [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) ✅ +0.73%
 
 ## Driving Connectivity
 * [consultant1](./consultant1.md) ❌ Districts 1, 6 disconnected
@@ -120,11 +120,11 @@
 * [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) ❌ District 6 disconnected
 * [commr_malaba_1004](./commr_malaba_1004.md) ✅
 * [commr_shah_1004](./commr_shah_1004.md) ✅
-* [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) ✅
 * [rjs_amended](./rjs_amended.md) ✅
 * [rjs_green_lake](./rjs_green_lake.md) ✅
 * [rjs_malaba](./rjs_malaba.md) ✅
 * [dave](./dave.md) ❌ District 6 disconnected
+* [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) ✅
 
 ## City Clerk Neighborhoods
 1. [shawcroft_wfgb](./shawcroft_wfgb.md) 12969

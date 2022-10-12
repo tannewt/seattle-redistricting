@@ -75,10 +75,12 @@ Count of rental housing units (not renters themselves) per district. Sourced fro
 | 7        | 41939                |
 
 ## Driving Connectivity
-This map *fails* because some districts (1, 4) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 2
-<img src="reports/paul_chapman_1/district1_roads.png" alt="Driving connectivity map showing 2 partitions for district 2" width="600px">
-District 5
-<img src="reports/paul_chapman_1/district4_roads.png" alt="Driving connectivity map showing 2 partitions for district 5" width="600px">
+This map *fails* because some districts (1, 4) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.
+District 1
+<img src="reports/paul_chapman_1/district1_roads.png" alt="Driving connectivity map showing 2 partitions for district 1" width="600px">
+
+District 4
+<img src="reports/paul_chapman_1/district4_roads.png" alt="Driving connectivity map showing 2 partitions for district 4" width="600px">
 
 ## City Clerk Neighborhoods
 This districting splits 21 out of 91 areas. A person was split from an area 39030 times.
