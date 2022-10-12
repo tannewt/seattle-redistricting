@@ -5,10 +5,13 @@
 * [rjs](./rjs.md) PASS +0.87%
 * [commission_draft_0802](./commission_draft_0802.md) PASS +0.81%
 * [commission_draft_0927](./commission_draft_0927.md) PASS +0.80%
-* [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) PASS +0.98%
 * [commr_malaba_1004](./commr_malaba_1004.md) PASS +0.73%
 * [commr_shah_1004](./commr_shah_1004.md) PASS +0.66%
 * [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) PASS +0.73%
+* [rjs_amended](./rjs_amended.md) PASS +0.72%
+* [rjs_green_lake](./rjs_green_lake.md) PASS +0.80%
+* [rjs_malaba](./rjs_malaba.md) PASS +0.82%
+* [dave](./dave.md) PASS +0.66%
 
 ## Driving Connectivity
 * [current](./current.md) FAIL Districts 4, 5 disconnected
@@ -16,54 +19,69 @@
 * [rjs](./rjs.md) PASS
 * [commission_draft_0802](./commission_draft_0802.md) PASS
 * [commission_draft_0927](./commission_draft_0927.md) PASS
-* [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) FAIL District 6 disconnected
 * [commr_malaba_1004](./commr_malaba_1004.md) PASS
 * [commr_shah_1004](./commr_shah_1004.md) PASS
 * [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) PASS
+* [rjs_amended](./rjs_amended.md) PASS
+* [rjs_green_lake](./rjs_green_lake.md) PASS
+* [rjs_malaba](./rjs_malaba.md) PASS
+* [dave](./dave.md) FAIL District 6 disconnected
 
 ## City Clerk Neighborhoods
-1. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 23271
-2. [rjs](./rjs.md) 25329
-3. [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) 26043
-4. [commission_draft_0802](./commission_draft_0802.md) 26551
-5. [commission_draft_0927](./commission_draft_0927.md) 26950
-6. [commr_shah_1004](./commr_shah_1004.md) 29882
-7. [commr_malaba_1004](./commr_malaba_1004.md) 30856
-8. [current](./current.md) 31044
-9. [commr_nickels](./commr_nickels.md) 32577
+1. [rjs_green_lake](./rjs_green_lake.md) 20330
+2. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 23271
+3. [rjs](./rjs.md) 25329
+4. [rjs_amended](./rjs_amended.md) 26080
+5. [commission_draft_0802](./commission_draft_0802.md) 26551
+6. [commission_draft_0927](./commission_draft_0927.md) 26950
+7. [dave](./dave.md) 29755
+8. [commr_shah_1004](./commr_shah_1004.md) 29882
+9. [commr_malaba_1004](./commr_malaba_1004.md) 30856
+10. [rjs_malaba](./rjs_malaba.md) 30863
+11. [current](./current.md) 31044
+12. [commr_nickels](./commr_nickels.md) 32577
 
 ## Atlas Neighborhoods
-1. [commission_draft_0802](./commission_draft_0802.md) 68340
-2. [commr_malaba_1004](./commr_malaba_1004.md) 68931
-3. [commr_shah_1004](./commr_shah_1004.md) 70345
-4. [commission_draft_0927](./commission_draft_0927.md) 70700
-5. [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) 71359
-6. [current](./current.md) 79416
-7. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 96392
-8. [rjs](./rjs.md) 98547
-9. [commr_nickels](./commr_nickels.md) 106299
+1. [rjs_malaba](./rjs_malaba.md) 68330
+2. [commission_draft_0802](./commission_draft_0802.md) 68340
+3. [commr_malaba_1004](./commr_malaba_1004.md) 68931
+4. [dave](./dave.md) 69354
+5. [commr_shah_1004](./commr_shah_1004.md) 70345
+6. [commission_draft_0927](./commission_draft_0927.md) 70700
+7. [current](./current.md) 79416
+8. [rjs_green_lake](./rjs_green_lake.md) 89036
+9. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 96392
+10. [rjs_amended](./rjs_amended.md) 97972
+11. [rjs](./rjs.md) 98547
+12. [commr_nickels](./commr_nickels.md) 106299
 
 ## Community Reporting Areas
 1. [current](./current.md) 46847
 2. [rjs](./rjs.md) 47689
 3. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 47833
-4. [commission_draft_0802](./commission_draft_0802.md) 55409
-5. [commr_malaba_1004](./commr_malaba_1004.md) 55452
-6. [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) 57346
-7. [commission_draft_0927](./commission_draft_0927.md) 57979
-8. [commr_shah_1004](./commr_shah_1004.md) 59286
-9. [commr_nickels](./commr_nickels.md) 67819
+4. [rjs_amended](./rjs_amended.md) 52490
+5. [rjs_green_lake](./rjs_green_lake.md) 54261
+6. [commission_draft_0802](./commission_draft_0802.md) 55409
+7. [commr_malaba_1004](./commr_malaba_1004.md) 55452
+8. [rjs_malaba](./rjs_malaba.md) 56045
+9. [commission_draft_0927](./commission_draft_0927.md) 57979
+10. [dave](./dave.md) 58966
+11. [commr_shah_1004](./commr_shah_1004.md) 59286
+12. [commr_nickels](./commr_nickels.md) 67819
 
 ## Elementary Schools 2021-22
 1. [commr_nickels](./commr_nickels.md) 82623
 2. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 84328
 3. [current](./current.md) 87967
-4. [rjs](./rjs.md) 95379
-5. [commission_draft_0927](./commission_draft_0927.md) 96149
-6. [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) 96477
-7. [commr_malaba_1004](./commr_malaba_1004.md) 98482
-8. [commr_shah_1004](./commr_shah_1004.md) 98980
-9. [commission_draft_0802](./commission_draft_0802.md) 102573
+4. [rjs_green_lake](./rjs_green_lake.md) 91759
+5. [rjs_amended](./rjs_amended.md) 93336
+6. [dave](./dave.md) 93494
+7. [rjs](./rjs.md) 95379
+8. [commission_draft_0927](./commission_draft_0927.md) 96149
+9. [rjs_malaba](./rjs_malaba.md) 97889
+10. [commr_malaba_1004](./commr_malaba_1004.md) 98482
+11. [commr_shah_1004](./commr_shah_1004.md) 98980
+12. [commission_draft_0802](./commission_draft_0802.md) 102573
 
 ## Middle Schools 2021-22
 1. [commr_nickels](./commr_nickels.md) 106565
@@ -72,31 +90,40 @@
 4. [current](./current.md) 130704
 5. [commr_malaba_1004](./commr_malaba_1004.md) 131349
 6. [commission_draft_0802](./commission_draft_0802.md) 131932
-7. [rjs](./rjs.md) 135568
-8. [commission_draft_0927](./commission_draft_0927.md) 150450
-9. [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) 151083
+7. [rjs_malaba](./rjs_malaba.md) 131942
+8. [rjs](./rjs.md) 135568
+9. [rjs_amended](./rjs_amended.md) 136143
+10. [dave](./dave.md) 143256
+11. [commission_draft_0927](./commission_draft_0927.md) 150450
+12. [rjs_green_lake](./rjs_green_lake.md) 156248
 
 ## Police Beats 2018 - Present
 1. [commission_draft_0802](./commission_draft_0802.md) 30394
 2. [commr_malaba_1004](./commr_malaba_1004.md) 35041
-3. [commr_shah_1004](./commr_shah_1004.md) 35279
-4. [commission_draft_0927](./commission_draft_0927.md) 35478
-5. [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) 36137
+3. [rjs_malaba](./rjs_malaba.md) 35048
+4. [commr_shah_1004](./commr_shah_1004.md) 35279
+5. [commission_draft_0927](./commission_draft_0927.md) 35478
 6. [current](./current.md) 37501
-7. [rjs](./rjs.md) 40961
-8. [commr_nickels](./commr_nickels.md) 49472
-9. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 52391
+7. [dave](./dave.md) 39879
+8. [rjs](./rjs.md) 40961
+9. [rjs_amended](./rjs_amended.md) 45762
+10. [rjs_green_lake](./rjs_green_lake.md) 46139
+11. [commr_nickels](./commr_nickels.md) 49472
+12. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 52391
 
 ## 2022 Voting Precincts
 1. [current](./current.md) 0
-2. [rjs](./rjs.md) 3358
-3. [commr_shah_1004](./commr_shah_1004.md) 4109
-4. [commission_draft_0802](./commission_draft_0802.md) 4688
-5. [commr_malaba_1004](./commr_malaba_1004.md) 4813
-6. [commission_draft_0927](./commission_draft_0927.md) 5268
-7. [shawcroft_0927_tweaks](./shawcroft_0927_tweaks.md) 5483
-8. [commr_nickels](./commr_nickels.md) 5989
-9. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 6423
+2. [rjs_amended](./rjs_amended.md) 2989
+3. [rjs](./rjs.md) 3358
+4. [rjs_green_lake](./rjs_green_lake.md) 3977
+5. [commr_shah_1004](./commr_shah_1004.md) 4109
+6. [commission_draft_0802](./commission_draft_0802.md) 4688
+7. [commr_malaba_1004](./commr_malaba_1004.md) 4813
+8. [commission_draft_0927](./commission_draft_0927.md) 5268
+9. [rjs_malaba](./rjs_malaba.md) 5468
+10. [commr_nickels](./commr_nickels.md) 5989
+11. [shawcroft_malaba_1011](./shawcroft_malaba_1011.md) 6423
+12. [dave](./dave.md) 6512
 
 # current
 ## Population
@@ -3071,610 +3098,6 @@ This districting splits 21 out of 1027 areas. A person was split from an area 52
 |             | 3        | 1          | 0.34%   |
 
 
-# shawcroft_0927_tweaks
-## Population
-PASS - The maximum population (106039) is 0.98% greater than the minimum (105008).
-
-### Census Groups
-| Stat       | 1      | 2      | 3      | 4      | 5      | 6      | 7      |
-|------------|--------|--------|--------|--------|--------|--------|--------|
-| TAPERSONS  | 105848 | 105520 | 105008 | 105614 | 105013 | 105053 | 106039 |
-| TA1RACE    | 88.4%  | 90.2%  | 89.2%  | 89.6%  | 88.9%  | 89.4%  | 90.8%  |
-| TAWHITEALN | 66.2%  | 34.1%  | 65.2%  | 64.2%  | 62.0%  | 76.5%  | 60.6%  |
-| TABLACKALN | 7.2%   | 18.5%  | 7.5%   | 2.7%   | 7.2%   | 1.5%   | 4.6%   |
-| TAAMINDALN | 1.0%   | 0.9%   | 0.6%   | 0.5%   | 0.9%   | 0.5%   | 0.7%   |
-| TAASIANALN | 9.6%   | 31.3%  | 13.0%  | 19.5%  | 14.5%  | 8.9%   | 22.4%  |
-| TANHPOALN  | 0.5%   | 0.4%   | 0.2%   | 0.2%   | 0.3%   | 0.2%   | 0.2%   |
-| TAOTHERALN | 3.9%   | 4.9%   | 2.7%   | 2.5%   | 4.1%   | 2.0%   | 2.3%   |
-| TA2RACE    | 11.6%  | 9.8%   | 10.8%  | 10.4%  | 11.1%  | 10.6%  | 9.2%   |
-| THISPNHISP | 99.9%  | 99.7%  | 99.8%  | 100.0% | 99.9%  | 100.0% | 99.8%  |
-| TAHISPANIC | 10.2%  | 9.6%   | 7.9%   | 6.9%   | 9.3%   | 6.4%   | 7.4%   |
-| TNHISPANIC | 89.8%  | 90.4%  | 92.1%  | 93.1%  | 90.7%  | 93.6%  | 92.6%  |
-| TN1RACE    | 82.2%  | 83.6%  | 84.7%  | 85.4%  | 83.1%  | 86.0%  | 86.5%  |
-| TNWHALN    | 64.0%  | 32.8%  | 63.3%  | 62.4%  | 60.2%  | 74.7%  | 58.6%  |
-| TNBLKALN   | 7.0%   | 18.2%  | 7.3%   | 2.6%   | 7.1%   | 1.4%   | 4.4%   |
-| TNAIANALN  | 0.7%   | 0.4%   | 0.4%   | 0.3%   | 0.5%   | 0.3%   | 0.5%   |
-| TNASIANALN | 9.5%   | 31.1%  | 12.8%  | 19.4%  | 14.3%  | 8.8%   | 22.3%  |
-| TNNHPOALN  | 0.4%   | 0.4%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   |
-| TNOTHRALN  | 0.6%   | 0.6%   | 0.6%   | 0.6%   | 0.7%   | 0.6%   | 0.6%   |
-| TN2MRACES  | 7.6%   | 6.8%   | 7.5%   | 7.7%   | 7.7%   | 7.6%   | 6.1%   |
-| TAHOUSING  | 49717  | 43741  | 61692  | 45445  | 49803  | 51002  | 66908  |
-| TAHOCCUPID | 47027  | 41417  | 57229  | 42568  | 47355  | 48535  | 61496  |
-| TAHVACANT  | 2690   | 2324   | 4463   | 2877   | 2448   | 2467   | 5412   |
-| TAGRPQRTR  | 2987   | 2909   | 3195   | 12827  | 1518   | 1030   | 5452   |
-
-## Zoning
-This map simplifies city zoning into three categories:
-
-* Residential (Green)
-* Commercial (Blue) and Residential is also allowed
-* Industrial (Yellow)
-
-Denser areas are darker than lighter ones. There are three gradations of density.
-
-![Map showing district lines over zoning map.](shawcroft_0927_tweaks/zoning.png)\
-
-
-
-## Rental Units
-Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
-
-![Map showing district lines over map of rental unit quantity.](shawcroft_0927_tweaks/rentals.png)\
-
-
-| District | Rental Housing Units |
-|----------|----------------------|
-| 1        | 14262                |
-| 2        | 14558                |
-| 3        | 29653                |
-| 4        | 20705                |
-| 5        | 18418                |
-| 6        | 17496                |
-| 7        | 41305                |
-
-## Driving Connectivity
-This map *fails* because some districts (6) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 7
-![Driving connectivity map showing 2 partitions for district 7](reports/shawcroft_0927_tweaks/district6_roads.png)\
-
-
-## City Clerk Neighborhoods
-This districting splits 14 out of 91 areas. A person was split from an area 26043 times.
-
-![Map showing areas of population that have been split off.](shawcroft_0927_tweaks/split-City Clerk Neighborhoods.png)\
-
-
-| Area                      | District | Population | Percent |
-|---------------------------|----------|------------|---------|
-| Greenwood                 | 5        | 11266      | 61.78%  |
-|                           | 6        | 6969       | 38.22%  |
-| Wallingford               | 4        | 13644      | 73.45%  |
-|                           | 6        | 4932       | 26.55%  |
-| Fremont                   | 7        | 10115      | 68.36%  |
-|                           | 4        | 4681       | 31.64%  |
-| First Hill                | 3        | 9908       | 72.82%  |
-|                           | 7        | 2332       | 17.14%  |
-|                           | 2        | 1366       | 10.04%  |
-| North Beach/Blue Ridge    | 6        | 3468       | 60.11%  |
-|                           | 5        | 2301       | 39.89%  |
-| Pioneer Square            | 1        | 3455       | 75.45%  |
-|                           | 7        | 1124       | 24.55%  |
-| Crown Hill                | 5        | 4176       | 81.56%  |
-|                           | 6        | 944        | 18.44%  |
-| South Lake Union          | 7        | 11863      | 94.73%  |
-|                           | 3        | 660        | 5.27%   |
-| Atlantic                  | 3        | 8365       | 96.04%  |
-|                           | 2        | 345        | 3.96%   |
-| Roosevelt                 | 4        | 8983       | 98.28%  |
-|                           | 5        | 157        | 1.72%   |
-| Mount Baker               | 2        | 8203       | 98.15%  |
-|                           | 3        | 155        | 1.85%   |
-| Central Business District | 7        | 5205       | 99.03%  |
-|                           | 1        | 51         | 0.97%   |
-| South Beacon Hill         | 2        | 5442       | 99.62%  |
-|                           | 1        | 21         | 0.38%   |
-| Mid-Beacon Hill           | 2        | 13797      | 99.96%  |
-|                           | 1        | 5          | 0.04%   |
-
-<details>
-<summary>77 kept whole</summary>
-
-| Area                   | District | Population | Percent |
-|------------------------|----------|------------|---------|
-| Alki                   | 1        | 7450       | 100.00% |
-| Arbor Heights          | 1        | 5578       | 100.00% |
-| Fairmount Park         | 1        | 7721       | 100.00% |
-| Fauntleroy             | 1        | 5452       | 100.00% |
-| Gatewood               | 1        | 6902       | 100.00% |
-| Genesee                | 1        | 9118       | 100.00% |
-| Georgetown             | 1        | 1419       | 100.00% |
-| Harbor Island          | 1        | 4          | 100.00% |
-| High Point             | 1        | 8331       | 100.00% |
-| Highland Park          | 1        | 6689       | 100.00% |
-| Industrial District    | 1        | 1099       | 100.00% |
-| North Admiral          | 1        | 13646      | 100.00% |
-| North Delridge         | 1        | 4866       | 100.00% |
-| Riverview              | 1        | 4260       | 100.00% |
-| Roxhill                | 1        | 4314       | 100.00% |
-| Seaview                | 1        | 5101       | 100.00% |
-| South Delridge         | 1        | 6622       | 100.00% |
-| South Park             | 1        | 3744       | 100.00% |
-| Brighton               | 2        | 8931       | 100.00% |
-| Columbia City          | 2        | 15182      | 100.00% |
-| Dunlap                 | 2        | 6499       | 100.00% |
-| Holly Park             | 2        | 4895       | 100.00% |
-| International District | 2        | 4555       | 100.00% |
-| North Beacon Hill      | 2        | 12739      | 100.00% |
-| Rainier Beach          | 2        | 7096       | 100.00% |
-| Rainier View           | 2        | 4020       | 100.00% |
-| Seward Park            | 2        | 7038       | 100.00% |
-| Yesler Terrace         | 2        | 5412       | 100.00% |
-| Broadway               | 3        | 28147      | 100.00% |
-| Eastlake               | 3        | 5406       | 100.00% |
-| Harrison/Denny-Blaine  | 3        | 2700       | 100.00% |
-| Leschi                 | 3        | 5807       | 100.00% |
-| Madison Park           | 3        | 4643       | 100.00% |
-| Madrona                | 3        | 4140       | 100.00% |
-| Mann                   | 3        | 5184       | 100.00% |
-| Minor                  | 3        | 11405      | 100.00% |
-| Montlake               | 3        | 5053       | 100.00% |
-| OOO                    | 3        | 15         | 100.00% |
-| Portage Bay            | 3        | 1510       | 100.00% |
-| Stevens                | 3        | 11910      | 100.00% |
-| Bryant                 | 4        | 5663       | 100.00% |
-| Laurelhurst            | 4        | 4743       | 100.00% |
-| Ravenna                | 4        | 12790      | 100.00% |
-| Sand Point             | 4        | 707        | 100.00% |
-| University District    | 4        | 34408      | 100.00% |
-| View Ridge             | 4        | 5738       | 100.00% |
-| Wedgwood               | 4        | 9267       | 100.00% |
-| Windermere             | 4        | 4990       | 100.00% |
-| Bitter Lake            | 5        | 10172      | 100.00% |
-| Broadview              | 5        | 8633       | 100.00% |
-| Cedar Park             | 5        | 6652       | 100.00% |
-| Haller Lake            | 5        | 8786       | 100.00% |
-| Maple Leaf             | 5        | 11373      | 100.00% |
-| Matthews Beach         | 5        | 6682       | 100.00% |
-| Meadowbrook            | 5        | 3484       | 100.00% |
-| North College Park     | 5        | 7463       | 100.00% |
-| Olympic Hills          | 5        | 9556       | 100.00% |
-| Pinehurst              | 5        | 8394       | 100.00% |
-| Victory Heights        | 5        | 5918       | 100.00% |
-| Adams                  | 6        | 15942      | 100.00% |
-| Briarcliff             | 6        | 5812       | 100.00% |
-| Green Lake             | 6        | 10280      | 100.00% |
-| Interbay               | 6        | 2192       | 100.00% |
-| Lawton Park            | 6        | 9956       | 100.00% |
-| Loyal Heights          | 6        | 8701       | 100.00% |
-| Phinney Ridge          | 6        | 10404      | 100.00% |
-| Southeast Magnolia     | 6        | 5536       | 100.00% |
-| Sunset Hill            | 6        | 6143       | 100.00% |
-| West Woodland          | 6        | 8119       | 100.00% |
-| Whittier Heights       | 6        | 5655       | 100.00% |
-| Belltown               | 7        | 24288      | 100.00% |
-| East Queen Anne        | 7        | 9852       | 100.00% |
-| Lower Queen Anne       | 7        | 14162      | 100.00% |
-| North Queen Anne       | 7        | 12209      | 100.00% |
-| Pike-Market            | 7        | 3329       | 100.00% |
-| West Queen Anne        | 7        | 7498       | 100.00% |
-| Westlake               | 7        | 4062       | 100.00% |
-
-</details>
-
-## Atlas Neighborhoods
-This districting splits 8 out of 20 areas. A person was split from an area 71359 times.
-
-![Map showing areas of population that have been split off.](shawcroft_0927_tweaks/split-Atlas Neighborhoods.png)\
-
-
-| Area           | District | Population | Percent |
-|----------------|----------|------------|---------|
-| North Central  | 6        | 25616      | 47.39%  |
-|                | 4        | 18325      | 33.90%  |
-|                | 7        | 10115      | 18.71%  |
-| Downtown       | 7        | 36278      | 59.45%  |
-|                | 2        | 11333      | 18.57%  |
-|                | 3        | 9908       | 16.24%  |
-|                | 1        | 3506       | 5.75%   |
-| Northwest      | 5        | 36548      | 76.25%  |
-|                | 6        | 11381      | 23.75%  |
-| Cascade        | 7        | 15938      | 72.29%  |
-|                | 3        | 6108       | 27.71%  |
-| Central Area   | 3        | 37601      | 99.09%  |
-|                | 2        | 345        | 0.91%   |
-| Northeast      | 4        | 52881      | 99.70%  |
-|                | 5        | 157        | 0.30%   |
-| Rainier Valley | 2        | 49931      | 99.69%  |
-|                | 3        | 155        | 0.31%   |
-| Beacon Hill    | 2        | 36873      | 99.93%  |
-|                | 1        | 26         | 0.07%   |
-
-<details>
-<summary>12 kept whole</summary>
-
-| Area                | District | Population | Percent |
-|---------------------|----------|------------|---------|
-| Delridge            | 1        | 35082      | 100.00% |
-| Greater Duwamish    | 1        | 6266       | 100.00% |
-| West Seattle        | 1        | 60968      | 100.00% |
-| Seward Park         | 2        | 7038       | 100.00% |
-| Capitol Hill        | 3        | 51236      | 100.00% |
-| University District | 4        | 34408      | 100.00% |
-| Lake City           | 5        | 32292      | 100.00% |
-| Northgate           | 5        | 36016      | 100.00% |
-| Ballard             | 6        | 44560      | 100.00% |
-| Interbay            | 6        | 2192       | 100.00% |
-| Magnolia            | 6        | 21304      | 100.00% |
-| Queen Anne          | 7        | 43708      | 100.00% |
-
-</details>
-
-## Community Reporting Areas
-This districting splits 18 out of 53 areas. A person was split from an area 57346 times.
-
-![Map showing areas of population that have been split off.](shawcroft_0927_tweaks/split-Community Reporting Areas.png)\
-
-
-| Area                                  | District | Population | Percent |
-|---------------------------------------|----------|------------|---------|
-| First Hill                            | 3        | 8781       | 42.74%  |
-|                                       | 2        | 6451       | 31.40%  |
-|                                       | 7        | 5315       | 25.87%  |
-| Fremont                               | 7        | 10035      | 52.20%  |
-|                                       | 4        | 7116       | 37.01%  |
-|                                       | 6        | 2074       | 10.79%  |
-| Greenwood/Phinney Ridge               | 6        | 18178      | 67.30%  |
-|                                       | 5        | 8833       | 32.70%  |
-| North Beach/Blue Ridge                | 5        | 8033       | 64.30%  |
-|                                       | 6        | 4460       | 35.70%  |
-| Green Lake                            | 6        | 13446      | 75.29%  |
-|                                       | 4        | 4412       | 24.71%  |
-| Cascade/Eastlake                      | 7        | 25192      | 86.25%  |
-|                                       | 3        | 4015       | 13.75%  |
-| Wedgwood/View Ridge                   | 4        | 13021      | 78.28%  |
-|                                       | 5        | 3612       | 21.72%  |
-| Interbay                              | 6        | 9912       | 79.53%  |
-|                                       | 7        | 2551       | 20.47%  |
-| Wallingford                           | 4        | 17237      | 90.71%  |
-|                                       | 6        | 1766       | 9.29%   |
-| Pioneer Square/International District | 2        | 4708       | 74.11%  |
-|                                       | 1        | 1645       | 25.89%  |
-| Duwamish/SODO                         | 1        | 2017       | 55.34%  |
-|                                       | 2        | 1628       | 44.66%  |
-| North Beacon Hill/Jefferson Park      | 2        | 14666      | 92.00%  |
-|                                       | 3        | 1275       | 8.00%   |
-| Mt. Baker/North Rainier               | 2        | 5715       | 84.54%  |
-|                                       | 3        | 1045       | 15.46%  |
-| Downtown Commercial Core              | 7        | 4902       | 84.97%  |
-|                                       | 1        | 867        | 15.03%  |
-| Judkins Park                          | 3        | 4119       | 95.95%  |
-|                                       | 2        | 174        | 4.05%   |
-| Ballard                               | 6        | 11127      | 99.29%  |
-|                                       | 7        | 80         | 0.71%   |
-| South Beacon Hill/NewHolly            | 2        | 15066      | 99.85%  |
-|                                       | 1        | 22         | 0.15%   |
-| Beacon Hill                           | 2        | 9631       | 99.95%  |
-|                                       | 1        | 5          | 0.05%   |
-
-<details>
-<summary>35 kept whole</summary>
-
-| Area                               | District | Population | Percent |
-|------------------------------------|----------|------------|---------|
-| Alki/Admiral                       | 1        | 11806      | 100.00% |
-| Arbor Heights                      | 1        | 6356       | 100.00% |
-| Fauntleroy/Seaview                 | 1        | 14952      | 100.00% |
-| Georgetown                         | 1        | 1468       | 100.00% |
-| High Point                         | 1        | 8672       | 100.00% |
-| Highland Park                      | 1        | 6712       | 100.00% |
-| North Delridge                     | 1        | 6263       | 100.00% |
-| Riverview                          | 1        | 5078       | 100.00% |
-| Roxhill/Westwood                   | 1        | 12901      | 100.00% |
-| South Park                         | 1        | 3721       | 100.00% |
-| West Seattle Junction/Genesee Hill | 1        | 23363      | 100.00% |
-| Columbia City                      | 2        | 22133      | 100.00% |
-| Rainier Beach                      | 2        | 15637      | 100.00% |
-| Seward Park                        | 2        | 9711       | 100.00% |
-| Capitol Hill                       | 3        | 27113      | 100.00% |
-| Central Area/Squire Park           | 3        | 20007      | 100.00% |
-| Madison Park                       | 3        | 5530       | 100.00% |
-| Madrona/Leschi                     | 3        | 10932      | 100.00% |
-| Miller Park                        | 3        | 7769       | 100.00% |
-| Montlake/Portage Bay               | 3        | 9748       | 100.00% |
-| North Capitol Hill                 | 3        | 4674       | 100.00% |
-| Laurelhurst/Sand Point             | 4        | 11431      | 100.00% |
-| Ravenna/Bryant                     | 4        | 27254      | 100.00% |
-| University District                | 4        | 25143      | 100.00% |
-| Broadview/Bitter Lake              | 5        | 15728      | 100.00% |
-| Cedar Park/Meadowbrook             | 5        | 14880      | 100.00% |
-| Haller Lake                        | 5        | 10909      | 100.00% |
-| Licton Springs                     | 5        | 10208      | 100.00% |
-| Northgate/Maple Leaf               | 5        | 16361      | 100.00% |
-| Olympic Hills/Victory Heights      | 5        | 16449      | 100.00% |
-| Magnolia                           | 6        | 13717      | 100.00% |
-| Sunset Hill/Loyal Heights          | 6        | 16055      | 100.00% |
-| Whittier Heights                   | 6        | 14318      | 100.00% |
-| Belltown                           | 7        | 11959      | 100.00% |
-| Queen Anne                         | 7        | 46005      | 100.00% |
-
-</details>
-
-## Elementary Schools 2021-22
-This districting splits 17 out of 58 areas. A person was split from an area 96477 times.
-
-![Map showing areas of population that have been split off.](shawcroft_0927_tweaks/split-Elementary Schools 2021-22.png)\
-
-
-| Area              | District | Population | Percent |
-|-------------------|----------|------------|---------|
-| Lowell            | 7        | 47077      | 51.51%  |
-|                   | 3        | 37563      | 41.10%  |
-|                   | 2        | 3924       | 4.29%   |
-|                   | 1        | 2832       | 3.10%   |
-| Green Lake        | 4        | 32972      | 74.44%  |
-|                   | 6        | 11324      | 25.56%  |
-| B.F. Day          | 4        | 12640      | 54.26%  |
-|                   | 7        | 9800       | 42.07%  |
-|                   | 6        | 854        | 3.67%   |
-| Gatzert           | 2        | 7409       | 53.79%  |
-|                   | 3        | 6364       | 46.21%  |
-| Bagley            | 6        | 6490       | 57.60%  |
-|                   | 5        | 4778       | 42.40%  |
-| North Beach       | 5        | 4457       | 53.87%  |
-|                   | 6        | 3816       | 46.13%  |
-| Loyal Heights     | 6        | 8976       | 75.33%  |
-|                   | 5        | 2939       | 24.67%  |
-| Greenwood         | 6        | 6586       | 73.14%  |
-|                   | 5        | 2419       | 26.86%  |
-| Rising Star       | 2        | 6085       | 78.90%  |
-|                   | 1        | 1627       | 21.10%  |
-| Beacon Hill Int'l | 2        | 6812       | 81.32%  |
-|                   | 1        | 1565       | 18.68%  |
-| Thurgood Marshall | 3        | 5069       | 77.12%  |
-|                   | 2        | 1504       | 22.88%  |
-| Wedgwood          | 4        | 8111       | 85.08%  |
-|                   | 5        | 1422       | 14.92%  |
-| View Ridge        | 4        | 11131      | 89.58%  |
-|                   | 5        | 1295       | 10.42%  |
-| Leschi            | 3        | 8520       | 90.64%  |
-|                   | 2        | 880        | 9.36%   |
-| Olympic View      | 5        | 15338      | 94.62%  |
-|                   | 4        | 872        | 5.38%   |
-| Sacajawea         | 5        | 8523       | 95.69%  |
-|                   | 4        | 384        | 4.31%   |
-| West Woodland     | 6        | 13438      | 97.71%  |
-|                   | 7        | 315        | 2.29%   |
-
-<details>
-<summary>41 kept whole</summary>
-
-| Area                  | District | Population | Percent |
-|-----------------------|----------|------------|---------|
-| Alki                  | 1        | 9457       | 100.00% |
-| Arbor Heights         | 1        | 11956      | 100.00% |
-| Concord Int'l         | 1        | 5896       | 100.00% |
-| Fairmount Park        | 1        | 11889      | 100.00% |
-| Gatewood              | 1        | 10638      | 100.00% |
-| Genesee Hill          | 1        | 10128      | 100.00% |
-| Highland Park         | 1        | 6290       | 100.00% |
-| Lafayette             | 1        | 15487      | 100.00% |
-| Roxhill               | 1        | 8046       | 100.00% |
-| Sanislo               | 1        | 4861       | 100.00% |
-| West Seattle Elem     | 1        | 5176       | 100.00% |
-| Dearborn Park Int'l   | 2        | 5968       | 100.00% |
-| Dunlap                | 2        | 5489       | 100.00% |
-| Emerson               | 2        | 8680       | 100.00% |
-| Graham Hill           | 2        | 6806       | 100.00% |
-| Hawthorne             | 2        | 12593      | 100.00% |
-| John Muir             | 2        | 8684       | 100.00% |
-| Kimball               | 2        | 8720       | 100.00% |
-| MLK Jr.               | 2        | 5291       | 100.00% |
-| Maple                 | 2        | 6407       | 100.00% |
-| Rainier View          | 2        | 5583       | 100.00% |
-| Wing Luke             | 2        | 4685       | 100.00% |
-| Madrona               | 3        | 13269      | 100.00% |
-| McGilvra              | 3        | 10787      | 100.00% |
-| Montlake              | 3        | 11761      | 100.00% |
-| Stevens               | 3        | 11675      | 100.00% |
-| Bryant                | 4        | 13344      | 100.00% |
-| Laurelhurst           | 4        | 19295      | 100.00% |
-| Sand Point            | 4        | 6865       | 100.00% |
-| Broadview-Thomson K-8 | 5        | 14939      | 100.00% |
-| John Rogers           | 5        | 12473      | 100.00% |
-| Northgate             | 5        | 8459       | 100.00% |
-| Olympic Hills         | 5        | 13165      | 100.00% |
-| Viewlands             | 5        | 14806      | 100.00% |
-| Adams                 | 6        | 22286      | 100.00% |
-| Catharine Blaine K-8  | 6        | 5238       | 100.00% |
-| Lawton                | 6        | 8920       | 100.00% |
-| Magnolia              | 6        | 9471       | 100.00% |
-| Whittier              | 6        | 7654       | 100.00% |
-| Coe                   | 7        | 16200      | 100.00% |
-| Hay                   | 7        | 32647      | 100.00% |
-
-</details>
-
-## Middle Schools 2021-22
-This districting splits 10 out of 14 areas. A person was split from an area 151083 times.
-
-![Map showing areas of population that have been split off.](shawcroft_0927_tweaks/split-Middle Schools 2021-22.png)\
-
-
-| Area                    | District | Population | Percent |
-|-------------------------|----------|------------|---------|
-| Meany                   | 3        | 93575      | 63.10%  |
-|                         | 7        | 47077      | 31.75%  |
-|                         | 2        | 4804       | 3.24%   |
-|                         | 1        | 2832       | 1.91%   |
-| McClure                 | 7        | 48847      | 67.40%  |
-|                         | 6        | 23629      | 32.60%  |
-| Hamilton Int'l          | 6        | 14292      | 38.88%  |
-|                         | 4        | 12352      | 33.60%  |
-|                         | 7        | 10115      | 27.52%  |
-| Eagle Staff             | 5        | 30857      | 70.24%  |
-|                         | 6        | 13076      | 29.76%  |
-| Washington              | 2        | 26317      | 69.71%  |
-|                         | 3        | 11433      | 30.29%  |
-| Eckstein/Hamilton Int'l | 4        | 33251      | 74.60%  |
-|                         | 6        | 11324      | 25.40%  |
-| Whitman                 | 6        | 42732      | 85.25%  |
-|                         | 5        | 7396       | 14.75%  |
-| Mercer Int'l            | 2        | 25272      | 88.79%  |
-|                         | 1        | 3192       | 11.21%  |
-| Eckstein                | 4        | 58755      | 95.77%  |
-|                         | 5        | 2597       | 4.23%   |
-| Jane Addams             | 5        | 49619      | 97.53%  |
-|                         | 4        | 1256       | 2.47%   |
-
-<details>
-<summary>4 kept whole</summary>
-
-| Area                | District | Population | Percent |
-|---------------------|----------|------------|---------|
-| Denny Int'l         | 1        | 42225      | 100.00% |
-| Madison             | 1        | 57599      | 100.00% |
-| Aki Kurose          | 2        | 49127      | 100.00% |
-| Whitman/Eagle Staff | 5        | 14544      | 100.00% |
-
-</details>
-
-## Police Beats 2018 - Present
-This districting splits 14 out of 51 areas. A person was split from an area 36137 times.
-
-![Map showing areas of population that have been split off.](shawcroft_0927_tweaks/split-Police Beats 2018 - Present.png)\
-
-
-| Area | District | Population | Percent |
-|------|----------|------------|---------|
-| B2   | 6        | 10562      | 51.08%  |
-|      | 7        | 10115      | 48.92%  |
-| D3   | 7        | 9086       | 60.20%  |
-|      | 3        | 6007       | 39.80%  |
-| J1   | 5        | 10097      | 65.94%  |
-|      | 6        | 5215       | 34.06%  |
-| B3   | 4        | 18325      | 79.67%  |
-|      | 6        | 4676       | 20.33%  |
-| L2   | 5        | 15518      | 85.19%  |
-|      | 4        | 2698       | 14.81%  |
-| E3   | 3        | 9430       | 80.17%  |
-|      | 7        | 2332       | 19.83%  |
-| O3   | 1        | 1330       | 50.34%  |
-|      | 2        | 1312       | 49.66%  |
-| R2   | 2        | 13575      | 93.56%  |
-|      | 3        | 934        | 6.44%   |
-| G1   | 2        | 6451       | 88.32%  |
-|      | 3        | 853        | 11.68%  |
-| K3   | 2        | 4882       | 86.04%  |
-|      | 1        | 792        | 13.96%  |
-| U3   | 4        | 36992      | 98.09%  |
-|      | 5        | 721        | 1.91%   |
-| K1   | 7        | 2143       | 86.27%  |
-|      | 1        | 341        | 13.73%  |
-| G3   | 3        | 8393       | 98.97%  |
-|      | 2        | 87         | 1.03%   |
-| R1   | 2        | 18547      | 99.71%  |
-|      | 1        | 54         | 0.29%   |
-
-<details>
-<summary>37 kept whole</summary>
-
-| Area | District | Population | Percent |
-|------|----------|------------|---------|
-| F1   | 1        | 13466      | 100.00% |
-| F2   | 1        | 9885       | 100.00% |
-| F3   | 1        | 10390      | 100.00% |
-| K2   | 1        | 2577       | 100.00% |
-| O1   | 1        | 622        | 100.00% |
-| O2   | 1        | 308        | 100.00% |
-| W1   | 1        | 19260      | 100.00% |
-| W2   | 1        | 24550      | 100.00% |
-| W3   | 1        | 22273      | 100.00% |
-| R3   | 2        | 17282      | 100.00% |
-| S1   | 2        | 16704      | 100.00% |
-| S2   | 2        | 13152      | 100.00% |
-| S3   | 2        | 13528      | 100.00% |
-| C1   | 3        | 14042      | 100.00% |
-| C2   | 3        | 16665      | 100.00% |
-| C3   | 3        | 15480      | 100.00% |
-| E1   | 3        | 14699      | 100.00% |
-| E2   | 3        | 7058       | 100.00% |
-| G2   | 3        | 11447      | 100.00% |
-| U1   | 4        | 27006      | 100.00% |
-| U2   | 4        | 20593      | 100.00% |
-| L1   | 5        | 18842      | 100.00% |
-| L3   | 5        | 17135      | 100.00% |
-| N1   | 5        | 19380      | 100.00% |
-| N2   | 5        | 10060      | 100.00% |
-| N3   | 5        | 13260      | 100.00% |
-| B1   | 6        | 19211      | 100.00% |
-| J2   | 6        | 25135      | 100.00% |
-| J3   | 6        | 16625      | 100.00% |
-| Q1   | 6        | 23629      | 100.00% |
-| D1   | 7        | 11840      | 100.00% |
-| D2   | 7        | 17222      | 100.00% |
-| M1   | 7        | 5475       | 100.00% |
-| M2   | 7        | 3463       | 100.00% |
-| M3   | 7        | 904        | 100.00% |
-| Q2   | 7        | 28892      | 100.00% |
-| Q3   | 7        | 14567      | 100.00% |
-
-</details>
-
-## 2022 Voting Precincts
-This districting splits 23 out of 1027 areas. A person was split from an area 5483 times.
-
-![Map showing areas of population that have been split off.](shawcroft_0927_tweaks/split-2022 Voting Precincts.png)\
-
-
-| Area        | District | Population | Percent |
-|-------------|----------|------------|---------|
-| SEA 37-3573 | 2        | 1366       | 68.16%  |
-|             | 3        | 638        | 31.84%  |
-| SEA 34-3497 | 1        | 717        | 53.83%  |
-|             | 7        | 615        | 46.17%  |
-| SEA 36-1347 | 7        | 658        | 63.33%  |
-|             | 6        | 381        | 36.67%  |
-| SEA 37-1853 | 3        | 392        | 51.44%  |
-|             | 2        | 370        | 48.56%  |
-| SEA 43-1835 | 3        | 894        | 70.95%  |
-|             | 7        | 366        | 29.05%  |
-| SEA 37-1854 | 3        | 541        | 61.06%  |
-|             | 2        | 345        | 38.94%  |
-| SEA 37-1871 | 2        | 574        | 63.01%  |
-|             | 3        | 337        | 36.99%  |
-| SEA 37-1872 | 2        | 523        | 61.38%  |
-|             | 3        | 329        | 38.62%  |
-| SEA 36-3153 | 5        | 320        | 51.36%  |
-|             | 6        | 303        | 48.64%  |
-| SEA 36-3744 | 5        | 468        | 65.92%  |
-|             | 6        | 242        | 34.08%  |
-| SEA 36-2121 | 6        | 513        | 68.86%  |
-|             | 5        | 232        | 31.14%  |
-| SEA 46-2500 | 4        | 353        | 63.72%  |
-|             | 5        | 201        | 36.28%  |
-| SEA 46-2378 | 5        | 227        | 54.31%  |
-|             | 4        | 191        | 45.69%  |
-| SEA 37-3708 | 2        | 1164       | 88.65%  |
-|             | 3        | 149        | 11.35%  |
-| SEA 36-2523 | 5        | 515        | 77.91%  |
-|             | 6        | 146        | 22.09%  |
-| SEA 37-1897 | 2        | 1230       | 89.45%  |
-|             | 3        | 145        | 10.55%  |
-| SEA 36-1339 | 7        | 365        | 71.99%  |
-|             | 6        | 142        | 28.01%  |
-| SEA 36-1729 | 7        | 357        | 74.22%  |
-|             | 6        | 124        | 25.78%  |
-| SEA 36-2527 | 6        | 286        | 75.26%  |
-|             | 5        | 94         | 24.74%  |
-| SEA 37-3956 | 2        | 174        | 77.68%  |
-|             | 3        | 50         | 22.32%  |
-| SEA 34-1823 | 1        | 150        | 75.00%  |
-|             | 7        | 50         | 25.00%  |
-| SEA 37-1839 | 3        | 736        | 95.83%  |
-|             | 2        | 32         | 4.17%   |
-| SEA 37-3696 | 2        | 294        | 99.66%  |
-|             | 3        | 1          | 0.34%   |
-
-
 # commr_malaba_1004
 ## Population
 PASS - The maximum population (105848) is 0.73% greater than the minimum (105080).
@@ -5511,5 +4934,2410 @@ This districting splits 30 out of 1027 areas. A person was split from an area 64
 |             | 3        | 1          | 0.34%   |
 
 
+# rjs_amended
+## Population
+PASS - The maximum population (105848) is 0.72% greater than the minimum (105087).
+
+### Census Groups
+| Stat       | 1      | 2      | 3      | 4      | 5      | 6      | 7      |
+|------------|--------|--------|--------|--------|--------|--------|--------|
+| TAPERSONS  | 105848 | 105357 | 105171 | 105763 | 105320 | 105549 | 105087 |
+| TA1RACE    | 88.4%  | 90.3%  | 89.1%  | 89.5%  | 88.9%  | 89.6%  | 90.7%  |
+| TAWHITEALN | 66.2%  | 33.9%  | 65.4%  | 64.8%  | 62.5%  | 75.9%  | 60.0%  |
+| TABLACKALN | 7.2%   | 18.5%  | 7.5%   | 2.6%   | 6.9%   | 1.9%   | 4.6%   |
+| TAAMINDALN | 1.0%   | 0.9%   | 0.6%   | 0.5%   | 0.8%   | 0.6%   | 0.7%   |
+| TAASIANALN | 9.6%   | 31.6%  | 12.7%  | 19.0%  | 14.6%  | 9.0%   | 22.6%  |
+| TANHPOALN  | 0.5%   | 0.5%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   |
+| TAOTHERALN | 3.9%   | 4.9%   | 2.7%   | 2.5%   | 3.8%   | 2.0%   | 2.5%   |
+| TA2RACE    | 11.6%  | 9.7%   | 10.9%  | 10.5%  | 11.1%  | 10.4%  | 9.3%   |
+| THISPNHISP | 99.9%  | 99.7%  | 99.8%  | 100.0% | 99.9%  | 99.9%  | 99.7%  |
+| TAHISPANIC | 10.2%  | 9.6%   | 7.9%   | 7.0%   | 8.8%   | 6.5%   | 7.7%   |
+| TNHISPANIC | 89.8%  | 90.4%  | 92.1%  | 93.0%  | 91.2%  | 93.5%  | 92.3%  |
+| TN1RACE    | 82.2%  | 83.7%  | 84.6%  | 85.3%  | 83.5%  | 86.1%  | 86.2%  |
+| TNWHALN    | 64.0%  | 32.6%  | 63.5%  | 62.8%  | 60.9%  | 74.2%  | 57.9%  |
+| TNBLKALN   | 7.0%   | 18.3%  | 7.3%   | 2.5%   | 6.7%   | 1.8%   | 4.5%   |
+| TNAIANALN  | 0.7%   | 0.4%   | 0.4%   | 0.3%   | 0.5%   | 0.4%   | 0.5%   |
+| TNASIANALN | 9.5%   | 31.4%  | 12.6%  | 18.9%  | 14.5%  | 8.9%   | 22.5%  |
+| TNNHPOALN  | 0.4%   | 0.4%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   |
+| TNOTHRALN  | 0.6%   | 0.6%   | 0.6%   | 0.6%   | 0.7%   | 0.6%   | 0.6%   |
+| TN2MRACES  | 7.6%   | 6.8%   | 7.5%   | 7.7%   | 7.7%   | 7.4%   | 6.1%   |
+| TAHOUSING  | 49717  | 43694  | 61739  | 46252  | 48994  | 51926  | 65986  |
+| TAHOCCUPID | 47027  | 41384  | 57262  | 43251  | 46608  | 49500  | 60595  |
+| TAHVACANT  | 2690   | 2310   | 4477   | 3001   | 2386   | 2426   | 5391   |
+| TAGRPQRTR  | 2987   | 2923   | 3181   | 12980  | 1278   | 1112   | 5457   |
+
+## Zoning
+This map simplifies city zoning into three categories:
+
+* Residential (Green)
+* Commercial (Blue) and Residential is also allowed
+* Industrial (Yellow)
+
+Denser areas are darker than lighter ones. There are three gradations of density.
+
+![Map showing district lines over zoning map.](rjs_amended/zoning.png)\
+
+
+
+## Rental Units
+Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
+
+![Map showing district lines over map of rental unit quantity.](rjs_amended/rentals.png)\
+
+
+| District | Rental Housing Units |
+|----------|----------------------|
+| 1        | 14262                |
+| 2        | 14633                |
+| 3        | 29578                |
+| 4        | 21736                |
+| 5        | 17269                |
+| 6        | 18236                |
+| 7        | 40683                |
+
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
+
+## City Clerk Neighborhoods
+This districting splits 18 out of 91 areas. A person was split from an area 26080 times.
+
+![Map showing areas of population that have been split off.](rjs_amended/split-City Clerk Neighborhoods.png)\
+
+
+| Area                      | District | Population | Percent |
+|---------------------------|----------|------------|---------|
+| Fremont                   | 6        | 10115      | 68.36%  |
+|                           | 4        | 4681       | 31.64%  |
+| Roosevelt                 | 5        | 4630       | 50.66%  |
+|                           | 4        | 4510       | 49.34%  |
+| First Hill                | 3        | 9908       | 72.82%  |
+|                           | 7        | 2332       | 17.14%  |
+|                           | 2        | 1366       | 10.04%  |
+| Lawton Park               | 6        | 6897       | 69.27%  |
+|                           | 7        | 3059       | 30.73%  |
+| North Beach/Blue Ridge    | 6        | 4250       | 73.67%  |
+|                           | 5        | 1519       | 26.33%  |
+| Southeast Magnolia        | 7        | 4038       | 72.94%  |
+|                           | 6        | 1498       | 27.06%  |
+| Atlantic                  | 3        | 7528       | 86.43%  |
+|                           | 2        | 1182       | 13.57%  |
+| Mount Baker               | 2        | 7203       | 86.18%  |
+|                           | 3        | 1155       | 13.82%  |
+| Pioneer Square            | 1        | 3455       | 75.45%  |
+|                           | 7        | 1124       | 24.55%  |
+| Ravenna                   | 4        | 11764      | 91.98%  |
+|                           | 5        | 1026       | 8.02%   |
+| Greenwood                 | 6        | 17436      | 95.62%  |
+|                           | 5        | 799        | 4.38%   |
+| Crown Hill                | 6        | 4451       | 86.93%  |
+|                           | 5        | 669        | 13.07%  |
+| South Lake Union          | 7        | 11863      | 94.73%  |
+|                           | 3        | 660        | 5.27%   |
+| View Ridge                | 4        | 5441       | 94.82%  |
+|                           | 5        | 297        | 5.18%   |
+| Interbay                  | 7        | 2066       | 94.25%  |
+|                           | 6        | 126        | 5.75%   |
+| Central Business District | 7        | 5205       | 99.03%  |
+|                           | 1        | 51         | 0.97%   |
+| South Beacon Hill         | 2        | 5442       | 99.62%  |
+|                           | 1        | 21         | 0.38%   |
+| Mid-Beacon Hill           | 2        | 13797      | 99.96%  |
+|                           | 1        | 5          | 0.04%   |
+
+<details>
+<summary>73 kept whole</summary>
+
+| Area                   | District | Population | Percent |
+|------------------------|----------|------------|---------|
+| Alki                   | 1        | 7450       | 100.00% |
+| Arbor Heights          | 1        | 5578       | 100.00% |
+| Fairmount Park         | 1        | 7721       | 100.00% |
+| Fauntleroy             | 1        | 5452       | 100.00% |
+| Gatewood               | 1        | 6902       | 100.00% |
+| Genesee                | 1        | 9118       | 100.00% |
+| Georgetown             | 1        | 1419       | 100.00% |
+| Harbor Island          | 1        | 4          | 100.00% |
+| High Point             | 1        | 8331       | 100.00% |
+| Highland Park          | 1        | 6689       | 100.00% |
+| Industrial District    | 1        | 1099       | 100.00% |
+| North Admiral          | 1        | 13646      | 100.00% |
+| North Delridge         | 1        | 4866       | 100.00% |
+| Riverview              | 1        | 4260       | 100.00% |
+| Roxhill                | 1        | 4314       | 100.00% |
+| Seaview                | 1        | 5101       | 100.00% |
+| South Delridge         | 1        | 6622       | 100.00% |
+| South Park             | 1        | 3744       | 100.00% |
+| Brighton               | 2        | 8931       | 100.00% |
+| Columbia City          | 2        | 15182      | 100.00% |
+| Dunlap                 | 2        | 6499       | 100.00% |
+| Holly Park             | 2        | 4895       | 100.00% |
+| International District | 2        | 4555       | 100.00% |
+| North Beacon Hill      | 2        | 12739      | 100.00% |
+| Rainier Beach          | 2        | 7096       | 100.00% |
+| Rainier View           | 2        | 4020       | 100.00% |
+| Seward Park            | 2        | 7038       | 100.00% |
+| Yesler Terrace         | 2        | 5412       | 100.00% |
+| Broadway               | 3        | 28147      | 100.00% |
+| Eastlake               | 3        | 5406       | 100.00% |
+| Harrison/Denny-Blaine  | 3        | 2700       | 100.00% |
+| Leschi                 | 3        | 5807       | 100.00% |
+| Madison Park           | 3        | 4643       | 100.00% |
+| Madrona                | 3        | 4140       | 100.00% |
+| Mann                   | 3        | 5184       | 100.00% |
+| Minor                  | 3        | 11405      | 100.00% |
+| Montlake               | 3        | 5053       | 100.00% |
+| OOO                    | 3        | 15         | 100.00% |
+| Portage Bay            | 3        | 1510       | 100.00% |
+| Stevens                | 3        | 11910      | 100.00% |
+| Bryant                 | 4        | 5663       | 100.00% |
+| Green Lake             | 4        | 10280      | 100.00% |
+| Laurelhurst            | 4        | 4743       | 100.00% |
+| Sand Point             | 4        | 707        | 100.00% |
+| University District    | 4        | 34408      | 100.00% |
+| Wallingford            | 4        | 18576      | 100.00% |
+| Windermere             | 4        | 4990       | 100.00% |
+| Bitter Lake            | 5        | 10172      | 100.00% |
+| Broadview              | 5        | 8633       | 100.00% |
+| Cedar Park             | 5        | 6652       | 100.00% |
+| Haller Lake            | 5        | 8786       | 100.00% |
+| Maple Leaf             | 5        | 11373      | 100.00% |
+| Matthews Beach         | 5        | 6682       | 100.00% |
+| Meadowbrook            | 5        | 3484       | 100.00% |
+| North College Park     | 5        | 7463       | 100.00% |
+| Olympic Hills          | 5        | 9556       | 100.00% |
+| Pinehurst              | 5        | 8394       | 100.00% |
+| Victory Heights        | 5        | 5918       | 100.00% |
+| Wedgwood               | 5        | 9267       | 100.00% |
+| Adams                  | 6        | 15942      | 100.00% |
+| Briarcliff             | 6        | 5812       | 100.00% |
+| Loyal Heights          | 6        | 8701       | 100.00% |
+| Phinney Ridge          | 6        | 10404      | 100.00% |
+| Sunset Hill            | 6        | 6143       | 100.00% |
+| West Woodland          | 6        | 8119       | 100.00% |
+| Whittier Heights       | 6        | 5655       | 100.00% |
+| Belltown               | 7        | 24288      | 100.00% |
+| East Queen Anne        | 7        | 9852       | 100.00% |
+| Lower Queen Anne       | 7        | 14162      | 100.00% |
+| North Queen Anne       | 7        | 12209      | 100.00% |
+| Pike-Market            | 7        | 3329       | 100.00% |
+| West Queen Anne        | 7        | 7498       | 100.00% |
+| Westlake               | 7        | 4062       | 100.00% |
+
+</details>
+
+## Atlas Neighborhoods
+This districting splits 10 out of 20 areas. A person was split from an area 97972 times.
+
+![Map showing areas of population that have been split off.](rjs_amended/split-Atlas Neighborhoods.png)\
+
+
+| Area           | District | Population | Percent |
+|----------------|----------|------------|---------|
+| Downtown       | 7        | 36278      | 59.45%  |
+|                | 2        | 11333      | 18.57%  |
+|                | 3        | 9908       | 16.24%  |
+|                | 1        | 3506       | 5.75%   |
+| Northwest      | 6        | 26137      | 54.53%  |
+|                | 5        | 21792      | 45.47%  |
+| North Central  | 4        | 33537      | 62.04%  |
+|                | 6        | 20519      | 37.96%  |
+| Northeast      | 4        | 37818      | 71.30%  |
+|                | 5        | 15220      | 28.70%  |
+| Magnolia       | 6        | 14207      | 66.69%  |
+|                | 7        | 7097       | 33.31%  |
+| Cascade        | 7        | 15938      | 72.29%  |
+|                | 3        | 6108       | 27.71%  |
+| Central Area   | 3        | 36764      | 96.89%  |
+|                | 2        | 1182       | 3.11%   |
+| Rainier Valley | 2        | 48931      | 97.69%  |
+|                | 3        | 1155       | 2.31%   |
+| Interbay       | 7        | 2066       | 94.25%  |
+|                | 6        | 126        | 5.75%   |
+| Beacon Hill    | 2        | 36873      | 99.93%  |
+|                | 1        | 26         | 0.07%   |
+
+<details>
+<summary>10 kept whole</summary>
+
+| Area                | District | Population | Percent |
+|---------------------|----------|------------|---------|
+| Delridge            | 1        | 35082      | 100.00% |
+| Greater Duwamish    | 1        | 6266       | 100.00% |
+| West Seattle        | 1        | 60968      | 100.00% |
+| Seward Park         | 2        | 7038       | 100.00% |
+| Capitol Hill        | 3        | 51236      | 100.00% |
+| University District | 4        | 34408      | 100.00% |
+| Lake City           | 5        | 32292      | 100.00% |
+| Northgate           | 5        | 36016      | 100.00% |
+| Ballard             | 6        | 44560      | 100.00% |
+| Queen Anne          | 7        | 43708      | 100.00% |
+
+</details>
+
+## Community Reporting Areas
+This districting splits 18 out of 53 areas. A person was split from an area 52490 times.
+
+![Map showing areas of population that have been split off.](rjs_amended/split-Community Reporting Areas.png)\
+
+
+| Area                                  | District | Population | Percent |
+|---------------------------------------|----------|------------|---------|
+| First Hill                            | 3        | 8781       | 42.74%  |
+|                                       | 2        | 6451       | 31.40%  |
+|                                       | 7        | 5315       | 25.87%  |
+| Fremont                               | 6        | 12109      | 62.99%  |
+|                                       | 4        | 7116       | 37.01%  |
+| North Beach/Blue Ridge                | 6        | 6865       | 54.95%  |
+|                                       | 5        | 5628       | 45.05%  |
+| Ravenna/Bryant                        | 4        | 23076      | 84.67%  |
+|                                       | 5        | 4178       | 15.33%  |
+| Wedgwood/View Ridge                   | 5        | 12613      | 75.83%  |
+|                                       | 4        | 4020       | 24.17%  |
+| Cascade/Eastlake                      | 7        | 25192      | 86.25%  |
+|                                       | 3        | 4015       | 13.75%  |
+| Licton Springs                        | 5        | 6690       | 65.54%  |
+|                                       | 6        | 3518       | 34.46%  |
+| Interbay                              | 7        | 10318      | 82.79%  |
+|                                       | 6        | 2145       | 17.21%  |
+| Green Lake                            | 4        | 15974      | 89.45%  |
+|                                       | 5        | 1884       | 10.55%  |
+| Pioneer Square/International District | 2        | 4708       | 74.11%  |
+|                                       | 1        | 1645       | 25.89%  |
+| Duwamish/SODO                         | 1        | 2017       | 55.34%  |
+|                                       | 2        | 1628       | 44.66%  |
+| Mt. Baker/North Rainier               | 2        | 5159       | 76.32%  |
+|                                       | 3        | 1601       | 23.68%  |
+| Magnolia                              | 6        | 12321      | 89.82%  |
+|                                       | 7        | 1396       | 10.18%  |
+| North Beacon Hill/Jefferson Park      | 2        | 15059      | 94.47%  |
+|                                       | 3        | 882        | 5.53%   |
+| Downtown Commercial Core              | 7        | 4902       | 84.97%  |
+|                                       | 1        | 867        | 15.03%  |
+| Judkins Park                          | 3        | 4119       | 95.95%  |
+|                                       | 2        | 174        | 4.05%   |
+| South Beacon Hill/NewHolly            | 2        | 15066      | 99.85%  |
+|                                       | 1        | 22         | 0.15%   |
+| Beacon Hill                           | 2        | 9631       | 99.95%  |
+|                                       | 1        | 5          | 0.05%   |
+
+<details>
+<summary>35 kept whole</summary>
+
+| Area                               | District | Population | Percent |
+|------------------------------------|----------|------------|---------|
+| Alki/Admiral                       | 1        | 11806      | 100.00% |
+| Arbor Heights                      | 1        | 6356       | 100.00% |
+| Fauntleroy/Seaview                 | 1        | 14952      | 100.00% |
+| Georgetown                         | 1        | 1468       | 100.00% |
+| High Point                         | 1        | 8672       | 100.00% |
+| Highland Park                      | 1        | 6712       | 100.00% |
+| North Delridge                     | 1        | 6263       | 100.00% |
+| Riverview                          | 1        | 5078       | 100.00% |
+| Roxhill/Westwood                   | 1        | 12901      | 100.00% |
+| South Park                         | 1        | 3721       | 100.00% |
+| West Seattle Junction/Genesee Hill | 1        | 23363      | 100.00% |
+| Columbia City                      | 2        | 22133      | 100.00% |
+| Rainier Beach                      | 2        | 15637      | 100.00% |
+| Seward Park                        | 2        | 9711       | 100.00% |
+| Capitol Hill                       | 3        | 27113      | 100.00% |
+| Central Area/Squire Park           | 3        | 20007      | 100.00% |
+| Madison Park                       | 3        | 5530       | 100.00% |
+| Madrona/Leschi                     | 3        | 10932      | 100.00% |
+| Miller Park                        | 3        | 7769       | 100.00% |
+| Montlake/Portage Bay               | 3        | 9748       | 100.00% |
+| North Capitol Hill                 | 3        | 4674       | 100.00% |
+| Laurelhurst/Sand Point             | 4        | 11431      | 100.00% |
+| University District                | 4        | 25143      | 100.00% |
+| Wallingford                        | 4        | 19003      | 100.00% |
+| Broadview/Bitter Lake              | 5        | 15728      | 100.00% |
+| Cedar Park/Meadowbrook             | 5        | 14880      | 100.00% |
+| Haller Lake                        | 5        | 10909      | 100.00% |
+| Northgate/Maple Leaf               | 5        | 16361      | 100.00% |
+| Olympic Hills/Victory Heights      | 5        | 16449      | 100.00% |
+| Ballard                            | 6        | 11207      | 100.00% |
+| Greenwood/Phinney Ridge            | 6        | 27011      | 100.00% |
+| Sunset Hill/Loyal Heights          | 6        | 16055      | 100.00% |
+| Whittier Heights                   | 6        | 14318      | 100.00% |
+| Belltown                           | 7        | 11959      | 100.00% |
+| Queen Anne                         | 7        | 46005      | 100.00% |
+
+</details>
+
+## Elementary Schools 2021-22
+This districting splits 15 out of 58 areas. A person was split from an area 93336 times.
+
+![Map showing areas of population that have been split off.](rjs_amended/split-Elementary Schools 2021-22.png)\
+
+
+| Area                 | District | Population | Percent |
+|----------------------|----------|------------|---------|
+| Lowell               | 7        | 47077      | 51.51%  |
+|                      | 3        | 37563      | 41.10%  |
+|                      | 2        | 3924       | 4.29%   |
+|                      | 1        | 2832       | 3.10%   |
+| B.F. Day             | 4        | 12640      | 54.26%  |
+|                      | 6        | 10654      | 45.74%  |
+| Bagley               | 6        | 3939       | 34.96%  |
+|                      | 4        | 3888       | 34.50%  |
+|                      | 5        | 3441       | 30.54%  |
+| Gatzert              | 2        | 7409       | 53.79%  |
+|                      | 3        | 6364       | 46.21%  |
+| Viewlands            | 5        | 8830       | 59.64%  |
+|                      | 6        | 5976       | 40.36%  |
+| View Ridge           | 4        | 6683       | 53.78%  |
+|                      | 5        | 5743       | 46.22%  |
+| North Beach          | 6        | 5901       | 71.33%  |
+|                      | 5        | 2372       | 28.67%  |
+| Green Lake           | 4        | 42021      | 94.86%  |
+|                      | 5        | 2275       | 5.14%   |
+| Thurgood Marshall    | 3        | 4352       | 66.21%  |
+|                      | 2        | 2221       | 33.79%  |
+| Rising Star          | 2        | 6085       | 78.90%  |
+|                      | 1        | 1627       | 21.10%  |
+| Beacon Hill Int'l    | 2        | 6812       | 81.32%  |
+|                      | 1        | 1565       | 18.68%  |
+| Magnolia             | 7        | 8385       | 88.53%  |
+|                      | 6        | 1086       | 11.47%  |
+| Wedgwood             | 5        | 8506       | 89.23%  |
+|                      | 4        | 1027       | 10.77%  |
+| Lawton               | 6        | 8301       | 93.06%  |
+|                      | 7        | 619        | 6.94%   |
+| Catharine Blaine K-8 | 6        | 5079       | 96.96%  |
+|                      | 7        | 159        | 3.04%   |
+
+<details>
+<summary>43 kept whole</summary>
+
+| Area                  | District | Population | Percent |
+|-----------------------|----------|------------|---------|
+| Alki                  | 1        | 9457       | 100.00% |
+| Arbor Heights         | 1        | 11956      | 100.00% |
+| Concord Int'l         | 1        | 5896       | 100.00% |
+| Fairmount Park        | 1        | 11889      | 100.00% |
+| Gatewood              | 1        | 10638      | 100.00% |
+| Genesee Hill          | 1        | 10128      | 100.00% |
+| Highland Park         | 1        | 6290       | 100.00% |
+| Lafayette             | 1        | 15487      | 100.00% |
+| Roxhill               | 1        | 8046       | 100.00% |
+| Sanislo               | 1        | 4861       | 100.00% |
+| West Seattle Elem     | 1        | 5176       | 100.00% |
+| Dearborn Park Int'l   | 2        | 5968       | 100.00% |
+| Dunlap                | 2        | 5489       | 100.00% |
+| Emerson               | 2        | 8680       | 100.00% |
+| Graham Hill           | 2        | 6806       | 100.00% |
+| Hawthorne             | 2        | 12593      | 100.00% |
+| John Muir             | 2        | 8684       | 100.00% |
+| Kimball               | 2        | 8720       | 100.00% |
+| MLK Jr.               | 2        | 5291       | 100.00% |
+| Maple                 | 2        | 6407       | 100.00% |
+| Rainier View          | 2        | 5583       | 100.00% |
+| Wing Luke             | 2        | 4685       | 100.00% |
+| Leschi                | 3        | 9400       | 100.00% |
+| Madrona               | 3        | 13269      | 100.00% |
+| McGilvra              | 3        | 10787      | 100.00% |
+| Montlake              | 3        | 11761      | 100.00% |
+| Stevens               | 3        | 11675      | 100.00% |
+| Bryant                | 4        | 13344      | 100.00% |
+| Laurelhurst           | 4        | 19295      | 100.00% |
+| Sand Point            | 4        | 6865       | 100.00% |
+| Broadview-Thomson K-8 | 5        | 14939      | 100.00% |
+| John Rogers           | 5        | 12473      | 100.00% |
+| Northgate             | 5        | 8459       | 100.00% |
+| Olympic Hills         | 5        | 13165      | 100.00% |
+| Olympic View          | 5        | 16210      | 100.00% |
+| Sacajawea             | 5        | 8907       | 100.00% |
+| Adams                 | 6        | 22286      | 100.00% |
+| Greenwood             | 6        | 9005       | 100.00% |
+| Loyal Heights         | 6        | 11915      | 100.00% |
+| West Woodland         | 6        | 13753      | 100.00% |
+| Whittier              | 6        | 7654       | 100.00% |
+| Coe                   | 7        | 16200      | 100.00% |
+| Hay                   | 7        | 32647      | 100.00% |
+
+</details>
+
+## Middle Schools 2021-22
+This districting splits 10 out of 14 areas. A person was split from an area 136143 times.
+
+![Map showing areas of population that have been split off.](rjs_amended/split-Middle Schools 2021-22.png)\
+
+
+| Area                    | District | Population | Percent |
+|-------------------------|----------|------------|---------|
+| Meany                   | 3        | 94455      | 63.70%  |
+|                         | 7        | 47077      | 31.75%  |
+|                         | 2        | 3924       | 2.65%   |
+|                         | 1        | 2832       | 1.91%   |
+| Eagle Staff             | 5        | 27101      | 61.69%  |
+|                         | 6        | 12944      | 29.46%  |
+|                         | 4        | 3888       | 8.85%   |
+| McClure                 | 7        | 58010      | 80.04%  |
+|                         | 6        | 14466      | 19.96%  |
+| Eckstein                | 4        | 47223      | 76.97%  |
+|                         | 5        | 14129      | 23.03%  |
+| Hamilton Int'l          | 6        | 24407      | 66.40%  |
+|                         | 4        | 12352      | 33.60%  |
+| Washington              | 2        | 27034      | 71.61%  |
+|                         | 3        | 10716      | 28.39%  |
+| Whitman/Eagle Staff     | 5        | 8568       | 58.91%  |
+|                         | 6        | 5976       | 41.09%  |
+| Mercer Int'l            | 2        | 25272      | 88.79%  |
+|                         | 1        | 3192       | 11.21%  |
+| Whitman                 | 6        | 47756      | 95.27%  |
+|                         | 5        | 2372       | 4.73%   |
+| Eckstein/Hamilton Int'l | 4        | 42300      | 94.90%  |
+|                         | 5        | 2275       | 5.10%   |
+
+<details>
+<summary>4 kept whole</summary>
+
+| Area        | District | Population | Percent |
+|-------------|----------|------------|---------|
+| Denny Int'l | 1        | 42225      | 100.00% |
+| Madison     | 1        | 57599      | 100.00% |
+| Aki Kurose  | 2        | 49127      | 100.00% |
+| Jane Addams | 5        | 50875      | 100.00% |
+
+</details>
+
+## Police Beats 2018 - Present
+This districting splits 15 out of 51 areas. A person was split from an area 45762 times.
+
+![Map showing areas of population that have been split off.](rjs_amended/split-Police Beats 2018 - Present.png)\
+
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| Q1   | 6        | 14466      | 61.22%  |
+|      | 7        | 9163       | 38.78%  |
+| U3   | 4        | 28952      | 76.77%  |
+|      | 5        | 8761       | 23.23%  |
+| J3   | 4        | 10536      | 63.37%  |
+|      | 6        | 6089       | 36.63%  |
+| D3   | 7        | 9086       | 60.20%  |
+|      | 3        | 6007       | 39.80%  |
+| U1   | 4        | 22681      | 83.99%  |
+|      | 5        | 4325       | 16.01%  |
+| N3   | 5        | 9742       | 73.47%  |
+|      | 6        | 3518       | 26.53%  |
+| E3   | 3        | 9430       | 80.17%  |
+|      | 7        | 2332       | 19.83%  |
+| O3   | 1        | 1330       | 50.34%  |
+|      | 2        | 1312       | 49.66%  |
+| N1   | 5        | 18239      | 94.11%  |
+|      | 6        | 1141       | 5.89%   |
+| R2   | 2        | 13467      | 92.82%  |
+|      | 3        | 1042       | 7.18%   |
+| G1   | 2        | 6451       | 88.32%  |
+|      | 3        | 853        | 11.68%  |
+| K3   | 2        | 4882       | 86.04%  |
+|      | 1        | 792        | 13.96%  |
+| K1   | 7        | 2143       | 86.27%  |
+|      | 1        | 341        | 13.73%  |
+| R1   | 2        | 18547      | 99.71%  |
+|      | 1        | 54         | 0.29%   |
+| G3   | 3        | 8448       | 99.62%  |
+|      | 2        | 32         | 0.38%   |
+
+<details>
+<summary>36 kept whole</summary>
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| F1   | 1        | 13466      | 100.00% |
+| F2   | 1        | 9885       | 100.00% |
+| F3   | 1        | 10390      | 100.00% |
+| K2   | 1        | 2577       | 100.00% |
+| O1   | 1        | 622        | 100.00% |
+| O2   | 1        | 308        | 100.00% |
+| W1   | 1        | 19260      | 100.00% |
+| W2   | 1        | 24550      | 100.00% |
+| W3   | 1        | 22273      | 100.00% |
+| R3   | 2        | 17282      | 100.00% |
+| S1   | 2        | 16704      | 100.00% |
+| S2   | 2        | 13152      | 100.00% |
+| S3   | 2        | 13528      | 100.00% |
+| C1   | 3        | 14042      | 100.00% |
+| C2   | 3        | 16665      | 100.00% |
+| C3   | 3        | 15480      | 100.00% |
+| E1   | 3        | 14699      | 100.00% |
+| E2   | 3        | 7058       | 100.00% |
+| G2   | 3        | 11447      | 100.00% |
+| B3   | 4        | 23001      | 100.00% |
+| U2   | 4        | 20593      | 100.00% |
+| L1   | 5        | 18842      | 100.00% |
+| L2   | 5        | 18216      | 100.00% |
+| L3   | 5        | 17135      | 100.00% |
+| N2   | 5        | 10060      | 100.00% |
+| B1   | 6        | 19211      | 100.00% |
+| B2   | 6        | 20677      | 100.00% |
+| J1   | 6        | 15312      | 100.00% |
+| J2   | 6        | 25135      | 100.00% |
+| D1   | 7        | 11840      | 100.00% |
+| D2   | 7        | 17222      | 100.00% |
+| M1   | 7        | 5475       | 100.00% |
+| M2   | 7        | 3463       | 100.00% |
+| M3   | 7        | 904        | 100.00% |
+| Q2   | 7        | 28892      | 100.00% |
+| Q3   | 7        | 14567      | 100.00% |
+
+</details>
+
+## 2022 Voting Precincts
+This districting splits 15 out of 1027 areas. A person was split from an area 2989 times.
+
+![Map showing areas of population that have been split off.](rjs_amended/split-2022 Voting Precincts.png)\
+
+
+| Area        | District | Population | Percent |
+|-------------|----------|------------|---------|
+| SEA 37-3573 | 2        | 1366       | 68.16%  |
+|             | 3        | 638        | 31.84%  |
+| SEA 34-3497 | 1        | 717        | 53.83%  |
+|             | 7        | 615        | 46.17%  |
+| SEA 43-1835 | 3        | 894        | 70.95%  |
+|             | 7        | 366        | 29.05%  |
+| SEA 36-1815 | 7        | 356        | 54.85%  |
+|             | 6        | 293        | 45.15%  |
+| SEA 36-2529 | 5        | 435        | 71.55%  |
+|             | 6        | 173        | 28.45%  |
+| SEA 37-3708 | 2        | 1164       | 88.65%  |
+|             | 3        | 149        | 11.35%  |
+| SEA 37-1897 | 2        | 1230       | 89.45%  |
+|             | 3        | 145        | 10.55%  |
+| SEA 36-1683 | 7        | 315        | 68.63%  |
+|             | 6        | 144        | 31.37%  |
+| SEA 36-1682 | 7        | 330        | 75.00%  |
+|             | 6        | 110        | 25.00%  |
+| SEA 37-1854 | 2        | 789        | 89.05%  |
+|             | 3        | 97         | 10.95%  |
+| SEA 37-1871 | 3        | 814        | 89.35%  |
+|             | 2        | 97         | 10.65%  |
+| SEA 34-1823 | 1        | 150        | 75.00%  |
+|             | 7        | 50         | 25.00%  |
+| SEA 37-3956 | 2        | 174        | 77.68%  |
+|             | 3        | 50         | 22.32%  |
+| SEA 37-1839 | 3        | 736        | 95.83%  |
+|             | 2        | 32         | 4.17%   |
+| SEA 36-1665 | 6        | 698        | 95.88%  |
+|             | 7        | 30         | 4.12%   |
+
+
+# rjs_green_lake
+## Population
+PASS - The maximum population (105848) is 0.80% greater than the minimum (105008).
+
+### Census Groups
+| Stat       | 1      | 2      | 3      | 4      | 5      | 6      | 7      |
+|------------|--------|--------|--------|--------|--------|--------|--------|
+| TAPERSONS  | 105848 | 105520 | 105008 | 105763 | 105320 | 105119 | 105517 |
+| TA1RACE    | 88.4%  | 90.2%  | 89.2%  | 89.5%  | 88.9%  | 89.4%  | 90.8%  |
+| TAWHITEALN | 66.2%  | 34.1%  | 65.2%  | 64.8%  | 62.5%  | 75.5%  | 60.5%  |
+| TABLACKALN | 7.2%   | 18.5%  | 7.5%   | 2.6%   | 6.9%   | 1.9%   | 4.6%   |
+| TAAMINDALN | 1.0%   | 0.9%   | 0.6%   | 0.5%   | 0.8%   | 0.6%   | 0.7%   |
+| TAASIANALN | 9.6%   | 31.3%  | 13.0%  | 19.0%  | 14.6%  | 9.1%   | 22.5%  |
+| TANHPOALN  | 0.5%   | 0.4%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   |
+| TAOTHERALN | 3.9%   | 4.9%   | 2.7%   | 2.5%   | 3.8%   | 2.2%   | 2.4%   |
+| TA2RACE    | 11.6%  | 9.8%   | 10.8%  | 10.5%  | 11.1%  | 10.6%  | 9.2%   |
+| THISPNHISP | 99.9%  | 99.7%  | 99.8%  | 100.0% | 99.9%  | 99.9%  | 99.7%  |
+| TAHISPANIC | 10.2%  | 9.6%   | 7.9%   | 7.0%   | 8.8%   | 6.7%   | 7.4%   |
+| TNHISPANIC | 89.8%  | 90.4%  | 92.1%  | 93.0%  | 91.2%  | 93.3%  | 92.6%  |
+| TN1RACE    | 82.2%  | 83.6%  | 84.7%  | 85.3%  | 83.5%  | 85.8%  | 86.5%  |
+| TNWHALN    | 64.0%  | 32.8%  | 63.3%  | 62.8%  | 60.9%  | 73.7%  | 58.4%  |
+| TNBLKALN   | 7.0%   | 18.2%  | 7.3%   | 2.5%   | 6.7%   | 1.8%   | 4.5%   |
+| TNAIANALN  | 0.7%   | 0.4%   | 0.4%   | 0.3%   | 0.5%   | 0.4%   | 0.5%   |
+| TNASIANALN | 9.5%   | 31.1%  | 12.8%  | 18.9%  | 14.5%  | 9.1%   | 22.4%  |
+| TNNHPOALN  | 0.4%   | 0.4%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   | 0.2%   |
+| TNOTHRALN  | 0.6%   | 0.6%   | 0.6%   | 0.6%   | 0.7%   | 0.6%   | 0.6%   |
+| TN2MRACES  | 7.6%   | 6.8%   | 7.5%   | 7.7%   | 7.7%   | 7.5%   | 6.1%   |
+| TAHOUSING  | 49717  | 43741  | 61692  | 46252  | 48994  | 51309  | 66603  |
+| TAHOCCUPID | 47027  | 41417  | 57229  | 43251  | 46608  | 48894  | 61201  |
+| TAHVACANT  | 2690   | 2324   | 4463   | 3001   | 2386   | 2415   | 5402   |
+| TAGRPQRTR  | 2987   | 2909   | 3195   | 12980  | 1278   | 993    | 5576   |
+
+## Zoning
+This map simplifies city zoning into three categories:
+
+* Residential (Green)
+* Commercial (Blue) and Residential is also allowed
+* Industrial (Yellow)
+
+Denser areas are darker than lighter ones. There are three gradations of density.
+
+![Map showing district lines over zoning map.](rjs_green_lake/zoning.png)\
+
+
+
+## Rental Units
+Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
+
+![Map showing district lines over map of rental unit quantity.](rjs_green_lake/rentals.png)\
+
+
+| District | Rental Housing Units |
+|----------|----------------------|
+| 1        | 14262                |
+| 2        | 14558                |
+| 3        | 29653                |
+| 4        | 21736                |
+| 5        | 17269                |
+| 6        | 17735                |
+| 7        | 41184                |
+
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
+
+## City Clerk Neighborhoods
+This districting splits 16 out of 91 areas. A person was split from an area 20330 times.
+
+![Map showing areas of population that have been split off.](rjs_green_lake/split-City Clerk Neighborhoods.png)\
+
+
+| Area                      | District | Population | Percent |
+|---------------------------|----------|------------|---------|
+| Fremont                   | 7        | 9469       | 64.00%  |
+|                           | 4        | 4681       | 31.64%  |
+|                           | 6        | 646        | 4.37%   |
+| Roosevelt                 | 5        | 4630       | 50.66%  |
+|                           | 4        | 4510       | 49.34%  |
+| First Hill                | 3        | 9908       | 72.82%  |
+|                           | 7        | 2332       | 17.14%  |
+|                           | 2        | 1366       | 10.04%  |
+| North Beach/Blue Ridge    | 6        | 4250       | 73.67%  |
+|                           | 5        | 1519       | 26.33%  |
+| Pioneer Square            | 1        | 3455       | 75.45%  |
+|                           | 7        | 1124       | 24.55%  |
+| Ravenna                   | 4        | 11764      | 91.98%  |
+|                           | 5        | 1026       | 8.02%   |
+| Greenwood                 | 6        | 17436      | 95.62%  |
+|                           | 5        | 799        | 4.38%   |
+| Crown Hill                | 6        | 4451       | 86.93%  |
+|                           | 5        | 669        | 13.07%  |
+| South Lake Union          | 7        | 11863      | 94.73%  |
+|                           | 3        | 660        | 5.27%   |
+| Atlantic                  | 3        | 8365       | 96.04%  |
+|                           | 2        | 345        | 3.96%   |
+| View Ridge                | 4        | 5441       | 94.82%  |
+|                           | 5        | 297        | 5.18%   |
+| Mount Baker               | 2        | 8203       | 98.15%  |
+|                           | 3        | 155        | 1.85%   |
+| Interbay                  | 6        | 2068       | 94.34%  |
+|                           | 7        | 124        | 5.66%   |
+| Central Business District | 7        | 5205       | 99.03%  |
+|                           | 1        | 51         | 0.97%   |
+| South Beacon Hill         | 2        | 5442       | 99.62%  |
+|                           | 1        | 21         | 0.38%   |
+| Mid-Beacon Hill           | 2        | 13797      | 99.96%  |
+|                           | 1        | 5          | 0.04%   |
+
+<details>
+<summary>75 kept whole</summary>
+
+| Area                   | District | Population | Percent |
+|------------------------|----------|------------|---------|
+| Alki                   | 1        | 7450       | 100.00% |
+| Arbor Heights          | 1        | 5578       | 100.00% |
+| Fairmount Park         | 1        | 7721       | 100.00% |
+| Fauntleroy             | 1        | 5452       | 100.00% |
+| Gatewood               | 1        | 6902       | 100.00% |
+| Genesee                | 1        | 9118       | 100.00% |
+| Georgetown             | 1        | 1419       | 100.00% |
+| Harbor Island          | 1        | 4          | 100.00% |
+| High Point             | 1        | 8331       | 100.00% |
+| Highland Park          | 1        | 6689       | 100.00% |
+| Industrial District    | 1        | 1099       | 100.00% |
+| North Admiral          | 1        | 13646      | 100.00% |
+| North Delridge         | 1        | 4866       | 100.00% |
+| Riverview              | 1        | 4260       | 100.00% |
+| Roxhill                | 1        | 4314       | 100.00% |
+| Seaview                | 1        | 5101       | 100.00% |
+| South Delridge         | 1        | 6622       | 100.00% |
+| South Park             | 1        | 3744       | 100.00% |
+| Brighton               | 2        | 8931       | 100.00% |
+| Columbia City          | 2        | 15182      | 100.00% |
+| Dunlap                 | 2        | 6499       | 100.00% |
+| Holly Park             | 2        | 4895       | 100.00% |
+| International District | 2        | 4555       | 100.00% |
+| North Beacon Hill      | 2        | 12739      | 100.00% |
+| Rainier Beach          | 2        | 7096       | 100.00% |
+| Rainier View           | 2        | 4020       | 100.00% |
+| Seward Park            | 2        | 7038       | 100.00% |
+| Yesler Terrace         | 2        | 5412       | 100.00% |
+| Broadway               | 3        | 28147      | 100.00% |
+| Eastlake               | 3        | 5406       | 100.00% |
+| Harrison/Denny-Blaine  | 3        | 2700       | 100.00% |
+| Leschi                 | 3        | 5807       | 100.00% |
+| Madison Park           | 3        | 4643       | 100.00% |
+| Madrona                | 3        | 4140       | 100.00% |
+| Mann                   | 3        | 5184       | 100.00% |
+| Minor                  | 3        | 11405      | 100.00% |
+| Montlake               | 3        | 5053       | 100.00% |
+| OOO                    | 3        | 15         | 100.00% |
+| Portage Bay            | 3        | 1510       | 100.00% |
+| Stevens                | 3        | 11910      | 100.00% |
+| Bryant                 | 4        | 5663       | 100.00% |
+| Green Lake             | 4        | 10280      | 100.00% |
+| Laurelhurst            | 4        | 4743       | 100.00% |
+| Sand Point             | 4        | 707        | 100.00% |
+| University District    | 4        | 34408      | 100.00% |
+| Wallingford            | 4        | 18576      | 100.00% |
+| Windermere             | 4        | 4990       | 100.00% |
+| Bitter Lake            | 5        | 10172      | 100.00% |
+| Broadview              | 5        | 8633       | 100.00% |
+| Cedar Park             | 5        | 6652       | 100.00% |
+| Haller Lake            | 5        | 8786       | 100.00% |
+| Maple Leaf             | 5        | 11373      | 100.00% |
+| Matthews Beach         | 5        | 6682       | 100.00% |
+| Meadowbrook            | 5        | 3484       | 100.00% |
+| North College Park     | 5        | 7463       | 100.00% |
+| Olympic Hills          | 5        | 9556       | 100.00% |
+| Pinehurst              | 5        | 8394       | 100.00% |
+| Victory Heights        | 5        | 5918       | 100.00% |
+| Wedgwood               | 5        | 9267       | 100.00% |
+| Adams                  | 6        | 15942      | 100.00% |
+| Briarcliff             | 6        | 5812       | 100.00% |
+| Lawton Park            | 6        | 9956       | 100.00% |
+| Loyal Heights          | 6        | 8701       | 100.00% |
+| Phinney Ridge          | 6        | 10404      | 100.00% |
+| Southeast Magnolia     | 6        | 5536       | 100.00% |
+| Sunset Hill            | 6        | 6143       | 100.00% |
+| West Woodland          | 6        | 8119       | 100.00% |
+| Whittier Heights       | 6        | 5655       | 100.00% |
+| Belltown               | 7        | 24288      | 100.00% |
+| East Queen Anne        | 7        | 9852       | 100.00% |
+| Lower Queen Anne       | 7        | 14162      | 100.00% |
+| North Queen Anne       | 7        | 12209      | 100.00% |
+| Pike-Market            | 7        | 3329       | 100.00% |
+| West Queen Anne        | 7        | 7498       | 100.00% |
+| Westlake               | 7        | 4062       | 100.00% |
+
+</details>
+
+## Atlas Neighborhoods
+This districting splits 9 out of 20 areas. A person was split from an area 89036 times.
+
+![Map showing areas of population that have been split off.](rjs_green_lake/split-Atlas Neighborhoods.png)\
+
+
+| Area           | District | Population | Percent |
+|----------------|----------|------------|---------|
+| Downtown       | 7        | 36278      | 59.45%  |
+|                | 2        | 11333      | 18.57%  |
+|                | 3        | 9908       | 16.24%  |
+|                | 1        | 3506       | 5.75%   |
+| Northwest      | 6        | 26137      | 54.53%  |
+|                | 5        | 21792      | 45.47%  |
+| North Central  | 4        | 33537      | 62.04%  |
+|                | 6        | 11050      | 20.44%  |
+|                | 7        | 9469       | 17.52%  |
+| Northeast      | 4        | 37818      | 71.30%  |
+|                | 5        | 15220      | 28.70%  |
+| Cascade        | 7        | 15938      | 72.29%  |
+|                | 3        | 6108       | 27.71%  |
+| Central Area   | 3        | 37601      | 99.09%  |
+|                | 2        | 345        | 0.91%   |
+| Rainier Valley | 2        | 49931      | 99.69%  |
+|                | 3        | 155        | 0.31%   |
+| Interbay       | 6        | 2068       | 94.34%  |
+|                | 7        | 124        | 5.66%   |
+| Beacon Hill    | 2        | 36873      | 99.93%  |
+|                | 1        | 26         | 0.07%   |
+
+<details>
+<summary>11 kept whole</summary>
+
+| Area                | District | Population | Percent |
+|---------------------|----------|------------|---------|
+| Delridge            | 1        | 35082      | 100.00% |
+| Greater Duwamish    | 1        | 6266       | 100.00% |
+| West Seattle        | 1        | 60968      | 100.00% |
+| Seward Park         | 2        | 7038       | 100.00% |
+| Capitol Hill        | 3        | 51236      | 100.00% |
+| University District | 4        | 34408      | 100.00% |
+| Lake City           | 5        | 32292      | 100.00% |
+| Northgate           | 5        | 36016      | 100.00% |
+| Ballard             | 6        | 44560      | 100.00% |
+| Magnolia            | 6        | 21304      | 100.00% |
+| Queen Anne          | 7        | 43708      | 100.00% |
+
+</details>
+
+## Community Reporting Areas
+This districting splits 18 out of 53 areas. A person was split from an area 54261 times.
+
+![Map showing areas of population that have been split off.](rjs_green_lake/split-Community Reporting Areas.png)\
+
+
+| Area                                  | District | Population | Percent |
+|---------------------------------------|----------|------------|---------|
+| First Hill                            | 3        | 8781       | 42.74%  |
+|                                       | 2        | 6451       | 31.40%  |
+|                                       | 7        | 5315       | 25.87%  |
+| Fremont                               | 7        | 9389       | 48.84%  |
+|                                       | 4        | 7116       | 37.01%  |
+|                                       | 6        | 2720       | 14.15%  |
+| North Beach/Blue Ridge                | 6        | 6865       | 54.95%  |
+|                                       | 5        | 5628       | 45.05%  |
+| Ravenna/Bryant                        | 4        | 23076      | 84.67%  |
+|                                       | 5        | 4178       | 15.33%  |
+| Wedgwood/View Ridge                   | 5        | 12613      | 75.83%  |
+|                                       | 4        | 4020       | 24.17%  |
+| Cascade/Eastlake                      | 7        | 25192      | 86.25%  |
+|                                       | 3        | 4015       | 13.75%  |
+| Licton Springs                        | 5        | 6690       | 65.54%  |
+|                                       | 6        | 3518       | 34.46%  |
+| Interbay                              | 6        | 9788       | 78.54%  |
+|                                       | 7        | 2675       | 21.46%  |
+| Green Lake                            | 4        | 15974      | 89.45%  |
+|                                       | 5        | 1884       | 10.55%  |
+| Pioneer Square/International District | 2        | 4708       | 74.11%  |
+|                                       | 1        | 1645       | 25.89%  |
+| Duwamish/SODO                         | 1        | 2017       | 55.34%  |
+|                                       | 2        | 1628       | 44.66%  |
+| North Beacon Hill/Jefferson Park      | 2        | 14666      | 92.00%  |
+|                                       | 3        | 1275       | 8.00%   |
+| Mt. Baker/North Rainier               | 2        | 5715       | 84.54%  |
+|                                       | 3        | 1045       | 15.46%  |
+| Downtown Commercial Core              | 7        | 4902       | 84.97%  |
+|                                       | 1        | 867        | 15.03%  |
+| Judkins Park                          | 3        | 4119       | 95.95%  |
+|                                       | 2        | 174        | 4.05%   |
+| Ballard                               | 6        | 11127      | 99.29%  |
+|                                       | 7        | 80         | 0.71%   |
+| South Beacon Hill/NewHolly            | 2        | 15066      | 99.85%  |
+|                                       | 1        | 22         | 0.15%   |
+| Beacon Hill                           | 2        | 9631       | 99.95%  |
+|                                       | 1        | 5          | 0.05%   |
+
+<details>
+<summary>35 kept whole</summary>
+
+| Area                               | District | Population | Percent |
+|------------------------------------|----------|------------|---------|
+| Alki/Admiral                       | 1        | 11806      | 100.00% |
+| Arbor Heights                      | 1        | 6356       | 100.00% |
+| Fauntleroy/Seaview                 | 1        | 14952      | 100.00% |
+| Georgetown                         | 1        | 1468       | 100.00% |
+| High Point                         | 1        | 8672       | 100.00% |
+| Highland Park                      | 1        | 6712       | 100.00% |
+| North Delridge                     | 1        | 6263       | 100.00% |
+| Riverview                          | 1        | 5078       | 100.00% |
+| Roxhill/Westwood                   | 1        | 12901      | 100.00% |
+| South Park                         | 1        | 3721       | 100.00% |
+| West Seattle Junction/Genesee Hill | 1        | 23363      | 100.00% |
+| Columbia City                      | 2        | 22133      | 100.00% |
+| Rainier Beach                      | 2        | 15637      | 100.00% |
+| Seward Park                        | 2        | 9711       | 100.00% |
+| Capitol Hill                       | 3        | 27113      | 100.00% |
+| Central Area/Squire Park           | 3        | 20007      | 100.00% |
+| Madison Park                       | 3        | 5530       | 100.00% |
+| Madrona/Leschi                     | 3        | 10932      | 100.00% |
+| Miller Park                        | 3        | 7769       | 100.00% |
+| Montlake/Portage Bay               | 3        | 9748       | 100.00% |
+| North Capitol Hill                 | 3        | 4674       | 100.00% |
+| Laurelhurst/Sand Point             | 4        | 11431      | 100.00% |
+| University District                | 4        | 25143      | 100.00% |
+| Wallingford                        | 4        | 19003      | 100.00% |
+| Broadview/Bitter Lake              | 5        | 15728      | 100.00% |
+| Cedar Park/Meadowbrook             | 5        | 14880      | 100.00% |
+| Haller Lake                        | 5        | 10909      | 100.00% |
+| Northgate/Maple Leaf               | 5        | 16361      | 100.00% |
+| Olympic Hills/Victory Heights      | 5        | 16449      | 100.00% |
+| Greenwood/Phinney Ridge            | 6        | 27011      | 100.00% |
+| Magnolia                           | 6        | 13717      | 100.00% |
+| Sunset Hill/Loyal Heights          | 6        | 16055      | 100.00% |
+| Whittier Heights                   | 6        | 14318      | 100.00% |
+| Belltown                           | 7        | 11959      | 100.00% |
+| Queen Anne                         | 7        | 46005      | 100.00% |
+
+</details>
+
+## Elementary Schools 2021-22
+This districting splits 14 out of 58 areas. A person was split from an area 91759 times.
+
+![Map showing areas of population that have been split off.](rjs_green_lake/split-Elementary Schools 2021-22.png)\
+
+
+| Area              | District | Population | Percent |
+|-------------------|----------|------------|---------|
+| Lowell            | 7        | 47077      | 51.51%  |
+|                   | 3        | 37563      | 41.10%  |
+|                   | 2        | 3924       | 4.29%   |
+|                   | 1        | 2832       | 3.10%   |
+| B.F. Day          | 4        | 12640      | 54.26%  |
+|                   | 7        | 9469       | 40.65%  |
+|                   | 6        | 1185       | 5.09%   |
+| Bagley            | 6        | 3939       | 34.96%  |
+|                   | 4        | 3888       | 34.50%  |
+|                   | 5        | 3441       | 30.54%  |
+| Gatzert           | 2        | 7409       | 53.79%  |
+|                   | 3        | 6364       | 46.21%  |
+| Viewlands         | 5        | 8830       | 59.64%  |
+|                   | 6        | 5976       | 40.36%  |
+| View Ridge        | 4        | 6683       | 53.78%  |
+|                   | 5        | 5743       | 46.22%  |
+| North Beach       | 6        | 5901       | 71.33%  |
+|                   | 5        | 2372       | 28.67%  |
+| Green Lake        | 4        | 42021      | 94.86%  |
+|                   | 5        | 2275       | 5.14%   |
+| Rising Star       | 2        | 6085       | 78.90%  |
+|                   | 1        | 1627       | 21.10%  |
+| Beacon Hill Int'l | 2        | 6812       | 81.32%  |
+|                   | 1        | 1565       | 18.68%  |
+| Thurgood Marshall | 3        | 5069       | 77.12%  |
+|                   | 2        | 1504       | 22.88%  |
+| Wedgwood          | 5        | 8506       | 89.23%  |
+|                   | 4        | 1027       | 10.77%  |
+| Leschi            | 3        | 8520       | 90.64%  |
+|                   | 2        | 880        | 9.36%   |
+| Magnolia          | 6        | 9347       | 98.69%  |
+|                   | 7        | 124        | 1.31%   |
+
+<details>
+<summary>44 kept whole</summary>
+
+| Area                  | District | Population | Percent |
+|-----------------------|----------|------------|---------|
+| Alki                  | 1        | 9457       | 100.00% |
+| Arbor Heights         | 1        | 11956      | 100.00% |
+| Concord Int'l         | 1        | 5896       | 100.00% |
+| Fairmount Park        | 1        | 11889      | 100.00% |
+| Gatewood              | 1        | 10638      | 100.00% |
+| Genesee Hill          | 1        | 10128      | 100.00% |
+| Highland Park         | 1        | 6290       | 100.00% |
+| Lafayette             | 1        | 15487      | 100.00% |
+| Roxhill               | 1        | 8046       | 100.00% |
+| Sanislo               | 1        | 4861       | 100.00% |
+| West Seattle Elem     | 1        | 5176       | 100.00% |
+| Dearborn Park Int'l   | 2        | 5968       | 100.00% |
+| Dunlap                | 2        | 5489       | 100.00% |
+| Emerson               | 2        | 8680       | 100.00% |
+| Graham Hill           | 2        | 6806       | 100.00% |
+| Hawthorne             | 2        | 12593      | 100.00% |
+| John Muir             | 2        | 8684       | 100.00% |
+| Kimball               | 2        | 8720       | 100.00% |
+| MLK Jr.               | 2        | 5291       | 100.00% |
+| Maple                 | 2        | 6407       | 100.00% |
+| Rainier View          | 2        | 5583       | 100.00% |
+| Wing Luke             | 2        | 4685       | 100.00% |
+| Madrona               | 3        | 13269      | 100.00% |
+| McGilvra              | 3        | 10787      | 100.00% |
+| Montlake              | 3        | 11761      | 100.00% |
+| Stevens               | 3        | 11675      | 100.00% |
+| Bryant                | 4        | 13344      | 100.00% |
+| Laurelhurst           | 4        | 19295      | 100.00% |
+| Sand Point            | 4        | 6865       | 100.00% |
+| Broadview-Thomson K-8 | 5        | 14939      | 100.00% |
+| John Rogers           | 5        | 12473      | 100.00% |
+| Northgate             | 5        | 8459       | 100.00% |
+| Olympic Hills         | 5        | 13165      | 100.00% |
+| Olympic View          | 5        | 16210      | 100.00% |
+| Sacajawea             | 5        | 8907       | 100.00% |
+| Adams                 | 6        | 22286      | 100.00% |
+| Catharine Blaine K-8  | 6        | 5238       | 100.00% |
+| Greenwood             | 6        | 9005       | 100.00% |
+| Lawton                | 6        | 8920       | 100.00% |
+| Loyal Heights         | 6        | 11915      | 100.00% |
+| West Woodland         | 6        | 13753      | 100.00% |
+| Whittier              | 6        | 7654       | 100.00% |
+| Coe                   | 7        | 16200      | 100.00% |
+| Hay                   | 7        | 32647      | 100.00% |
+
+</details>
+
+## Middle Schools 2021-22
+This districting splits 10 out of 14 areas. A person was split from an area 156248 times.
+
+![Map showing areas of population that have been split off.](rjs_green_lake/split-Middle Schools 2021-22.png)\
+
+
+| Area                    | District | Population | Percent |
+|-------------------------|----------|------------|---------|
+| Meany                   | 3        | 93575      | 63.10%  |
+|                         | 7        | 47077      | 31.75%  |
+|                         | 2        | 4804       | 3.24%   |
+|                         | 1        | 2832       | 1.91%   |
+| McClure                 | 7        | 48971      | 67.57%  |
+|                         | 6        | 23505      | 32.43%  |
+| Hamilton Int'l          | 6        | 14938      | 40.64%  |
+|                         | 4        | 12352      | 33.60%  |
+|                         | 7        | 9469       | 25.76%  |
+| Eagle Staff             | 5        | 27101      | 61.69%  |
+|                         | 6        | 12944      | 29.46%  |
+|                         | 4        | 3888       | 8.85%   |
+| Eckstein                | 4        | 47223      | 76.97%  |
+|                         | 5        | 14129      | 23.03%  |
+| Washington              | 2        | 26317      | 69.71%  |
+|                         | 3        | 11433      | 30.29%  |
+| Whitman/Eagle Staff     | 5        | 8568       | 58.91%  |
+|                         | 6        | 5976       | 41.09%  |
+| Mercer Int'l            | 2        | 25272      | 88.79%  |
+|                         | 1        | 3192       | 11.21%  |
+| Whitman                 | 6        | 47756      | 95.27%  |
+|                         | 5        | 2372       | 4.73%   |
+| Eckstein/Hamilton Int'l | 4        | 42300      | 94.90%  |
+|                         | 5        | 2275       | 5.10%   |
+
+<details>
+<summary>4 kept whole</summary>
+
+| Area        | District | Population | Percent |
+|-------------|----------|------------|---------|
+| Denny Int'l | 1        | 42225      | 100.00% |
+| Madison     | 1        | 57599      | 100.00% |
+| Aki Kurose  | 2        | 49127      | 100.00% |
+| Jane Addams | 5        | 50875      | 100.00% |
+
+</details>
+
+## Police Beats 2018 - Present
+This districting splits 16 out of 51 areas. A person was split from an area 46139 times.
+
+![Map showing areas of population that have been split off.](rjs_green_lake/split-Police Beats 2018 - Present.png)\
+
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| B2   | 6        | 11208      | 54.21%  |
+|      | 7        | 9469       | 45.79%  |
+| U3   | 4        | 28952      | 76.77%  |
+|      | 5        | 8761       | 23.23%  |
+| J3   | 4        | 10536      | 63.37%  |
+|      | 6        | 6089       | 36.63%  |
+| D3   | 7        | 9086       | 60.20%  |
+|      | 3        | 6007       | 39.80%  |
+| U1   | 4        | 22681      | 83.99%  |
+|      | 5        | 4325       | 16.01%  |
+| N3   | 5        | 9742       | 73.47%  |
+|      | 6        | 3518       | 26.53%  |
+| E3   | 3        | 9430       | 80.17%  |
+|      | 7        | 2332       | 19.83%  |
+| O3   | 1        | 1330       | 50.34%  |
+|      | 2        | 1312       | 49.66%  |
+| N1   | 5        | 18239      | 94.11%  |
+|      | 6        | 1141       | 5.89%   |
+| R2   | 2        | 13575      | 93.56%  |
+|      | 3        | 934        | 6.44%   |
+| G1   | 2        | 6451       | 88.32%  |
+|      | 3        | 853        | 11.68%  |
+| K3   | 2        | 4882       | 86.04%  |
+|      | 1        | 792        | 13.96%  |
+| K1   | 7        | 2143       | 86.27%  |
+|      | 1        | 341        | 13.73%  |
+| Q1   | 6        | 23505      | 99.48%  |
+|      | 7        | 124        | 0.52%   |
+| G3   | 3        | 8393       | 98.97%  |
+|      | 2        | 87         | 1.03%   |
+| R1   | 2        | 18547      | 99.71%  |
+|      | 1        | 54         | 0.29%   |
+
+<details>
+<summary>35 kept whole</summary>
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| F1   | 1        | 13466      | 100.00% |
+| F2   | 1        | 9885       | 100.00% |
+| F3   | 1        | 10390      | 100.00% |
+| K2   | 1        | 2577       | 100.00% |
+| O1   | 1        | 622        | 100.00% |
+| O2   | 1        | 308        | 100.00% |
+| W1   | 1        | 19260      | 100.00% |
+| W2   | 1        | 24550      | 100.00% |
+| W3   | 1        | 22273      | 100.00% |
+| R3   | 2        | 17282      | 100.00% |
+| S1   | 2        | 16704      | 100.00% |
+| S2   | 2        | 13152      | 100.00% |
+| S3   | 2        | 13528      | 100.00% |
+| C1   | 3        | 14042      | 100.00% |
+| C2   | 3        | 16665      | 100.00% |
+| C3   | 3        | 15480      | 100.00% |
+| E1   | 3        | 14699      | 100.00% |
+| E2   | 3        | 7058       | 100.00% |
+| G2   | 3        | 11447      | 100.00% |
+| B3   | 4        | 23001      | 100.00% |
+| U2   | 4        | 20593      | 100.00% |
+| L1   | 5        | 18842      | 100.00% |
+| L2   | 5        | 18216      | 100.00% |
+| L3   | 5        | 17135      | 100.00% |
+| N2   | 5        | 10060      | 100.00% |
+| B1   | 6        | 19211      | 100.00% |
+| J1   | 6        | 15312      | 100.00% |
+| J2   | 6        | 25135      | 100.00% |
+| D1   | 7        | 11840      | 100.00% |
+| D2   | 7        | 17222      | 100.00% |
+| M1   | 7        | 5475       | 100.00% |
+| M2   | 7        | 3463       | 100.00% |
+| M3   | 7        | 904        | 100.00% |
+| Q2   | 7        | 28892      | 100.00% |
+| Q3   | 7        | 14567      | 100.00% |
+
+</details>
+
+## 2022 Voting Precincts
+This districting splits 15 out of 1027 areas. A person was split from an area 3977 times.
+
+![Map showing areas of population that have been split off.](rjs_green_lake/split-2022 Voting Precincts.png)\
+
+
+| Area        | District | Population | Percent |
+|-------------|----------|------------|---------|
+| SEA 37-3573 | 2        | 1366       | 68.16%  |
+|             | 3        | 638        | 31.84%  |
+| SEA 34-3497 | 1        | 717        | 53.83%  |
+|             | 7        | 615        | 46.17%  |
+| SEA 36-1347 | 6        | 662        | 63.72%  |
+|             | 7        | 377        | 36.28%  |
+| SEA 37-1853 | 3        | 392        | 51.44%  |
+|             | 2        | 370        | 48.56%  |
+| SEA 43-1835 | 3        | 894        | 70.95%  |
+|             | 7        | 366        | 29.05%  |
+| SEA 37-1854 | 3        | 541        | 61.06%  |
+|             | 2        | 345        | 38.94%  |
+| SEA 37-1871 | 2        | 574        | 63.01%  |
+|             | 3        | 337        | 36.99%  |
+| SEA 37-1872 | 2        | 523        | 61.38%  |
+|             | 3        | 329        | 38.62%  |
+| SEA 36-2529 | 5        | 435        | 71.55%  |
+|             | 6        | 173        | 28.45%  |
+| SEA 37-3708 | 2        | 1164       | 88.65%  |
+|             | 3        | 149        | 11.35%  |
+| SEA 37-1897 | 2        | 1230       | 89.45%  |
+|             | 3        | 145        | 10.55%  |
+| SEA 34-1823 | 1        | 150        | 75.00%  |
+|             | 7        | 50         | 25.00%  |
+| SEA 37-3956 | 2        | 174        | 77.68%  |
+|             | 3        | 50         | 22.32%  |
+| SEA 37-1839 | 3        | 736        | 95.83%  |
+|             | 2        | 32         | 4.17%   |
+| SEA 37-3696 | 2        | 294        | 99.66%  |
+|             | 3        | 1          | 0.34%   |
+
+
+# rjs_malaba
+## Population
+PASS - The maximum population (105868) is 0.82% greater than the minimum (105008).
+
+### Census Groups
+| Stat       | 1      | 2      | 3      | 4      | 5      | 6      | 7      |
+|------------|--------|--------|--------|--------|--------|--------|--------|
+| TAPERSONS  | 105848 | 105520 | 105008 | 105614 | 105150 | 105868 | 105087 |
+| TA1RACE    | 88.4%  | 90.2%  | 89.2%  | 89.6%  | 88.9%  | 89.5%  | 90.7%  |
+| TAWHITEALN | 66.2%  | 34.1%  | 65.2%  | 64.2%  | 62.0%  | 77.0%  | 60.0%  |
+| TABLACKALN | 7.2%   | 18.5%  | 7.5%   | 2.7%   | 7.2%   | 1.4%   | 4.6%   |
+| TAAMINDALN | 1.0%   | 0.9%   | 0.6%   | 0.5%   | 0.9%   | 0.5%   | 0.7%   |
+| TAASIANALN | 9.6%   | 31.3%  | 13.0%  | 19.5%  | 14.5%  | 8.7%   | 22.6%  |
+| TANHPOALN  | 0.5%   | 0.4%   | 0.2%   | 0.2%   | 0.3%   | 0.1%   | 0.2%   |
+| TAOTHERALN | 3.9%   | 4.9%   | 2.7%   | 2.5%   | 4.1%   | 1.8%   | 2.5%   |
+| TA2RACE    | 11.6%  | 9.8%   | 10.8%  | 10.4%  | 11.1%  | 10.5%  | 9.3%   |
+| THISPNHISP | 99.9%  | 99.7%  | 99.8%  | 100.0% | 99.9%  | 100.0% | 99.7%  |
+| TAHISPANIC | 10.2%  | 9.6%   | 7.9%   | 6.9%   | 9.3%   | 6.1%   | 7.7%   |
+| TNHISPANIC | 89.8%  | 90.4%  | 92.1%  | 93.1%  | 90.7%  | 93.9%  | 92.3%  |
+| TN1RACE    | 82.2%  | 83.6%  | 84.7%  | 85.4%  | 83.1%  | 86.3%  | 86.2%  |
+| TNWHALN    | 64.0%  | 32.8%  | 63.3%  | 62.4%  | 60.2%  | 75.3%  | 57.9%  |
+| TNBLKALN   | 7.0%   | 18.2%  | 7.3%   | 2.6%   | 7.1%   | 1.4%   | 4.5%   |
+| TNAIANALN  | 0.7%   | 0.4%   | 0.4%   | 0.3%   | 0.5%   | 0.3%   | 0.5%   |
+| TNASIANALN | 9.5%   | 31.1%  | 12.8%  | 19.4%  | 14.3%  | 8.6%   | 22.5%  |
+| TNNHPOALN  | 0.4%   | 0.4%   | 0.2%   | 0.2%   | 0.2%   | 0.1%   | 0.2%   |
+| TNOTHRALN  | 0.6%   | 0.6%   | 0.6%   | 0.6%   | 0.7%   | 0.6%   | 0.6%   |
+| TN2MRACES  | 7.6%   | 6.8%   | 7.5%   | 7.7%   | 7.7%   | 7.5%   | 6.1%   |
+| TAHOUSING  | 49717  | 43741  | 61692  | 45445  | 49865  | 51862  | 65986  |
+| TAHOCCUPID | 47027  | 41417  | 57229  | 42568  | 47417  | 49374  | 60595  |
+| TAHVACANT  | 2690   | 2324   | 4463   | 2877   | 2448   | 2488   | 5391   |
+| TAGRPQRTR  | 2987   | 2909   | 3195   | 12827  | 1526   | 1017   | 5457   |
+
+## Zoning
+This map simplifies city zoning into three categories:
+
+* Residential (Green)
+* Commercial (Blue) and Residential is also allowed
+* Industrial (Yellow)
+
+Denser areas are darker than lighter ones. There are three gradations of density.
+
+![Map showing district lines over zoning map.](rjs_malaba/zoning.png)\
+
+
+
+## Rental Units
+Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
+
+![Map showing district lines over map of rental unit quantity.](rjs_malaba/rentals.png)\
+
+
+| District | Rental Housing Units |
+|----------|----------------------|
+| 1        | 14262                |
+| 2        | 14558                |
+| 3        | 29653                |
+| 4        | 20705                |
+| 5        | 18419                |
+| 6        | 18117                |
+| 7        | 40683                |
+
+## Driving Connectivity
+This map *passes* because all districts are connected. Meaning you can drive to anywhere in each district without leaving it.
+
+## City Clerk Neighborhoods
+This districting splits 17 out of 91 areas. A person was split from an area 30863 times.
+
+![Map showing areas of population that have been split off.](rjs_malaba/split-City Clerk Neighborhoods.png)\
+
+
+| Area                      | District | Population | Percent |
+|---------------------------|----------|------------|---------|
+| Greenwood                 | 5        | 11266      | 61.78%  |
+|                           | 6        | 6969       | 38.22%  |
+| Wallingford               | 4        | 13644      | 73.45%  |
+|                           | 6        | 4932       | 26.55%  |
+| Fremont                   | 6        | 10115      | 68.36%  |
+|                           | 4        | 4681       | 31.64%  |
+| First Hill                | 3        | 9908       | 72.82%  |
+|                           | 7        | 2332       | 17.14%  |
+|                           | 2        | 1366       | 10.04%  |
+| Lawton Park               | 6        | 6897       | 69.27%  |
+|                           | 7        | 3059       | 30.73%  |
+| North Beach/Blue Ridge    | 6        | 3331       | 57.74%  |
+|                           | 5        | 2438       | 42.26%  |
+| Southeast Magnolia        | 7        | 4038       | 72.94%  |
+|                           | 6        | 1498       | 27.06%  |
+| Pioneer Square            | 1        | 3455       | 75.45%  |
+|                           | 7        | 1124       | 24.55%  |
+| Crown Hill                | 5        | 4176       | 81.56%  |
+|                           | 6        | 944        | 18.44%  |
+| South Lake Union          | 7        | 11863      | 94.73%  |
+|                           | 3        | 660        | 5.27%   |
+| Atlantic                  | 3        | 8365       | 96.04%  |
+|                           | 2        | 345        | 3.96%   |
+| Roosevelt                 | 4        | 8983       | 98.28%  |
+|                           | 5        | 157        | 1.72%   |
+| Mount Baker               | 2        | 8203       | 98.15%  |
+|                           | 3        | 155        | 1.85%   |
+| Interbay                  | 7        | 2066       | 94.25%  |
+|                           | 6        | 126        | 5.75%   |
+| Central Business District | 7        | 5205       | 99.03%  |
+|                           | 1        | 51         | 0.97%   |
+| South Beacon Hill         | 2        | 5442       | 99.62%  |
+|                           | 1        | 21         | 0.38%   |
+| Mid-Beacon Hill           | 2        | 13797      | 99.96%  |
+|                           | 1        | 5          | 0.04%   |
+
+<details>
+<summary>74 kept whole</summary>
+
+| Area                   | District | Population | Percent |
+|------------------------|----------|------------|---------|
+| Alki                   | 1        | 7450       | 100.00% |
+| Arbor Heights          | 1        | 5578       | 100.00% |
+| Fairmount Park         | 1        | 7721       | 100.00% |
+| Fauntleroy             | 1        | 5452       | 100.00% |
+| Gatewood               | 1        | 6902       | 100.00% |
+| Genesee                | 1        | 9118       | 100.00% |
+| Georgetown             | 1        | 1419       | 100.00% |
+| Harbor Island          | 1        | 4          | 100.00% |
+| High Point             | 1        | 8331       | 100.00% |
+| Highland Park          | 1        | 6689       | 100.00% |
+| Industrial District    | 1        | 1099       | 100.00% |
+| North Admiral          | 1        | 13646      | 100.00% |
+| North Delridge         | 1        | 4866       | 100.00% |
+| Riverview              | 1        | 4260       | 100.00% |
+| Roxhill                | 1        | 4314       | 100.00% |
+| Seaview                | 1        | 5101       | 100.00% |
+| South Delridge         | 1        | 6622       | 100.00% |
+| South Park             | 1        | 3744       | 100.00% |
+| Brighton               | 2        | 8931       | 100.00% |
+| Columbia City          | 2        | 15182      | 100.00% |
+| Dunlap                 | 2        | 6499       | 100.00% |
+| Holly Park             | 2        | 4895       | 100.00% |
+| International District | 2        | 4555       | 100.00% |
+| North Beacon Hill      | 2        | 12739      | 100.00% |
+| Rainier Beach          | 2        | 7096       | 100.00% |
+| Rainier View           | 2        | 4020       | 100.00% |
+| Seward Park            | 2        | 7038       | 100.00% |
+| Yesler Terrace         | 2        | 5412       | 100.00% |
+| Broadway               | 3        | 28147      | 100.00% |
+| Eastlake               | 3        | 5406       | 100.00% |
+| Harrison/Denny-Blaine  | 3        | 2700       | 100.00% |
+| Leschi                 | 3        | 5807       | 100.00% |
+| Madison Park           | 3        | 4643       | 100.00% |
+| Madrona                | 3        | 4140       | 100.00% |
+| Mann                   | 3        | 5184       | 100.00% |
+| Minor                  | 3        | 11405      | 100.00% |
+| Montlake               | 3        | 5053       | 100.00% |
+| OOO                    | 3        | 15         | 100.00% |
+| Portage Bay            | 3        | 1510       | 100.00% |
+| Stevens                | 3        | 11910      | 100.00% |
+| Bryant                 | 4        | 5663       | 100.00% |
+| Laurelhurst            | 4        | 4743       | 100.00% |
+| Ravenna                | 4        | 12790      | 100.00% |
+| Sand Point             | 4        | 707        | 100.00% |
+| University District    | 4        | 34408      | 100.00% |
+| View Ridge             | 4        | 5738       | 100.00% |
+| Wedgwood               | 4        | 9267       | 100.00% |
+| Windermere             | 4        | 4990       | 100.00% |
+| Bitter Lake            | 5        | 10172      | 100.00% |
+| Broadview              | 5        | 8633       | 100.00% |
+| Cedar Park             | 5        | 6652       | 100.00% |
+| Haller Lake            | 5        | 8786       | 100.00% |
+| Maple Leaf             | 5        | 11373      | 100.00% |
+| Matthews Beach         | 5        | 6682       | 100.00% |
+| Meadowbrook            | 5        | 3484       | 100.00% |
+| North College Park     | 5        | 7463       | 100.00% |
+| Olympic Hills          | 5        | 9556       | 100.00% |
+| Pinehurst              | 5        | 8394       | 100.00% |
+| Victory Heights        | 5        | 5918       | 100.00% |
+| Adams                  | 6        | 15942      | 100.00% |
+| Briarcliff             | 6        | 5812       | 100.00% |
+| Green Lake             | 6        | 10280      | 100.00% |
+| Loyal Heights          | 6        | 8701       | 100.00% |
+| Phinney Ridge          | 6        | 10404      | 100.00% |
+| Sunset Hill            | 6        | 6143       | 100.00% |
+| West Woodland          | 6        | 8119       | 100.00% |
+| Whittier Heights       | 6        | 5655       | 100.00% |
+| Belltown               | 7        | 24288      | 100.00% |
+| East Queen Anne        | 7        | 9852       | 100.00% |
+| Lower Queen Anne       | 7        | 14162      | 100.00% |
+| North Queen Anne       | 7        | 12209      | 100.00% |
+| Pike-Market            | 7        | 3329       | 100.00% |
+| West Queen Anne        | 7        | 7498       | 100.00% |
+| Westlake               | 7        | 4062       | 100.00% |
+
+</details>
+
+## Atlas Neighborhoods
+This districting splits 10 out of 20 areas. A person was split from an area 68330 times.
+
+![Map showing areas of population that have been split off.](rjs_malaba/split-Atlas Neighborhoods.png)\
+
+
+| Area           | District | Population | Percent |
+|----------------|----------|------------|---------|
+| Downtown       | 7        | 36278      | 59.45%  |
+|                | 2        | 11333      | 18.57%  |
+|                | 3        | 9908       | 16.24%  |
+|                | 1        | 3506       | 5.75%   |
+| North Central  | 6        | 35731      | 66.10%  |
+|                | 4        | 18325      | 33.90%  |
+| Northwest      | 5        | 36685      | 76.54%  |
+|                | 6        | 11244      | 23.46%  |
+| Magnolia       | 6        | 14207      | 66.69%  |
+|                | 7        | 7097       | 33.31%  |
+| Cascade        | 7        | 15938      | 72.29%  |
+|                | 3        | 6108       | 27.71%  |
+| Central Area   | 3        | 37601      | 99.09%  |
+|                | 2        | 345        | 0.91%   |
+| Northeast      | 4        | 52881      | 99.70%  |
+|                | 5        | 157        | 0.30%   |
+| Rainier Valley | 2        | 49931      | 99.69%  |
+|                | 3        | 155        | 0.31%   |
+| Interbay       | 7        | 2066       | 94.25%  |
+|                | 6        | 126        | 5.75%   |
+| Beacon Hill    | 2        | 36873      | 99.93%  |
+|                | 1        | 26         | 0.07%   |
+
+<details>
+<summary>10 kept whole</summary>
+
+| Area                | District | Population | Percent |
+|---------------------|----------|------------|---------|
+| Delridge            | 1        | 35082      | 100.00% |
+| Greater Duwamish    | 1        | 6266       | 100.00% |
+| West Seattle        | 1        | 60968      | 100.00% |
+| Seward Park         | 2        | 7038       | 100.00% |
+| Capitol Hill        | 3        | 51236      | 100.00% |
+| University District | 4        | 34408      | 100.00% |
+| Lake City           | 5        | 32292      | 100.00% |
+| Northgate           | 5        | 36016      | 100.00% |
+| Ballard             | 6        | 44560      | 100.00% |
+| Queen Anne          | 7        | 43708      | 100.00% |
+
+</details>
+
+## Community Reporting Areas
+This districting splits 18 out of 53 areas. A person was split from an area 56045 times.
+
+![Map showing areas of population that have been split off.](rjs_malaba/split-Community Reporting Areas.png)\
+
+
+| Area                                  | District | Population | Percent |
+|---------------------------------------|----------|------------|---------|
+| First Hill                            | 3        | 8781       | 42.74%  |
+|                                       | 2        | 6451       | 31.40%  |
+|                                       | 7        | 5315       | 25.87%  |
+| Greenwood/Phinney Ridge               | 6        | 18178      | 67.30%  |
+|                                       | 5        | 8833       | 32.70%  |
+| Fremont                               | 6        | 12109      | 62.99%  |
+|                                       | 4        | 7116       | 37.01%  |
+| Green Lake                            | 6        | 13446      | 75.29%  |
+|                                       | 4        | 4412       | 24.71%  |
+| North Beach/Blue Ridge                | 5        | 8170       | 65.40%  |
+|                                       | 6        | 4323       | 34.60%  |
+| Cascade/Eastlake                      | 7        | 25192      | 86.25%  |
+|                                       | 3        | 4015       | 13.75%  |
+| Wedgwood/View Ridge                   | 4        | 13021      | 78.28%  |
+|                                       | 5        | 3612       | 21.72%  |
+| Interbay                              | 7        | 10318      | 82.79%  |
+|                                       | 6        | 2145       | 17.21%  |
+| Wallingford                           | 4        | 17237      | 90.71%  |
+|                                       | 6        | 1766       | 9.29%   |
+| Pioneer Square/International District | 2        | 4708       | 74.11%  |
+|                                       | 1        | 1645       | 25.89%  |
+| Duwamish/SODO                         | 1        | 2017       | 55.34%  |
+|                                       | 2        | 1628       | 44.66%  |
+| Magnolia                              | 6        | 12321      | 89.82%  |
+|                                       | 7        | 1396       | 10.18%  |
+| North Beacon Hill/Jefferson Park      | 2        | 14666      | 92.00%  |
+|                                       | 3        | 1275       | 8.00%   |
+| Mt. Baker/North Rainier               | 2        | 5715       | 84.54%  |
+|                                       | 3        | 1045       | 15.46%  |
+| Downtown Commercial Core              | 7        | 4902       | 84.97%  |
+|                                       | 1        | 867        | 15.03%  |
+| Judkins Park                          | 3        | 4119       | 95.95%  |
+|                                       | 2        | 174        | 4.05%   |
+| South Beacon Hill/NewHolly            | 2        | 15066      | 99.85%  |
+|                                       | 1        | 22         | 0.15%   |
+| Beacon Hill                           | 2        | 9631       | 99.95%  |
+|                                       | 1        | 5          | 0.05%   |
+
+<details>
+<summary>35 kept whole</summary>
+
+| Area                               | District | Population | Percent |
+|------------------------------------|----------|------------|---------|
+| Alki/Admiral                       | 1        | 11806      | 100.00% |
+| Arbor Heights                      | 1        | 6356       | 100.00% |
+| Fauntleroy/Seaview                 | 1        | 14952      | 100.00% |
+| Georgetown                         | 1        | 1468       | 100.00% |
+| High Point                         | 1        | 8672       | 100.00% |
+| Highland Park                      | 1        | 6712       | 100.00% |
+| North Delridge                     | 1        | 6263       | 100.00% |
+| Riverview                          | 1        | 5078       | 100.00% |
+| Roxhill/Westwood                   | 1        | 12901      | 100.00% |
+| South Park                         | 1        | 3721       | 100.00% |
+| West Seattle Junction/Genesee Hill | 1        | 23363      | 100.00% |
+| Columbia City                      | 2        | 22133      | 100.00% |
+| Rainier Beach                      | 2        | 15637      | 100.00% |
+| Seward Park                        | 2        | 9711       | 100.00% |
+| Capitol Hill                       | 3        | 27113      | 100.00% |
+| Central Area/Squire Park           | 3        | 20007      | 100.00% |
+| Madison Park                       | 3        | 5530       | 100.00% |
+| Madrona/Leschi                     | 3        | 10932      | 100.00% |
+| Miller Park                        | 3        | 7769       | 100.00% |
+| Montlake/Portage Bay               | 3        | 9748       | 100.00% |
+| North Capitol Hill                 | 3        | 4674       | 100.00% |
+| Laurelhurst/Sand Point             | 4        | 11431      | 100.00% |
+| Ravenna/Bryant                     | 4        | 27254      | 100.00% |
+| University District                | 4        | 25143      | 100.00% |
+| Broadview/Bitter Lake              | 5        | 15728      | 100.00% |
+| Cedar Park/Meadowbrook             | 5        | 14880      | 100.00% |
+| Haller Lake                        | 5        | 10909      | 100.00% |
+| Licton Springs                     | 5        | 10208      | 100.00% |
+| Northgate/Maple Leaf               | 5        | 16361      | 100.00% |
+| Olympic Hills/Victory Heights      | 5        | 16449      | 100.00% |
+| Ballard                            | 6        | 11207      | 100.00% |
+| Sunset Hill/Loyal Heights          | 6        | 16055      | 100.00% |
+| Whittier Heights                   | 6        | 14318      | 100.00% |
+| Belltown                           | 7        | 11959      | 100.00% |
+| Queen Anne                         | 7        | 46005      | 100.00% |
+
+</details>
+
+## Elementary Schools 2021-22
+This districting splits 19 out of 58 areas. A person was split from an area 97889 times.
+
+![Map showing areas of population that have been split off.](rjs_malaba/split-Elementary Schools 2021-22.png)\
+
+
+| Area                 | District | Population | Percent |
+|----------------------|----------|------------|---------|
+| Lowell               | 7        | 47077      | 51.51%  |
+|                      | 3        | 37563      | 41.10%  |
+|                      | 2        | 3924       | 4.29%   |
+|                      | 1        | 2832       | 3.10%   |
+| Green Lake           | 4        | 32972      | 74.44%  |
+|                      | 6        | 11324      | 25.56%  |
+| B.F. Day             | 4        | 12640      | 54.26%  |
+|                      | 6        | 10654      | 45.74%  |
+| Gatzert              | 2        | 7409       | 53.79%  |
+|                      | 3        | 6364       | 46.21%  |
+| Bagley               | 6        | 6490       | 57.60%  |
+|                      | 5        | 4778       | 42.40%  |
+| North Beach          | 5        | 4594       | 55.53%  |
+|                      | 6        | 3679       | 44.47%  |
+| Loyal Heights        | 6        | 8976       | 75.33%  |
+|                      | 5        | 2939       | 24.67%  |
+| Greenwood            | 6        | 6586       | 73.14%  |
+|                      | 5        | 2419       | 26.86%  |
+| Rising Star          | 2        | 6085       | 78.90%  |
+|                      | 1        | 1627       | 21.10%  |
+| Beacon Hill Int'l    | 2        | 6812       | 81.32%  |
+|                      | 1        | 1565       | 18.68%  |
+| Thurgood Marshall    | 3        | 5069       | 77.12%  |
+|                      | 2        | 1504       | 22.88%  |
+| Wedgwood             | 4        | 8111       | 85.08%  |
+|                      | 5        | 1422       | 14.92%  |
+| View Ridge           | 4        | 11131      | 89.58%  |
+|                      | 5        | 1295       | 10.42%  |
+| Magnolia             | 7        | 8385       | 88.53%  |
+|                      | 6        | 1086       | 11.47%  |
+| Leschi               | 3        | 8520       | 90.64%  |
+|                      | 2        | 880        | 9.36%   |
+| Olympic View         | 5        | 15338      | 94.62%  |
+|                      | 4        | 872        | 5.38%   |
+| Lawton               | 6        | 8301       | 93.06%  |
+|                      | 7        | 619        | 6.94%   |
+| Sacajawea            | 5        | 8523       | 95.69%  |
+|                      | 4        | 384        | 4.31%   |
+| Catharine Blaine K-8 | 6        | 5079       | 96.96%  |
+|                      | 7        | 159        | 3.04%   |
+
+<details>
+<summary>39 kept whole</summary>
+
+| Area                  | District | Population | Percent |
+|-----------------------|----------|------------|---------|
+| Alki                  | 1        | 9457       | 100.00% |
+| Arbor Heights         | 1        | 11956      | 100.00% |
+| Concord Int'l         | 1        | 5896       | 100.00% |
+| Fairmount Park        | 1        | 11889      | 100.00% |
+| Gatewood              | 1        | 10638      | 100.00% |
+| Genesee Hill          | 1        | 10128      | 100.00% |
+| Highland Park         | 1        | 6290       | 100.00% |
+| Lafayette             | 1        | 15487      | 100.00% |
+| Roxhill               | 1        | 8046       | 100.00% |
+| Sanislo               | 1        | 4861       | 100.00% |
+| West Seattle Elem     | 1        | 5176       | 100.00% |
+| Dearborn Park Int'l   | 2        | 5968       | 100.00% |
+| Dunlap                | 2        | 5489       | 100.00% |
+| Emerson               | 2        | 8680       | 100.00% |
+| Graham Hill           | 2        | 6806       | 100.00% |
+| Hawthorne             | 2        | 12593      | 100.00% |
+| John Muir             | 2        | 8684       | 100.00% |
+| Kimball               | 2        | 8720       | 100.00% |
+| MLK Jr.               | 2        | 5291       | 100.00% |
+| Maple                 | 2        | 6407       | 100.00% |
+| Rainier View          | 2        | 5583       | 100.00% |
+| Wing Luke             | 2        | 4685       | 100.00% |
+| Madrona               | 3        | 13269      | 100.00% |
+| McGilvra              | 3        | 10787      | 100.00% |
+| Montlake              | 3        | 11761      | 100.00% |
+| Stevens               | 3        | 11675      | 100.00% |
+| Bryant                | 4        | 13344      | 100.00% |
+| Laurelhurst           | 4        | 19295      | 100.00% |
+| Sand Point            | 4        | 6865       | 100.00% |
+| Broadview-Thomson K-8 | 5        | 14939      | 100.00% |
+| John Rogers           | 5        | 12473      | 100.00% |
+| Northgate             | 5        | 8459       | 100.00% |
+| Olympic Hills         | 5        | 13165      | 100.00% |
+| Viewlands             | 5        | 14806      | 100.00% |
+| Adams                 | 6        | 22286      | 100.00% |
+| West Woodland         | 6        | 13753      | 100.00% |
+| Whittier              | 6        | 7654       | 100.00% |
+| Coe                   | 7        | 16200      | 100.00% |
+| Hay                   | 7        | 32647      | 100.00% |
+
+</details>
+
+## Middle Schools 2021-22
+This districting splits 10 out of 14 areas. A person was split from an area 131942 times.
+
+![Map showing areas of population that have been split off.](rjs_malaba/split-Middle Schools 2021-22.png)\
+
+
+| Area                    | District | Population | Percent |
+|-------------------------|----------|------------|---------|
+| Meany                   | 3        | 93575      | 63.10%  |
+|                         | 7        | 47077      | 31.75%  |
+|                         | 2        | 4804       | 3.24%   |
+|                         | 1        | 2832       | 1.91%   |
+| McClure                 | 7        | 58010      | 80.04%  |
+|                         | 6        | 14466      | 19.96%  |
+| Eagle Staff             | 5        | 30857      | 70.24%  |
+|                         | 6        | 13076      | 29.76%  |
+| Hamilton Int'l          | 6        | 24407      | 66.40%  |
+|                         | 4        | 12352      | 33.60%  |
+| Washington              | 2        | 26317      | 69.71%  |
+|                         | 3        | 11433      | 30.29%  |
+| Eckstein/Hamilton Int'l | 4        | 33251      | 74.60%  |
+|                         | 6        | 11324      | 25.40%  |
+| Whitman                 | 6        | 42595      | 84.97%  |
+|                         | 5        | 7533       | 15.03%  |
+| Mercer Int'l            | 2        | 25272      | 88.79%  |
+|                         | 1        | 3192       | 11.21%  |
+| Eckstein                | 4        | 58755      | 95.77%  |
+|                         | 5        | 2597       | 4.23%   |
+| Jane Addams             | 5        | 49619      | 97.53%  |
+|                         | 4        | 1256       | 2.47%   |
+
+<details>
+<summary>4 kept whole</summary>
+
+| Area                | District | Population | Percent |
+|---------------------|----------|------------|---------|
+| Denny Int'l         | 1        | 42225      | 100.00% |
+| Madison             | 1        | 57599      | 100.00% |
+| Aki Kurose          | 2        | 49127      | 100.00% |
+| Whitman/Eagle Staff | 5        | 14544      | 100.00% |
+
+</details>
+
+## Police Beats 2018 - Present
+This districting splits 14 out of 51 areas. A person was split from an area 35048 times.
+
+![Map showing areas of population that have been split off.](rjs_malaba/split-Police Beats 2018 - Present.png)\
+
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| Q1   | 6        | 14466      | 61.22%  |
+|      | 7        | 9163       | 38.78%  |
+| D3   | 7        | 9086       | 60.20%  |
+|      | 3        | 6007       | 39.80%  |
+| J1   | 5        | 10234      | 66.84%  |
+|      | 6        | 5078       | 33.16%  |
+| B3   | 4        | 18325      | 79.67%  |
+|      | 6        | 4676       | 20.33%  |
+| L2   | 5        | 15518      | 85.19%  |
+|      | 4        | 2698       | 14.81%  |
+| E3   | 3        | 9430       | 80.17%  |
+|      | 7        | 2332       | 19.83%  |
+| O3   | 1        | 1330       | 50.34%  |
+|      | 2        | 1312       | 49.66%  |
+| R2   | 2        | 13575      | 93.56%  |
+|      | 3        | 934        | 6.44%   |
+| G1   | 2        | 6451       | 88.32%  |
+|      | 3        | 853        | 11.68%  |
+| K3   | 2        | 4882       | 86.04%  |
+|      | 1        | 792        | 13.96%  |
+| U3   | 4        | 36992      | 98.09%  |
+|      | 5        | 721        | 1.91%   |
+| K1   | 7        | 2143       | 86.27%  |
+|      | 1        | 341        | 13.73%  |
+| G3   | 3        | 8393       | 98.97%  |
+|      | 2        | 87         | 1.03%   |
+| R1   | 2        | 18547      | 99.71%  |
+|      | 1        | 54         | 0.29%   |
+
+<details>
+<summary>37 kept whole</summary>
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| F1   | 1        | 13466      | 100.00% |
+| F2   | 1        | 9885       | 100.00% |
+| F3   | 1        | 10390      | 100.00% |
+| K2   | 1        | 2577       | 100.00% |
+| O1   | 1        | 622        | 100.00% |
+| O2   | 1        | 308        | 100.00% |
+| W1   | 1        | 19260      | 100.00% |
+| W2   | 1        | 24550      | 100.00% |
+| W3   | 1        | 22273      | 100.00% |
+| R3   | 2        | 17282      | 100.00% |
+| S1   | 2        | 16704      | 100.00% |
+| S2   | 2        | 13152      | 100.00% |
+| S3   | 2        | 13528      | 100.00% |
+| C1   | 3        | 14042      | 100.00% |
+| C2   | 3        | 16665      | 100.00% |
+| C3   | 3        | 15480      | 100.00% |
+| E1   | 3        | 14699      | 100.00% |
+| E2   | 3        | 7058       | 100.00% |
+| G2   | 3        | 11447      | 100.00% |
+| U1   | 4        | 27006      | 100.00% |
+| U2   | 4        | 20593      | 100.00% |
+| L1   | 5        | 18842      | 100.00% |
+| L3   | 5        | 17135      | 100.00% |
+| N1   | 5        | 19380      | 100.00% |
+| N2   | 5        | 10060      | 100.00% |
+| N3   | 5        | 13260      | 100.00% |
+| B1   | 6        | 19211      | 100.00% |
+| B2   | 6        | 20677      | 100.00% |
+| J2   | 6        | 25135      | 100.00% |
+| J3   | 6        | 16625      | 100.00% |
+| D1   | 7        | 11840      | 100.00% |
+| D2   | 7        | 17222      | 100.00% |
+| M1   | 7        | 5475       | 100.00% |
+| M2   | 7        | 3463       | 100.00% |
+| M3   | 7        | 904        | 100.00% |
+| Q2   | 7        | 28892      | 100.00% |
+| Q3   | 7        | 14567      | 100.00% |
+
+</details>
+
+## 2022 Voting Precincts
+This districting splits 24 out of 1027 areas. A person was split from an area 5468 times.
+
+![Map showing areas of population that have been split off.](rjs_malaba/split-2022 Voting Precincts.png)\
+
+
+| Area        | District | Population | Percent |
+|-------------|----------|------------|---------|
+| SEA 37-3573 | 2        | 1366       | 68.16%  |
+|             | 3        | 638        | 31.84%  |
+| SEA 34-3497 | 1        | 717        | 53.83%  |
+|             | 7        | 615        | 46.17%  |
+| SEA 37-1853 | 3        | 392        | 51.44%  |
+|             | 2        | 370        | 48.56%  |
+| SEA 43-1835 | 3        | 894        | 70.95%  |
+|             | 7        | 366        | 29.05%  |
+| SEA 37-1854 | 3        | 541        | 61.06%  |
+|             | 2        | 345        | 38.94%  |
+| SEA 37-1871 | 2        | 574        | 63.01%  |
+|             | 3        | 337        | 36.99%  |
+| SEA 37-1872 | 2        | 523        | 61.38%  |
+|             | 3        | 329        | 38.62%  |
+| SEA 36-3153 | 5        | 320        | 51.36%  |
+|             | 6        | 303        | 48.64%  |
+| SEA 36-1815 | 7        | 356        | 54.85%  |
+|             | 6        | 293        | 45.15%  |
+| SEA 36-3744 | 5        | 468        | 65.92%  |
+|             | 6        | 242        | 34.08%  |
+| SEA 36-2121 | 6        | 513        | 68.86%  |
+|             | 5        | 232        | 31.14%  |
+| SEA 46-2500 | 4        | 353        | 63.72%  |
+|             | 5        | 201        | 36.28%  |
+| SEA 46-2378 | 5        | 227        | 54.31%  |
+|             | 4        | 191        | 45.69%  |
+| SEA 36-2527 | 5        | 231        | 60.79%  |
+|             | 6        | 149        | 39.21%  |
+| SEA 37-3708 | 2        | 1164       | 88.65%  |
+|             | 3        | 149        | 11.35%  |
+| SEA 36-2523 | 5        | 515        | 77.91%  |
+|             | 6        | 146        | 22.09%  |
+| SEA 37-1897 | 2        | 1230       | 89.45%  |
+|             | 3        | 145        | 10.55%  |
+| SEA 36-1683 | 7        | 315        | 68.63%  |
+|             | 6        | 144        | 31.37%  |
+| SEA 36-1682 | 7        | 330        | 75.00%  |
+|             | 6        | 110        | 25.00%  |
+| SEA 37-3956 | 2        | 174        | 77.68%  |
+|             | 3        | 50         | 22.32%  |
+| SEA 34-1823 | 1        | 150        | 75.00%  |
+|             | 7        | 50         | 25.00%  |
+| SEA 37-1839 | 3        | 736        | 95.83%  |
+|             | 2        | 32         | 4.17%   |
+| SEA 36-1665 | 6        | 698        | 95.88%  |
+|             | 7        | 30         | 4.12%   |
+| SEA 37-3696 | 2        | 294        | 99.66%  |
+|             | 3        | 1          | 0.34%   |
+
+
+# dave
+## Population
+PASS - The maximum population (105848) is 0.66% greater than the minimum (105150).
+
+### Census Groups
+| Stat       | 1      | 2      | 3      | 4      | 5      | 6      | 7      |
+|------------|--------|--------|--------|--------|--------|--------|--------|
+| TAPERSONS  | 105848 | 105520 | 105388 | 105506 | 105150 | 105484 | 105199 |
+| TA1RACE    | 88.4%  | 90.2%  | 89.2%  | 89.2%  | 88.9%  | 89.7%  | 90.9%  |
+| TAWHITEALN | 66.2%  | 34.1%  | 63.0%  | 67.0%  | 62.0%  | 76.3%  | 60.1%  |
+| TABLACKALN | 7.2%   | 18.5%  | 7.5%   | 2.4%   | 7.2%   | 1.7%   | 4.7%   |
+| TAAMINDALN | 1.0%   | 0.9%   | 0.6%   | 0.4%   | 0.9%   | 0.5%   | 0.7%   |
+| TAASIANALN | 9.6%   | 31.3%  | 14.8%  | 17.1%  | 14.5%  | 9.1%   | 22.8%  |
+| TANHPOALN  | 0.5%   | 0.4%   | 0.3%   | 0.2%   | 0.3%   | 0.2%   | 0.2%   |
+| TAOTHERALN | 3.9%   | 4.9%   | 2.9%   | 2.2%   | 4.1%   | 2.0%   | 2.4%   |
+| TA2RACE    | 11.6%  | 9.8%   | 10.8%  | 10.8%  | 11.1%  | 10.3%  | 9.1%   |
+| THISPNHISP | 99.9%  | 99.7%  | 99.9%  | 100.0% | 99.9%  | 100.0% | 99.7%  |
+| TAHISPANIC | 10.2%  | 9.6%   | 8.2%   | 6.5%   | 9.3%   | 6.4%   | 7.4%   |
+| TNHISPANIC | 89.8%  | 90.4%  | 91.8%  | 93.5%  | 90.7%  | 93.6%  | 92.6%  |
+| TN1RACE    | 82.2%  | 83.6%  | 84.2%  | 85.6%  | 83.1%  | 86.2%  | 86.6%  |
+| TNWHALN    | 64.0%  | 32.8%  | 60.9%  | 65.3%  | 60.2%  | 74.5%  | 58.0%  |
+| TNBLKALN   | 7.0%   | 18.2%  | 7.3%   | 2.3%   | 7.1%   | 1.6%   | 4.5%   |
+| TNAIANALN  | 0.7%   | 0.4%   | 0.4%   | 0.3%   | 0.5%   | 0.3%   | 0.5%   |
+| TNASIANALN | 9.5%   | 31.1%  | 14.7%  | 16.9%  | 14.3%  | 9.0%   | 22.7%  |
+| TNNHPOALN  | 0.4%   | 0.4%   | 0.3%   | 0.1%   | 0.2%   | 0.2%   | 0.2%   |
+| TNOTHRALN  | 0.6%   | 0.6%   | 0.6%   | 0.6%   | 0.7%   | 0.6%   | 0.6%   |
+| TN2MRACES  | 7.6%   | 6.8%   | 7.6%   | 7.9%   | 7.7%   | 7.3%   | 6.0%   |
+| TAHOUSING  | 49717  | 43741  | 56060  | 48588  | 49865  | 52581  | 67756  |
+| TAHOCCUPID | 47027  | 41417  | 52191  | 45675  | 47417  | 50102  | 61798  |
+| TAHVACANT  | 2690   | 2324   | 3869   | 2913   | 2448   | 2479   | 5958   |
+| TAGRPQRTR  | 2987   | 2909   | 11106  | 4315   | 1526   | 1098   | 5977   |
+
+## Zoning
+This map simplifies city zoning into three categories:
+
+* Residential (Green)
+* Commercial (Blue) and Residential is also allowed
+* Industrial (Yellow)
+
+Denser areas are darker than lighter ones. There are three gradations of density.
+
+![Map showing district lines over zoning map.](dave/zoning.png)\
+
+
+
+## Rental Units
+Count of rental housing units (not renters themselves) per district. Sourced from [Rental Property Registration](https://data.seattle.gov/Permitting/Rental-Property-Registration/j2xh-c7vt) on September 29th, 2022.
+
+![Map showing district lines over map of rental unit quantity.](dave/rentals.png)\
+
+
+| District | Rental Housing Units |
+|----------|----------------------|
+| 1        | 14262                |
+| 2        | 14558                |
+| 3        | 26504                |
+| 4        | 20697                |
+| 5        | 18419                |
+| 6        | 20067                |
+| 7        | 41890                |
+
+## Driving Connectivity
+This map *fails* because some districts (6) have disconnected road networks. This means some folks would have to drive through another district to get to another place in their district.District 7
+![Driving connectivity map showing 2 partitions for district 7](reports/dave/district6_roads.png)\
+
+
+## City Clerk Neighborhoods
+This districting splits 14 out of 91 areas. A person was split from an area 29755 times.
+
+![Map showing areas of population that have been split off.](dave/split-City Clerk Neighborhoods.png)\
+
+
+| Area                      | District | Population | Percent |
+|---------------------------|----------|------------|---------|
+| University District       | 4        | 24753      | 71.94%  |
+|                           | 3        | 9655       | 28.06%  |
+| Greenwood                 | 5        | 11266      | 61.78%  |
+|                           | 6        | 6969       | 38.22%  |
+| First Hill                | 3        | 6745       | 49.57%  |
+|                           | 7        | 5495       | 40.39%  |
+|                           | 2        | 1366       | 10.04%  |
+| North Beach/Blue Ridge    | 6        | 3331       | 57.74%  |
+|                           | 5        | 2438       | 42.26%  |
+| Pioneer Square            | 1        | 3455       | 75.45%  |
+|                           | 7        | 1124       | 24.55%  |
+| Wallingford               | 4        | 17592      | 94.70%  |
+|                           | 6        | 984        | 5.30%   |
+| Crown Hill                | 5        | 4176       | 81.56%  |
+|                           | 6        | 944        | 18.44%  |
+| Atlantic                  | 3        | 8365       | 96.04%  |
+|                           | 2        | 345        | 3.96%   |
+| Roosevelt                 | 4        | 8983       | 98.28%  |
+|                           | 5        | 157        | 1.72%   |
+| Mount Baker               | 2        | 8203       | 98.15%  |
+|                           | 3        | 155        | 1.85%   |
+| Central Business District | 7        | 5205       | 99.03%  |
+|                           | 1        | 51         | 0.97%   |
+| Broadway                  | 3        | 28101      | 99.84%  |
+|                           | 7        | 46         | 0.16%   |
+| South Beacon Hill         | 2        | 5442       | 99.62%  |
+|                           | 1        | 21         | 0.38%   |
+| Mid-Beacon Hill           | 2        | 13797      | 99.96%  |
+|                           | 1        | 5          | 0.04%   |
+
+<details>
+<summary>77 kept whole</summary>
+
+| Area                   | District | Population | Percent |
+|------------------------|----------|------------|---------|
+| Alki                   | 1        | 7450       | 100.00% |
+| Arbor Heights          | 1        | 5578       | 100.00% |
+| Fairmount Park         | 1        | 7721       | 100.00% |
+| Fauntleroy             | 1        | 5452       | 100.00% |
+| Gatewood               | 1        | 6902       | 100.00% |
+| Genesee                | 1        | 9118       | 100.00% |
+| Georgetown             | 1        | 1419       | 100.00% |
+| Harbor Island          | 1        | 4          | 100.00% |
+| High Point             | 1        | 8331       | 100.00% |
+| Highland Park          | 1        | 6689       | 100.00% |
+| Industrial District    | 1        | 1099       | 100.00% |
+| North Admiral          | 1        | 13646      | 100.00% |
+| North Delridge         | 1        | 4866       | 100.00% |
+| Riverview              | 1        | 4260       | 100.00% |
+| Roxhill                | 1        | 4314       | 100.00% |
+| Seaview                | 1        | 5101       | 100.00% |
+| South Delridge         | 1        | 6622       | 100.00% |
+| South Park             | 1        | 3744       | 100.00% |
+| Brighton               | 2        | 8931       | 100.00% |
+| Columbia City          | 2        | 15182      | 100.00% |
+| Dunlap                 | 2        | 6499       | 100.00% |
+| Holly Park             | 2        | 4895       | 100.00% |
+| International District | 2        | 4555       | 100.00% |
+| North Beacon Hill      | 2        | 12739      | 100.00% |
+| Rainier Beach          | 2        | 7096       | 100.00% |
+| Rainier View           | 2        | 4020       | 100.00% |
+| Seward Park            | 2        | 7038       | 100.00% |
+| Yesler Terrace         | 2        | 5412       | 100.00% |
+| Harrison/Denny-Blaine  | 3        | 2700       | 100.00% |
+| Leschi                 | 3        | 5807       | 100.00% |
+| Madison Park           | 3        | 4643       | 100.00% |
+| Madrona                | 3        | 4140       | 100.00% |
+| Mann                   | 3        | 5184       | 100.00% |
+| Minor                  | 3        | 11405      | 100.00% |
+| Montlake               | 3        | 5053       | 100.00% |
+| OOO                    | 3        | 15         | 100.00% |
+| Portage Bay            | 3        | 1510       | 100.00% |
+| Stevens                | 3        | 11910      | 100.00% |
+| Bryant                 | 4        | 5663       | 100.00% |
+| Green Lake             | 4        | 10280      | 100.00% |
+| Laurelhurst            | 4        | 4743       | 100.00% |
+| Ravenna                | 4        | 12790      | 100.00% |
+| Sand Point             | 4        | 707        | 100.00% |
+| View Ridge             | 4        | 5738       | 100.00% |
+| Wedgwood               | 4        | 9267       | 100.00% |
+| Windermere             | 4        | 4990       | 100.00% |
+| Bitter Lake            | 5        | 10172      | 100.00% |
+| Broadview              | 5        | 8633       | 100.00% |
+| Cedar Park             | 5        | 6652       | 100.00% |
+| Haller Lake            | 5        | 8786       | 100.00% |
+| Maple Leaf             | 5        | 11373      | 100.00% |
+| Matthews Beach         | 5        | 6682       | 100.00% |
+| Meadowbrook            | 5        | 3484       | 100.00% |
+| North College Park     | 5        | 7463       | 100.00% |
+| Olympic Hills          | 5        | 9556       | 100.00% |
+| Pinehurst              | 5        | 8394       | 100.00% |
+| Victory Heights        | 5        | 5918       | 100.00% |
+| Adams                  | 6        | 15942      | 100.00% |
+| Briarcliff             | 6        | 5812       | 100.00% |
+| Fremont                | 6        | 14796      | 100.00% |
+| Interbay               | 6        | 2192       | 100.00% |
+| Lawton Park            | 6        | 9956       | 100.00% |
+| Loyal Heights          | 6        | 8701       | 100.00% |
+| Phinney Ridge          | 6        | 10404      | 100.00% |
+| Southeast Magnolia     | 6        | 5536       | 100.00% |
+| Sunset Hill            | 6        | 6143       | 100.00% |
+| West Woodland          | 6        | 8119       | 100.00% |
+| Whittier Heights       | 6        | 5655       | 100.00% |
+| Belltown               | 7        | 24288      | 100.00% |
+| East Queen Anne        | 7        | 9852       | 100.00% |
+| Eastlake               | 7        | 5406       | 100.00% |
+| Lower Queen Anne       | 7        | 14162      | 100.00% |
+| North Queen Anne       | 7        | 12209      | 100.00% |
+| Pike-Market            | 7        | 3329       | 100.00% |
+| South Lake Union       | 7        | 12523      | 100.00% |
+| West Queen Anne        | 7        | 7498       | 100.00% |
+| Westlake               | 7        | 4062       | 100.00% |
+
+</details>
+
+## Atlas Neighborhoods
+This districting splits 9 out of 20 areas. A person was split from an area 69354 times.
+
+![Map showing areas of population that have been split off.](dave/split-Atlas Neighborhoods.png)\
+
+
+| Area                | District | Population | Percent |
+|---------------------|----------|------------|---------|
+| North Central       | 4        | 27872      | 51.56%  |
+|                     | 6        | 26184      | 48.44%  |
+| Downtown            | 7        | 39441      | 64.63%  |
+|                     | 2        | 11333      | 18.57%  |
+|                     | 3        | 6745       | 11.05%  |
+|                     | 1        | 3506       | 5.75%   |
+| Northwest           | 5        | 36685      | 76.54%  |
+|                     | 6        | 11244      | 23.46%  |
+| University District | 4        | 24753      | 71.94%  |
+|                     | 3        | 9655       | 28.06%  |
+| Central Area        | 3        | 37601      | 99.09%  |
+|                     | 2        | 345        | 0.91%   |
+| Northeast           | 4        | 52881      | 99.70%  |
+|                     | 5        | 157        | 0.30%   |
+| Rainier Valley      | 2        | 49931      | 99.69%  |
+|                     | 3        | 155        | 0.31%   |
+| Beacon Hill         | 2        | 36873      | 99.93%  |
+|                     | 1        | 26         | 0.07%   |
+| Capitol Hill        | 3        | 51232      | 99.99%  |
+|                     | 7        | 4          | 0.01%   |
+
+<details>
+<summary>11 kept whole</summary>
+
+| Area             | District | Population | Percent |
+|------------------|----------|------------|---------|
+| Delridge         | 1        | 35082      | 100.00% |
+| Greater Duwamish | 1        | 6266       | 100.00% |
+| West Seattle     | 1        | 60968      | 100.00% |
+| Seward Park      | 2        | 7038       | 100.00% |
+| Lake City        | 5        | 32292      | 100.00% |
+| Northgate        | 5        | 36016      | 100.00% |
+| Ballard          | 6        | 44560      | 100.00% |
+| Interbay         | 6        | 2192       | 100.00% |
+| Magnolia         | 6        | 21304      | 100.00% |
+| Cascade          | 7        | 22046      | 100.00% |
+| Queen Anne       | 7        | 43708      | 100.00% |
+
+</details>
+
+## Community Reporting Areas
+This districting splits 19 out of 53 areas. A person was split from an area 58966 times.
+
+![Map showing areas of population that have been split off.](dave/split-Community Reporting Areas.png)\
+
+
+| Area                                  | District | Population | Percent |
+|---------------------------------------|----------|------------|---------|
+| First Hill                            | 7        | 8482       | 41.28%  |
+|                                       | 2        | 6451       | 31.40%  |
+|                                       | 3        | 5614       | 27.32%  |
+| University District                   | 4        | 15775      | 62.74%  |
+|                                       | 3        | 9368       | 37.26%  |
+| Greenwood/Phinney Ridge               | 6        | 18178      | 67.30%  |
+|                                       | 5        | 8833       | 32.70%  |
+| North Beach/Blue Ridge                | 5        | 8170       | 65.40%  |
+|                                       | 6        | 4323       | 34.60%  |
+| Fremont                               | 6        | 15053      | 78.30%  |
+|                                       | 4        | 4172       | 21.70%  |
+| Wedgwood/View Ridge                   | 4        | 13021      | 78.28%  |
+|                                       | 5        | 3612       | 21.72%  |
+| Montlake/Portage Bay                  | 3        | 6515       | 66.83%  |
+|                                       | 7        | 3233       | 33.17%  |
+| Wallingford                           | 4        | 16282      | 85.68%  |
+|                                       | 6        | 2721       | 14.32%  |
+| Interbay                              | 6        | 9912       | 79.53%  |
+|                                       | 7        | 2551       | 20.47%  |
+| Pioneer Square/International District | 2        | 4708       | 74.11%  |
+|                                       | 1        | 1645       | 25.89%  |
+| Duwamish/SODO                         | 1        | 2017       | 55.34%  |
+|                                       | 2        | 1628       | 44.66%  |
+| North Beacon Hill/Jefferson Park      | 2        | 14666      | 92.00%  |
+|                                       | 3        | 1275       | 8.00%   |
+| Cascade/Eastlake                      | 7        | 28067      | 96.10%  |
+|                                       | 3        | 1140       | 3.90%   |
+| Mt. Baker/North Rainier               | 2        | 5715       | 84.54%  |
+|                                       | 3        | 1045       | 15.46%  |
+| Downtown Commercial Core              | 7        | 4902       | 84.97%  |
+|                                       | 1        | 867        | 15.03%  |
+| Laurelhurst/Sand Point                | 4        | 11144      | 97.49%  |
+|                                       | 3        | 287        | 2.51%   |
+| Judkins Park                          | 3        | 4119       | 95.95%  |
+|                                       | 2        | 174        | 4.05%   |
+| South Beacon Hill/NewHolly            | 2        | 15066      | 99.85%  |
+|                                       | 1        | 22         | 0.15%   |
+| Beacon Hill                           | 2        | 9631       | 99.95%  |
+|                                       | 1        | 5          | 0.05%   |
+
+<details>
+<summary>34 kept whole</summary>
+
+| Area                               | District | Population | Percent |
+|------------------------------------|----------|------------|---------|
+| Alki/Admiral                       | 1        | 11806      | 100.00% |
+| Arbor Heights                      | 1        | 6356       | 100.00% |
+| Fauntleroy/Seaview                 | 1        | 14952      | 100.00% |
+| Georgetown                         | 1        | 1468       | 100.00% |
+| High Point                         | 1        | 8672       | 100.00% |
+| Highland Park                      | 1        | 6712       | 100.00% |
+| North Delridge                     | 1        | 6263       | 100.00% |
+| Riverview                          | 1        | 5078       | 100.00% |
+| Roxhill/Westwood                   | 1        | 12901      | 100.00% |
+| South Park                         | 1        | 3721       | 100.00% |
+| West Seattle Junction/Genesee Hill | 1        | 23363      | 100.00% |
+| Columbia City                      | 2        | 22133      | 100.00% |
+| Rainier Beach                      | 2        | 15637      | 100.00% |
+| Seward Park                        | 2        | 9711       | 100.00% |
+| Capitol Hill                       | 3        | 27113      | 100.00% |
+| Central Area/Squire Park           | 3        | 20007      | 100.00% |
+| Madison Park                       | 3        | 5530       | 100.00% |
+| Madrona/Leschi                     | 3        | 10932      | 100.00% |
+| Miller Park                        | 3        | 7769       | 100.00% |
+| North Capitol Hill                 | 3        | 4674       | 100.00% |
+| Green Lake                         | 4        | 17858      | 100.00% |
+| Ravenna/Bryant                     | 4        | 27254      | 100.00% |
+| Broadview/Bitter Lake              | 5        | 15728      | 100.00% |
+| Cedar Park/Meadowbrook             | 5        | 14880      | 100.00% |
+| Haller Lake                        | 5        | 10909      | 100.00% |
+| Licton Springs                     | 5        | 10208      | 100.00% |
+| Northgate/Maple Leaf               | 5        | 16361      | 100.00% |
+| Olympic Hills/Victory Heights      | 5        | 16449      | 100.00% |
+| Ballard                            | 6        | 11207      | 100.00% |
+| Magnolia                           | 6        | 13717      | 100.00% |
+| Sunset Hill/Loyal Heights          | 6        | 16055      | 100.00% |
+| Whittier Heights                   | 6        | 14318      | 100.00% |
+| Belltown                           | 7        | 11959      | 100.00% |
+| Queen Anne                         | 7        | 46005      | 100.00% |
+
+</details>
+
+## Elementary Schools 2021-22
+This districting splits 18 out of 58 areas. A person was split from an area 93494 times.
+
+![Map showing areas of population that have been split off.](dave/split-Elementary Schools 2021-22.png)\
+
+
+| Area              | District | Population | Percent |
+|-------------------|----------|------------|---------|
+| Lowell            | 7        | 51267      | 56.09%  |
+|                   | 3        | 33373      | 36.51%  |
+|                   | 2        | 3924       | 4.29%   |
+|                   | 1        | 2832       | 3.10%   |
+| B.F. Day          | 6        | 16214      | 69.61%  |
+|                   | 4        | 7080       | 30.39%  |
+| Bagley            | 5        | 4778       | 42.40%  |
+|                   | 4        | 3888       | 34.50%  |
+|                   | 6        | 2602       | 23.09%  |
+| Gatzert           | 2        | 7409       | 53.79%  |
+|                   | 3        | 6364       | 46.21%  |
+| Green Lake        | 4        | 38533      | 86.99%  |
+|                   | 3        | 5658       | 12.77%  |
+|                   | 6        | 105        | 0.24%   |
+| Montlake          | 3        | 6676       | 56.76%  |
+|                   | 7        | 5085       | 43.24%  |
+| Laurelhurst       | 4        | 15298      | 79.28%  |
+|                   | 3        | 3997       | 20.72%  |
+| North Beach       | 5        | 4594       | 55.53%  |
+|                   | 6        | 3679       | 44.47%  |
+| Loyal Heights     | 6        | 8976       | 75.33%  |
+|                   | 5        | 2939       | 24.67%  |
+| Greenwood         | 6        | 6586       | 73.14%  |
+|                   | 5        | 2419       | 26.86%  |
+| Rising Star       | 2        | 6085       | 78.90%  |
+|                   | 1        | 1627       | 21.10%  |
+| Beacon Hill Int'l | 2        | 6812       | 81.32%  |
+|                   | 1        | 1565       | 18.68%  |
+| Thurgood Marshall | 3        | 5069       | 77.12%  |
+|                   | 2        | 1504       | 22.88%  |
+| Wedgwood          | 4        | 8111       | 85.08%  |
+|                   | 5        | 1422       | 14.92%  |
+| View Ridge        | 4        | 11131      | 89.58%  |
+|                   | 5        | 1295       | 10.42%  |
+| Leschi            | 3        | 8520       | 90.64%  |
+|                   | 2        | 880        | 9.36%   |
+| Olympic View      | 5        | 15338      | 94.62%  |
+|                   | 4        | 872        | 5.38%   |
+| Sacajawea         | 5        | 8523       | 95.69%  |
+|                   | 4        | 384        | 4.31%   |
+
+<details>
+<summary>40 kept whole</summary>
+
+| Area                  | District | Population | Percent |
+|-----------------------|----------|------------|---------|
+| Alki                  | 1        | 9457       | 100.00% |
+| Arbor Heights         | 1        | 11956      | 100.00% |
+| Concord Int'l         | 1        | 5896       | 100.00% |
+| Fairmount Park        | 1        | 11889      | 100.00% |
+| Gatewood              | 1        | 10638      | 100.00% |
+| Genesee Hill          | 1        | 10128      | 100.00% |
+| Highland Park         | 1        | 6290       | 100.00% |
+| Lafayette             | 1        | 15487      | 100.00% |
+| Roxhill               | 1        | 8046       | 100.00% |
+| Sanislo               | 1        | 4861       | 100.00% |
+| West Seattle Elem     | 1        | 5176       | 100.00% |
+| Dearborn Park Int'l   | 2        | 5968       | 100.00% |
+| Dunlap                | 2        | 5489       | 100.00% |
+| Emerson               | 2        | 8680       | 100.00% |
+| Graham Hill           | 2        | 6806       | 100.00% |
+| Hawthorne             | 2        | 12593      | 100.00% |
+| John Muir             | 2        | 8684       | 100.00% |
+| Kimball               | 2        | 8720       | 100.00% |
+| MLK Jr.               | 2        | 5291       | 100.00% |
+| Maple                 | 2        | 6407       | 100.00% |
+| Rainier View          | 2        | 5583       | 100.00% |
+| Wing Luke             | 2        | 4685       | 100.00% |
+| Madrona               | 3        | 13269      | 100.00% |
+| McGilvra              | 3        | 10787      | 100.00% |
+| Stevens               | 3        | 11675      | 100.00% |
+| Bryant                | 4        | 13344      | 100.00% |
+| Sand Point            | 4        | 6865       | 100.00% |
+| Broadview-Thomson K-8 | 5        | 14939      | 100.00% |
+| John Rogers           | 5        | 12473      | 100.00% |
+| Northgate             | 5        | 8459       | 100.00% |
+| Olympic Hills         | 5        | 13165      | 100.00% |
+| Viewlands             | 5        | 14806      | 100.00% |
+| Adams                 | 6        | 22286      | 100.00% |
+| Catharine Blaine K-8  | 6        | 5238       | 100.00% |
+| Lawton                | 6        | 8920       | 100.00% |
+| Magnolia              | 6        | 9471       | 100.00% |
+| West Woodland         | 6        | 13753      | 100.00% |
+| Whittier              | 6        | 7654       | 100.00% |
+| Coe                   | 7        | 16200      | 100.00% |
+| Hay                   | 7        | 32647      | 100.00% |
+
+</details>
+
+## Middle Schools 2021-22
+This districting splits 10 out of 14 areas. A person was split from an area 143256 times.
+
+![Map showing areas of population that have been split off.](dave/split-Middle Schools 2021-22.png)\
+
+
+| Area                    | District | Population | Percent |
+|-------------------------|----------|------------|---------|
+| Meany                   | 3        | 84300      | 56.85%  |
+|                         | 7        | 56352      | 38.00%  |
+|                         | 2        | 4804       | 3.24%   |
+|                         | 1        | 2832       | 1.91%   |
+| McClure                 | 7        | 48847      | 67.40%  |
+|                         | 6        | 23629      | 32.60%  |
+| Eagle Staff             | 5        | 30857      | 70.24%  |
+|                         | 6        | 9188       | 20.91%  |
+|                         | 4        | 3888       | 8.85%   |
+| Washington              | 2        | 26317      | 69.71%  |
+|                         | 3        | 11433      | 30.29%  |
+| Whitman                 | 6        | 42595      | 84.97%  |
+|                         | 5        | 7533       | 15.03%  |
+| Hamilton Int'l          | 6        | 29967      | 81.52%  |
+|                         | 4        | 6792       | 18.48%  |
+| Eckstein                | 4        | 54749      | 89.24%  |
+|                         | 3        | 4006       | 6.53%   |
+|                         | 5        | 2597       | 4.23%   |
+| Eckstein/Hamilton Int'l | 4        | 38821      | 87.09%  |
+|                         | 3        | 5649       | 12.67%  |
+|                         | 6        | 105        | 0.24%   |
+| Mercer Int'l            | 2        | 25272      | 88.79%  |
+|                         | 1        | 3192       | 11.21%  |
+| Jane Addams             | 5        | 49619      | 97.53%  |
+|                         | 4        | 1256       | 2.47%   |
+
+<details>
+<summary>4 kept whole</summary>
+
+| Area                | District | Population | Percent |
+|---------------------|----------|------------|---------|
+| Denny Int'l         | 1        | 42225      | 100.00% |
+| Madison             | 1        | 57599      | 100.00% |
+| Aki Kurose          | 2        | 49127      | 100.00% |
+| Whitman/Eagle Staff | 5        | 14544      | 100.00% |
+
+</details>
+
+## Police Beats 2018 - Present
+This districting splits 15 out of 51 areas. A person was split from an area 39879 times.
+
+![Map showing areas of population that have been split off.](dave/split-Police Beats 2018 - Present.png)\
+
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| U2   | 4        | 11225      | 54.51%  |
+|      | 3        | 9368       | 45.49%  |
+| J3   | 4        | 10536      | 63.37%  |
+|      | 6        | 6089       | 36.63%  |
+| B3   | 4        | 17336      | 75.37%  |
+|      | 6        | 5665       | 24.63%  |
+| E3   | 3        | 6263       | 53.25%  |
+|      | 7        | 5499       | 46.75%  |
+| J1   | 5        | 10234      | 66.84%  |
+|      | 6        | 5078       | 33.16%  |
+| L2   | 5        | 15518      | 85.19%  |
+|      | 4        | 2698       | 14.81%  |
+| O3   | 1        | 1330       | 50.34%  |
+|      | 2        | 1312       | 49.66%  |
+| U3   | 4        | 36705      | 97.33%  |
+|      | 5        | 721        | 1.91%   |
+|      | 3        | 287        | 0.76%   |
+| R2   | 2        | 13575      | 93.56%  |
+|      | 3        | 934        | 6.44%   |
+| G1   | 2        | 6451       | 88.32%  |
+|      | 3        | 853        | 11.68%  |
+| K3   | 2        | 4882       | 86.04%  |
+|      | 1        | 792        | 13.96%  |
+| K1   | 7        | 2143       | 86.27%  |
+|      | 1        | 341        | 13.73%  |
+| C1   | 3        | 13941      | 99.28%  |
+|      | 7        | 101        | 0.72%   |
+| G3   | 3        | 8393       | 98.97%  |
+|      | 2        | 87         | 1.03%   |
+| R1   | 2        | 18547      | 99.71%  |
+|      | 1        | 54         | 0.29%   |
+
+<details>
+<summary>36 kept whole</summary>
+
+| Area | District | Population | Percent |
+|------|----------|------------|---------|
+| F1   | 1        | 13466      | 100.00% |
+| F2   | 1        | 9885       | 100.00% |
+| F3   | 1        | 10390      | 100.00% |
+| K2   | 1        | 2577       | 100.00% |
+| O1   | 1        | 622        | 100.00% |
+| O2   | 1        | 308        | 100.00% |
+| W1   | 1        | 19260      | 100.00% |
+| W2   | 1        | 24550      | 100.00% |
+| W3   | 1        | 22273      | 100.00% |
+| R3   | 2        | 17282      | 100.00% |
+| S1   | 2        | 16704      | 100.00% |
+| S2   | 2        | 13152      | 100.00% |
+| S3   | 2        | 13528      | 100.00% |
+| C2   | 3        | 16665      | 100.00% |
+| C3   | 3        | 15480      | 100.00% |
+| E1   | 3        | 14699      | 100.00% |
+| E2   | 3        | 7058       | 100.00% |
+| G2   | 3        | 11447      | 100.00% |
+| U1   | 4        | 27006      | 100.00% |
+| L1   | 5        | 18842      | 100.00% |
+| L3   | 5        | 17135      | 100.00% |
+| N1   | 5        | 19380      | 100.00% |
+| N2   | 5        | 10060      | 100.00% |
+| N3   | 5        | 13260      | 100.00% |
+| B1   | 6        | 19211      | 100.00% |
+| B2   | 6        | 20677      | 100.00% |
+| J2   | 6        | 25135      | 100.00% |
+| Q1   | 6        | 23629      | 100.00% |
+| D1   | 7        | 11840      | 100.00% |
+| D2   | 7        | 17222      | 100.00% |
+| D3   | 7        | 15093      | 100.00% |
+| M1   | 7        | 5475       | 100.00% |
+| M2   | 7        | 3463       | 100.00% |
+| M3   | 7        | 904        | 100.00% |
+| Q2   | 7        | 28892      | 100.00% |
+| Q3   | 7        | 14567      | 100.00% |
+
+</details>
+
+## 2022 Voting Precincts
+This districting splits 27 out of 1027 areas. A person was split from an area 6512 times.
+
+![Map showing areas of population that have been split off.](dave/split-2022 Voting Precincts.png)\
+
+
+| Area        | District | Population | Percent |
+|-------------|----------|------------|---------|
+| SEA 43-2055 | 4        | 1118       | 51.81%  |
+|             | 3        | 1040       | 48.19%  |
+| SEA 37-3573 | 2        | 1366       | 68.16%  |
+|             | 3        | 638        | 31.84%  |
+| SEA 34-3497 | 1        | 717        | 53.83%  |
+|             | 7        | 615        | 46.17%  |
+| SEA 37-1853 | 3        | 392        | 51.44%  |
+|             | 2        | 370        | 48.56%  |
+| SEA 37-1854 | 3        | 541        | 61.06%  |
+|             | 2        | 345        | 38.94%  |
+| SEA 37-1871 | 2        | 574        | 63.01%  |
+|             | 3        | 337        | 36.99%  |
+| SEA 37-1872 | 2        | 523        | 61.38%  |
+|             | 3        | 329        | 38.62%  |
+| SEA 36-3153 | 5        | 320        | 51.36%  |
+|             | 6        | 303        | 48.64%  |
+| SEA 43-1968 | 4        | 405        | 58.53%  |
+|             | 3        | 287        | 41.47%  |
+| SEA 46-1357 | 6        | 275        | 52.58%  |
+|             | 4        | 248        | 47.42%  |
+| SEA 36-3744 | 5        | 468        | 65.92%  |
+|             | 6        | 242        | 34.08%  |
+| SEA 36-2121 | 6        | 513        | 68.86%  |
+|             | 5        | 232        | 31.14%  |
+| SEA 46-2500 | 4        | 353        | 63.72%  |
+|             | 5        | 201        | 36.28%  |
+| SEA 46-2378 | 5        | 227        | 54.31%  |
+|             | 4        | 191        | 45.69%  |
+| SEA 43-3974 | 3        | 1059       | 86.31%  |
+|             | 7        | 168        | 13.69%  |
+| SEA 36-2527 | 5        | 231        | 60.79%  |
+|             | 6        | 149        | 39.21%  |
+| SEA 37-3708 | 2        | 1164       | 88.65%  |
+|             | 3        | 149        | 11.35%  |
+| SEA 36-2523 | 5        | 515        | 77.91%  |
+|             | 6        | 146        | 22.09%  |
+| SEA 37-1897 | 2        | 1230       | 89.45%  |
+|             | 3        | 145        | 10.55%  |
+| SEA 36-1729 | 7        | 357        | 74.22%  |
+|             | 6        | 124        | 25.78%  |
+| SEA 43-2105 | 3        | 817        | 89.00%  |
+|             | 7        | 101        | 11.00%  |
+| SEA 37-3956 | 2        | 174        | 77.68%  |
+|             | 3        | 50         | 22.32%  |
+| SEA 34-1823 | 1        | 150        | 75.00%  |
+|             | 7        | 50         | 25.00%  |
+| SEA 37-1839 | 3        | 736        | 95.83%  |
+|             | 2        | 32         | 4.17%   |
+| SEA 43-1781 | 7        | 516        | 97.18%  |
+|             | 3        | 15         | 2.82%   |
+| SEA 43-1787 | 3        | 1181       | 99.66%  |
+|             | 7        | 4          | 0.34%   |
+| SEA 37-3696 | 2        | 294        | 99.66%  |
+|             | 3        | 1          | 0.34%   |
+
+
 # Version
-Generated 2022-10-11 21:40:25.037182 from code version 4a04807-dirty.
+Generated 2022-10-12 09:20:47.547036 from code version 23699f0-dirty.
