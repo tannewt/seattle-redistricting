@@ -162,3 +162,18 @@ relevant = true
 daves_url = "https://davesredistricting.org/join/68d23e77-8d29-46df-925c-ec571029cb42"
 context_url = ""
 relevant = true
+
+[commr_shah_1004]
+daves_url = "https://davesredistricting.org/maps#viewmap::25614583-cb01-4b72-b0f5-3d1d4c32289c"
+context_url = ""
+relevant = true
+
+[commr_malaba_1004]
+daves_url = "https://davesredistricting.org/maps#viewmap::4293c200-b298-4cd3-bcb4-8f15c443a477"
+context_url = ""
+relevant = true
+
+[shawcroft_malaba_1011]
+daves_url = "https://davesredistricting.org/join/f21a3d1c-2a0d-44df-a2d8-5d7fff4be691"
+context_url = ""
+relevant = true
