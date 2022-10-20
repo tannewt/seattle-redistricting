@@ -51,7 +51,7 @@ relevant = false
 [rjs]
 daves_url = "https://davesredistricting.org/maps#viewmap::0d7334b5-2477-42ec-8862-8368c0eae824"
 context_url = "https://www.redistrictingjusticewa.org/statements-blog/seattle-redistricting-commission-proposal-from-coalition"
-relevant = true
+relevant = false
 
 [joanna_cullen_YTD3]
 daves_url = "https://davesredistricting.org/maps#viewmap::7734acc1-19a7-49c4-b4f3-c31300d49407"
@@ -166,17 +166,17 @@ relevant = false
 [commr_shah_1004]
 daves_url = "https://davesredistricting.org/maps#viewmap::25614583-cb01-4b72-b0f5-3d1d4c32289c"
 context_url = ""
-relevant = true
+relevant = false
 
 [commr_malaba_1004]
 daves_url = "https://davesredistricting.org/maps#viewmap::4293c200-b298-4cd3-bcb4-8f15c443a477"
 context_url = ""
-relevant = true
+relevant = false
 
 [shawcroft_malaba_1011]
 daves_url = "https://davesredistricting.org/join/f21a3d1c-2a0d-44df-a2d8-5d7fff4be691"
 context_url = ""
-relevant = true
+relevant = false
 
 [rjs_amended]
 daves_url = "https://davesredistricting.org/maps#viewmap::7c4c8606-4d04-48cc-a2a1-7f6cb0482518"
@@ -186,14 +186,19 @@ relevant = true
 [rjs_green_lake]
 daves_url = "https://davesredistricting.org/maps#viewmap::de20ac8e-bbdd-4216-a248-9ec9dbe4a043"
 context_url = ""
-relevant = true
+relevant = false
 
 [rjs_malaba]
 daves_url = "https://davesredistricting.org/maps#viewmap::e0df3983-3b67-4aec-b3fc-1795adb45132"
 context_url = ""
-relevant = true
+relevant = false
 
 [dave]
 daves_url = "https://davesredistricting.org/maps#viewmap::37fa4a25-89b2-49e4-a8f1-46fe9bdf3b7f"
+context_url = ""
+relevant = false
+
+[commission_draft_1018]
+daves_url = "https://davesredistricting.org/maps#viewmap::2a8717c5-177e-4fd8-9879-1bd73826af66"
 context_url = ""
 relevant = true
