@@ -206,24 +206,34 @@ relevant = true
 [commr_nickels_discussion_1021]
 daves_url = "https://davesredistricting.org/maps#viewmap::78ca82e4-c16e-4953-a038-06cb829d8de7"
 context_url = ""
-relevant = true
+relevant = false
 
 [dave_udist2]
 daves_url = "https://davesredistricting.org/maps#viewmap::4962fd84-34e1-4ede-863a-043409285f03"
 context_url = ""
-relevant = true
+relevant = false
 
 [dave_udist1]
 daves_url = "https://davesredistricting.org/maps#viewmap::0f826b41-68fe-44c7-b5ea-fd4ec74d3f92"
 context_url = ""
-relevant = true
+relevant = false
 
 [comment_1659]
 daves_url = "https://davesredistricting.org/maps#viewmap::d0e337d9-2a29-4f92-a18b-6cc2b53fbaf2"
 context_url = ""
-relevant = true
+relevant = false
 
 [dave_fremont_nqa]
 daves_url = "https://davesredistricting.org/maps#viewmap::e94c5303-cddb-4520-94a1-72d43028136f"
+context_url = ""
+relevant = false
+
+[commission_draft_1031]
+daves_url = "https://davesredistricting.org/maps#viewmap::7ea13b8a-a1f7-4bea-96f4-7b2def9dc746"
+context_url = ""
+relevant = true
+
+[compromise]
+daves_url = "https://davesredistricting.org/maps#viewmap::1da8031a-4b29-4895-a017-b4c8a129476e"
 context_url = ""
 relevant = true
