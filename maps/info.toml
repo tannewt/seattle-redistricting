@@ -16,7 +16,7 @@ relevant = false
 [commr_nickels]
 daves_url = "https://davesredistricting.org/maps#viewmap::bb604b20-c0c9-4ddb-a168-921a1d290493"
 context_url = "https://www.seattle.gov/redistricting/how-to-participate"
-relevant = true
+relevant = false
 
 [commr_o_sullivan]
 daves_url = "https://davesredistricting.org/maps#viewmap::7d4152a8-5a1d-4c65-8312-d9a292f34888"
@@ -181,7 +181,7 @@ relevant = false
 [rjs_amended]
 daves_url = "https://davesredistricting.org/maps#viewmap::7c4c8606-4d04-48cc-a2a1-7f6cb0482518"
 context_url = ""
-relevant = true
+relevant = false
 
 [rjs_green_lake]
 daves_url = "https://davesredistricting.org/maps#viewmap::de20ac8e-bbdd-4216-a248-9ec9dbe4a043"
@@ -235,5 +235,10 @@ relevant = true
 
 [compromise]
 daves_url = "https://davesredistricting.org/maps#viewmap::1da8031a-4b29-4895-a017-b4c8a129476e"
+context_url = ""
+relevant = false
+
+[commission_final]
+daves_url = "https://davesredistricting.org/maps#viewmap::4f892594-3e4c-4572-8397-09316e7e97bb"
 context_url = ""
 relevant = true
